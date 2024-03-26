@@ -1,0 +1,996 @@
+Ř	   	ß  Ůk _C:\Users\matifur\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\MKL05Z4.h úĽďÂ    `Ůg [C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h ÂúĐ†    úŮD 8D:\Program_Files\Keil\ARM\ARMCC\Bin\..\include\stdint.h î‹–    ;Ůh \C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h ÂúĐ†    @Ůi ]C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h ÂúĐ†    éŮf ZC:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h ÂúĐ†    DŮr fC:\Users\matifur\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\system_MKL05Z4.h ŘůîŻ    GŮ ADC.h ç–÷Ş    ‹Ů ADC.c ç–÷Ş    ‘Ú P    MKL05Z4_H_ ÚÚ P    MCU_MEM_MAP_VERSION ŔÚ" P    MCU_MEM_MAP_VERSION_MINOR ĐÚ
+ 8"  IRQn ]Ú  "  NonMaskableInt_IRQn Ú  "  HardFault_IRQn Ú  "  SVCall_IRQn äÚ  "  PendSV_IRQn ŮÚ  "  
+SysTick_IRQn =Ú  "  
+DMA0_IRQn Ú  "  
+DMA1_IRQn 
+Ú  "  
+DMA2_IRQn 	Ú  "  
+DMA3_IRQn Ú  "  Reserved20_IRQn _Ú  "  
+FTFA_IRQn ěÚ  "  
+LVD_LVW_IRQn ÉÚ  "  	LLW_IRQn  Ú  "  
+I2C0_IRQn Ú  "  Reserved25_IRQn ZÚ  "  
+SPI0_IRQn ńÚ  "  Reserved27_IRQn XÚ  "  UART0_IRQn źÚ  "  Reserved29_IRQn VÚ  "  Reserved30_IRQn ^Ú  "  
+ADC0_IRQn Ú  "  
+CMP0_IRQn ýÚ  "  
+TPM0_IRQn ěÚ  "  
+TPM1_IRQn ëÚ  "  Reserved35_IRQn YÚ  "  	RTC_IRQn &Ú  "  RTC_Seconds_IRQn čÚ  "  	PIT_IRQn "Ú  "  Reserved39_IRQn UÚ  "  Reserved40_IRQn ]Ú  "  
+DAC0_IRQn Ú  "  
+TSI0_IRQn íÚ  "  	MCG_IRQn 8Ú  "  
+LPTimer_IRQn jÚ  "  Reserved45_IRQn XÚ  "  PORTA_IRQn …Ú  "  PORTB_IRQn „Ú    
+IRQn_Type ”Ú P    __CM0PLUS_REV ŁÚ P    __MPU_PRESENT Ú P    __VTOR_PRESENT &Ú P    __NVIC_PRIO_BITS “Ú P    __Vendor_SysTickConfig ôÚ! P    __CORE_CM0PLUS_H_GENERIC NÚ P    __stdint_h śÚ P    __ARMCLIB_VERSION lÚ P   __INT64_TYPE__ ;Ú P    __INT64 ŞÚ P    __INT64_C_SUFFIX__  Ú P    	__PASTE2 NÚ P    __PASTE ‚Ú P    
+__INT64_C Ú P    __UINT64_C ­Ú P   __ARMCC_VERSION Ú P    __LONGLONG ™Ú P    __STDINT_DECLS QÚ P    	__CLIBNS BÚ P   __cplusplus 
+Ú    int8_t źÚ    int16_t nÚ    int32_t pÚ    int64_t kÚ    uint8_t (Ú    	uint16_t ÷Ú    	uint32_t ůÚ    	uint64_t ôÚ    
+int_least8_t Ú    int_least16_t ęÚ    int_least32_t ěÚ    int_least64_t çÚ    uint_least8_t ¤Ú    uint_least16_t sÚ    uint_least32_t uÚ    uint_least64_t pÚ    int_fast8_t Ú    
+int_fast16_t WÚ    
+int_fast32_t YÚ    
+int_fast64_t TÚ    
+uint_fast8_t Ú    uint_fast16_t ŕÚ    uint_fast32_t âÚ    uint_fast64_t ÝÚ P   
+__sizeof_ptr ®Ú    	intptr_t }Ú    
+uintptr_t Ú    	intmax_t ŤÚ    
+uintmax_t Ú P    	INT8_MIN UÚ P    
+INT16_MIN $Ú P    
+INT32_MIN &Ú P    
+INT64_MIN !Ú P    	INT8_MAX SÚ P    
+INT16_MAX "Ú P    
+INT32_MAX $Ú P    
+INT64_MAX Ú P    
+UINT8_MAX üÚ P    UINT16_MAX ËÚ P    UINT32_MAX ÍÚ P    UINT64_MAX ČÚ P    INT_LEAST8_MIN qÚ P    INT_LEAST16_MIN @Ú P    INT_LEAST32_MIN BÚ P    INT_LEAST64_MIN =Ú P    INT_LEAST8_MAX oÚ P    INT_LEAST16_MAX >Ú P    INT_LEAST32_MAX @Ú P    INT_LEAST64_MAX ;Ú P    UINT_LEAST8_MAX Ú P    UINT_LEAST16_MAX çÚ P    UINT_LEAST32_MAX éÚ P    UINT_LEAST64_MAX äÚ P    INT_FAST8_MIN ľÚ P    INT_FAST16_MIN ŤÚ P    INT_FAST32_MIN ŹÚ P    INT_FAST64_MIN ŠÚ P    INT_FAST8_MAX ĽÚ P    INT_FAST16_MAX ‹Ú P    INT_FAST32_MAX ŤÚ P    INT_FAST64_MAX Ú P    UINT_FAST8_MAX eÚ P    UINT_FAST16_MAX 4Ú P    UINT_FAST32_MAX 6Ú P    UINT_FAST64_MAX 1Ú P    INTPTR_MIN “Ú P    INTPTR_MAX ‘Ú P    UINTPTR_MAX :Ú P    INTMAX_MIN ŁÚ P    INTMAX_MAX ˇÚ P    UINTMAX_MAX JÚ P    PTRDIFF_MIN cÚ P    PTRDIFF_MAX aÚ P    SIG_ATOMIC_MIN mÚ P    SIG_ATOMIC_MAX kÚ P    	SIZE_MAX ;Ú P    
+WCHAR_MIN Ú P    
+WCHAR_MAX ˙Ú P    	WINT_MIN 6Ú P    	WINT_MAX 4Ú P    INT8_C úÚ P    INT16_C ÉÚ P    INT32_C ËÚ P    INT64_C ĆÚ P    UINT8_C ŁÚ P    	UINT16_C rÚ P    	UINT32_C tÚ P    	UINT64_C oÚ P    	INTMAX_C HÚ P    
+UINTMAX_C ńÚ P    __CMSIS_VERSION_H @Ú  P    __CM_CMSIS_VERSION_MAIN hÚ P    __CM_CMSIS_VERSION_SUB ĄÚ P    __CM_CMSIS_VERSION öÚ% P    __CM0PLUS_CMSIS_VERSION_MAIN ęÚ$ P    __CM0PLUS_CMSIS_VERSION_SUB 'Ú  P    __CM0PLUS_CMSIS_VERSION xÚ P    __CORTEX_M xÚ P    __FPU_USED ~Ú P   	__CC_ARM 6Ú P    __CMSIS_COMPILER_H 	Ú P    __CMSIS_ARMCC_H Ú P   __TARGET_ARCH_6S_M Ú P    __ARM_ARCH_6M__ ňÚ P    __ASM "Ú P    	__INLINE >Ú P    __STATIC_INLINE 	Ú P    __STATIC_FORCEINLINE Ú P    __NO_RETURN Ú P    __USED ĐÚ P    __WEAK ŮÚ P    	__PACKED UÚ P    __PACKED_STRUCT Ú P    __PACKED_UNION aÚ P    __UNALIGNED_UINT32 NÚ! P    __UNALIGNED_UINT16_WRITE VÚ  P    __UNALIGNED_UINT16_READ ÇÚ! P    __UNALIGNED_UINT32_WRITE XÚ  P    __UNALIGNED_UINT32_READ ÉÚ P    
+__ALIGNED Ú P    __RESTRICT ‰Ú P    __COMPILER_BARRIER (Ú P    __PROGRAM_START ęÚ P    
+__INITIAL_SP éÚ P    __STACK_LIMIT źÚ P    __VECTOR_TABLE WÚ! P    __VECTOR_TABLE_ATTRIBUTE 0Ú P    __NOP Ú P    __WFI Ú P    __WFE !Ú P    __SEV Ú P    __ISB %Ú P    __DSB *Ú P    __DMB 0Ú P    __REV Ú P   __NO_EMBEDDED_ASM Ú   __REV16 ÔÚ ,
+" Çvalue ÎÚ   __REVSH  Ú ," Évalue ĚÚ P    __ROR Ú P    __BKPT ĐÚ   __RBIT ůÚ ,
+" Ívalue ČÚ 
+" Íresult hÚ 
+" Ís žÚ P    __CLZ Ú   __SSAT ďÚ ," Ňval ŁÚ ,
+" Ňsat śÚ " Ňmax ÄÚ " Ňmin ĆÚ   __USAT íÚ ," ×val žÚ ,
+" ×sat —Ú 
+" ×max ˝Ú   __get_CONTROL \Ú 
+" Ű
+__regControl Ú   __set_CONTROL PÚ ,
+" Ýcontrol ĐÚ 
+" Ý
+__regControl 
+Ú   __isb âÚ   __get_IPSR EÚ 
+" á
+__regIPSR ŻÚ   __get_APSR MÚ 
+" ă
+__regAPSR µÚ   __get_xPSR Ú 
+" ĺ
+__regXPSR śÚ   
+__get_PSP ’Ú# 
+" ç__regProcessStackPointer Ú   
+__set_PSP †Ú ,
+" étopOfProcStack %Ú# 
+" é__regProcessStackPointer Ú   
+__get_MSP •Ú  
+" ě__regMainStackPointer nÚ   
+__set_MSP ‰Ú ,
+" îtopOfMainStack /Ú  
+" î__regMainStackPointer lÚ   __get_PRIMASK fÚ 
+" ń
+__regPriMask  Ú   __set_PRIMASK ZÚ ,
+" ópriMask äÚ 
+" ó
+__regPriMask Ú   __get_FPSCR Ú   __set_FPSCR ÷Ú ,
+" ÷fpscr ťÚ P   __CMSIS_GENERIC Ú# P    __CORE_CM0PLUS_H_DEPENDANT ´Ú P    __I ľÚ P    __O ¸Ú
+ P    __IO mÚ
+ P    __IM oÚ
+ P    __OM iÚ P    __IOM Ú 8  
+<unnamed> SÚ 8  
+<unnamed> QÚ  
+" ‚_reserved0 BÚ  
+" ‚V íÚ  
+" ‚C  Ú  
+" ‚Z éÚ  
+" ‚N őÚ  " b ĐÚ  
+" w ÍÚ    
+APSR_Type ¸Ú P    APSR_N_Pos CÚ P    APSR_N_Msk JÚ P    APSR_Z_Pos 7Ú P    APSR_Z_Msk >Ú P    APSR_C_Pos NÚ P    APSR_C_Msk UÚ P    APSR_V_Pos ;Ú P    APSR_V_Msk BÚ 8  
+<unnamed> SÚ 8  
+<unnamed> QÚ  
+" ”ISR ?Ú  
+" ”_reserved0 0Ú  " “b ľÚ  
+" “w »Ú    
+IPSR_Type °Ú P    
+IPSR_ISR_Pos —Ú P    
+IPSR_ISR_Msk žÚ 8  
+<unnamed> SÚ 8  
+<unnamed> QÚ  
+" ťISR 6Ú  
+" ť_reserved0 'Ú  
+" ťT ÔÚ  
+" ť_reserved1 &Ú  
+" ťV ŇÚ  
+" ťC ĺÚ  
+" ťZ ÎÚ  
+" ťN ÚÚ  " śb µÚ  
+" św ˛Ú    
+xPSR_Type Ú P    xPSR_N_Pos Ú P    xPSR_N_Msk Ú P    xPSR_Z_Pos  Ú P    xPSR_Z_Msk Ú P    xPSR_C_Pos Ú P    xPSR_C_Msk Ú P    xPSR_V_Pos Ú P    xPSR_V_Msk Ú P    xPSR_T_Pos Ú P    xPSR_T_Msk 
+Ú P    
+xPSR_ISR_Pos hÚ P    
+xPSR_ISR_Msk oÚ 8  
+<unnamed> SÚ 8  
+<unnamed> QÚ  
+" ¶nPRIV XÚ  
+" ¶SPSEL €Ú  
+" ¶_reserved1 
+Ú  " µb śÚ  
+" µw ™Ú    
+CONTROL_Type ÇÚ P    CONTROL_SPSEL_Pos Ú P    CONTROL_SPSEL_Msk Ú P    CONTROL_nPRIV_Pos éÚ P    CONTROL_nPRIV_Msk đÚ 8  
+<unnamed> QÚ  <" ÁISER ™Ú  <" |Á
+RESERVED0 şÚ  <" ÁICER ©Ú  <" |Á
+RESERVED1 ąÚ  <" ÁISPR ŽÚ  <" |Á
+RESERVED2 ¸Ú  <" ÁICPR žÚ  <" |Á
+RESERVED3 ·Ú  <" €Á
+RESERVED4 ŻÚ
+  <"  ÁIP Ú    
+NVIC_Type ľÚ 8  
+<unnamed> QÚ  
+" ÍCPUID {Ú  
+" ÍICSR ÁÚ  
+" ÍVTOR §Ú  
+" ÍAIRCR Ú  
+" ÍSCR Ú  
+" ÍCCR Ú  
+" Í
+RESERVED1 WÚ  <" ÍSHP ÓÚ  
+" ÍSHCSR mÚ    	SCB_Type Ú" P    SCB_CPUID_IMPLEMENTER_Pos »Ú" P    SCB_CPUID_IMPLEMENTER_Msk ÂÚ P    SCB_CPUID_VARIANT_Pos đÚ P    SCB_CPUID_VARIANT_Msk ÷Ú# P    SCB_CPUID_ARCHITECTURE_Pos xÚ# P    SCB_CPUID_ARCHITECTURE_Msk Ú P    SCB_CPUID_PARTNO_Pos 3Ú P    SCB_CPUID_PARTNO_Msk :Ú P    SCB_CPUID_REVISION_Pos ”Ú P    SCB_CPUID_REVISION_Msk ›Ú  P    SCB_ICSR_NMIPENDSET_Pos NÚ  P    SCB_ICSR_NMIPENDSET_Msk UÚ P    SCB_ICSR_PENDSVSET_Pos ‹Ú P    SCB_ICSR_PENDSVSET_Msk ’Ú P    SCB_ICSR_PENDSVCLR_Pos –Ú P    SCB_ICSR_PENDSVCLR_Msk ťÚ P    SCB_ICSR_PENDSTSET_Pos ŤÚ P    SCB_ICSR_PENDSTSET_Msk ”Ú P    SCB_ICSR_PENDSTCLR_Pos Ú P    SCB_ICSR_PENDSTCLR_Msk źÚ  P    SCB_ICSR_ISRPREEMPT_Pos :Ú  P    SCB_ICSR_ISRPREEMPT_Msk AÚ  P    SCB_ICSR_ISRPENDING_Pos RÚ  P    SCB_ICSR_ISRPENDING_Msk YÚ! P    SCB_ICSR_VECTPENDING_Pos Ú! P    SCB_ICSR_VECTPENDING_Msk Ú  P    SCB_ICSR_VECTACTIVE_Pos WÚ  P    SCB_ICSR_VECTACTIVE_Msk ^Ú P    SCB_VTOR_TBLOFF_Pos vÚ P    SCB_VTOR_TBLOFF_Msk }Ú P    SCB_AIRCR_VECTKEY_Pos îÚ P    SCB_AIRCR_VECTKEY_Msk őÚ" P    SCB_AIRCR_VECTKEYSTAT_Pos ŞÚ" P    SCB_AIRCR_VECTKEYSTAT_Msk ±Ú  P    SCB_AIRCR_ENDIANESS_Pos kÚ  P    SCB_AIRCR_ENDIANESS_Msk rÚ" P    SCB_AIRCR_SYSRESETREQ_Pos —Ú" P    SCB_AIRCR_SYSRESETREQ_Msk žÚ$ P    SCB_AIRCR_VECTCLRACTIVE_Pos .Ú$ P    SCB_AIRCR_VECTCLRACTIVE_Msk 5Ú P    SCB_SCR_SEVONPEND_Pos ŕÚ P    SCB_SCR_SEVONPEND_Msk çÚ P    SCB_SCR_SLEEPDEEP_Pos űÚ P    SCB_SCR_SLEEPDEEP_Msk Ú  P    SCB_SCR_SLEEPONEXIT_Pos >Ú  P    SCB_SCR_SLEEPONEXIT_Msk EÚ P    SCB_CCR_STKALIGN_Pos GÚ P    SCB_CCR_STKALIGN_Msk NÚ  P    SCB_CCR_UNALIGN_TRP_Pos ;Ú  P    SCB_CCR_UNALIGN_TRP_Msk BÚ# P    SCB_SHCSR_SVCALLPENDED_Pos xÚ# P    SCB_SHCSR_SVCALLPENDED_Msk Ú 8  
+<unnamed> QÚ  
+" ŚCTRL ýÚ  
+" ŚLOAD Ú  
+" ŚVAL QÚ  
+" ŚCALIB ŐÚ    
+SysTick_Type Ú# P    SysTick_CTRL_COUNTFLAG_Pos ¦Ú# P    SysTick_CTRL_COUNTFLAG_Msk ­Ú# P    SysTick_CTRL_CLKSOURCE_Pos žÚ# P    SysTick_CTRL_CLKSOURCE_Msk ĄÚ! P    SysTick_CTRL_TICKINT_Pos 7Ú! P    SysTick_CTRL_TICKINT_Msk >Ú  P    SysTick_CTRL_ENABLE_Pos ¨Ú  P    SysTick_CTRL_ENABLE_Msk ŻÚ  P    SysTick_LOAD_RELOAD_Pos ­Ú  P    SysTick_LOAD_RELOAD_Msk ´Ú  P    SysTick_VAL_CURRENT_Pos ~Ú  P    SysTick_VAL_CURRENT_Msk …Ú  P    SysTick_CALIB_NOREF_Pos ŻÚ  P    SysTick_CALIB_NOREF_Msk ¶Ú P    SysTick_CALIB_SKEW_Pos ńÚ P    SysTick_CALIB_SKEW_Msk řÚ  P    SysTick_CALIB_TENMS_Pos ˘Ú  P    SysTick_CALIB_TENMS_Msk ©Ú P    	_VAL2FLD qÚ P    	_FLD2VAL qÚ P    	SCS_BASE XÚ P    
+SysTick_BASE oÚ P    
+NVIC_BASE Ú P    	SCB_BASE iÚ P    SCB íÚ P    SysTick óÚ
+ P    NVIC “Ú P   CMSIS_NVIC_VIRTUAL Ú! P    NVIC_SetPriorityGrouping 3Ú! P    NVIC_GetPriorityGrouping ?Ú P    NVIC_EnableIRQ íÚ P    NVIC_GetEnableIRQ ÇÚ P    NVIC_DisableIRQ ~Ú P    NVIC_GetPendingIRQ GÚ P    NVIC_SetPendingIRQ ;Ú P    NVIC_ClearPendingIRQ |Ú P    NVIC_SetPriority ŽÚ P    NVIC_GetPriority šÚ P    NVIC_SystemReset ”Ú P   CMSIS_VECTAB_VIRTUAL Ú P    NVIC_SetVector Ú P    NVIC_GetVector ŤÚ P    NVIC_USER_IRQ_OFFSET dÚ P    EXC_RETURN_HANDLER +Ú P    EXC_RETURN_THREAD_MSP Ú P    EXC_RETURN_THREAD_PSP Ú P    _BIT_SHIFT śÚ P    	_SHP_IDX -Ú P    _IP_IDX Ú# P    __NVIC_SetPriorityGrouping qÚ# P    __NVIC_GetPriorityGrouping }Ú   __NVIC_EnableIRQ TÚ ,"" ĹIRQn ~Ú   __memory_changed HÚ   __NVIC_GetEnableIRQ .Ú ,"" ČIRQn {Ú   __NVIC_DisableIRQ ĺÚ ,"" ĘIRQn yÚ   __dsb çÚ   __NVIC_GetPendingIRQ ®Ú ,"" ÍIRQn vÚ   __NVIC_SetPendingIRQ ˘Ú ,"" ĎIRQn tÚ   __NVIC_ClearPendingIRQ ăÚ ,"" ŃIRQn rÚ   __NVIC_SetPriority őÚ ,"" ÓIRQn pÚ ,
+" Ó	priority UÚ   __NVIC_GetPriority Ú ,"" ÖIRQn mÚ   NVIC_EncodePriority ŹÚ ,
+" ŘPriorityGroup YÚ ,
+" ŘPreemptPriority …Ú ,
+" ŘSubPriority @Ú 
+" ŘPriorityGroupTmp FÚ 
+" ŘPreemptPriorityBits Ú 
+" ŘSubPriorityBits ĘÚ   NVIC_DecodePriority ™Ú ,
+" ß	Priority iÚ ,
+" ßPriorityGroup RÚ ," ßpPreemptPriority ţÚ ," ß
+pSubPriority ąÚ 
+" ßPriorityGroupTmp ?Ú 
+" ßPreemptPriorityBits Ú 
+" ßSubPriorityBits ĂÚ   __NVIC_SetVector čÚ ,"" çIRQn \Ú ,
+" çvector 4Ú " çvectors ŐÚ   __NVIC_GetVector ôÚ ,"" ëIRQn XÚ " ëvectors ŃÚ   __NVIC_SystemReset űÚ   __nop ÓÚ   SCB_GetFPUType ôÚ   SysTick_Config YÚ ,
+" ńticks ˇÚ P    SYSTEM_MKL05Z4_H_ Ú 
+ SystemCoreClock ăÚ   SystemInit »Ú   SystemCoreClockUpdate aÚ 8  
+<unnamed> QÚ  <" ÷SC1 ĚÚ  
+" ÷CFG1 ĆÚ  
+" ÷CFG2 ĹÚ  <" ÷R EÚ  
+" ÷CV1 ˙Ú  
+" ÷CV2 ţÚ  
+" ÷SC2 Ú  
+" ÷SC3  Ú  
+" ÷OFS áÚ
+  
+" ÷PG 4Ú  <" ÷RESERVED_0 šÚ  
+" ÷CLPD ¤Ú  
+" ÷CLPS •Ú  
+" ÷CLP4 ´Ú  
+" ÷CLP3 µÚ  
+" ÷CLP2 ¶Ú  
+" ÷CLP1 ·Ú  
+" ÷CLP0 ¸Ú    	ADC_Type (Ú P    ADC_SC1_ADCH_MASK ÁÚ P    ADC_SC1_ADCH_SHIFT mÚ P    
+ADC_SC1_ADCH VÚ P    ADC_SC1_AIEN_MASK ´Ú P    ADC_SC1_AIEN_SHIFT `Ú P    ADC_SC1_COCO_MASK ­Ú P    ADC_SC1_COCO_SHIFT YÚ P    ADC_CFG1_ADICLK_MASK éÚ P    ADC_CFG1_ADICLK_SHIFT •Ú P    ADC_CFG1_ADICLK ~Ú P    ADC_CFG1_MODE_MASK pÚ P    ADC_CFG1_MODE_SHIFT Ú P    ADC_CFG1_MODE Ú P    ADC_CFG1_ADLSMP_MASK ĐÚ P    ADC_CFG1_ADLSMP_SHIFT |Ú P    ADC_CFG1_ADIV_MASK qÚ P    ADC_CFG1_ADIV_SHIFT Ú P    ADC_CFG1_ADIV Ú P    ADC_CFG1_ADLPC_MASK /Ú P    ADC_CFG1_ADLPC_SHIFT ŰÚ P    ADC_CFG2_ADLSTS_MASK ĹÚ P    ADC_CFG2_ADLSTS_SHIFT qÚ P    ADC_CFG2_ADLSTS ZÚ P    ADC_CFG2_ADHSC_MASK /Ú P    ADC_CFG2_ADHSC_SHIFT ŰÚ P    ADC_CFG2_ADACKEN_MASK §Ú P    ADC_CFG2_ADACKEN_SHIFT SÚ P    ADC_CFG2_MUXSEL_MASK ˛Ú P    ADC_CFG2_MUXSEL_SHIFT ^Ú P    
+ADC_R_D_MASK Ú P    ADC_R_D_SHIFT ¸Ú P    ADC_R_D ˇÚ P    ADC_CV1_CV_MASK 9Ú P    ADC_CV1_CV_SHIFT ĺÚ P    ADC_CV1_CV ÎÚ P    ADC_CV2_CV_MASK 8Ú P    ADC_CV2_CV_SHIFT äÚ P    ADC_CV2_CV ÍÚ P    ADC_SC2_REFSEL_MASK Ú P    ADC_SC2_REFSEL_SHIFT ·Ú P    ADC_SC2_REFSEL  Ú P    ADC_SC2_DMAEN_MASK iÚ P    ADC_SC2_DMAEN_SHIFT Ú P    ADC_SC2_ACREN_MASK eÚ P    ADC_SC2_ACREN_SHIFT Ú P    ADC_SC2_ACFGT_MASK iÚ P    ADC_SC2_ACFGT_SHIFT Ú P    ADC_SC2_ACFE_MASK ÁÚ P    ADC_SC2_ACFE_SHIFT mÚ P    ADC_SC2_ADTRG_MASK \Ú P    ADC_SC2_ADTRG_SHIFT Ú P    ADC_SC2_ADACT_MASK qÚ P    ADC_SC2_ADACT_SHIFT Ú P    ADC_SC3_AVGS_MASK žÚ P    ADC_SC3_AVGS_SHIFT JÚ P    
+ADC_SC3_AVGS 3Ú P    ADC_SC3_AVGE_MASK ¬Ú P    ADC_SC3_AVGE_SHIFT XÚ P    ADC_SC3_ADCO_MASK ¸Ú P    ADC_SC3_ADCO_SHIFT dÚ P    ADC_SC3_CALF_MASK ąÚ P    ADC_SC3_CALF_SHIFT eÚ P    ADC_SC3_CAL_MASK Ú P    ADC_SC3_CAL_SHIFT ­Ú P    ADC_OFS_OFS_MASK ĘÚ P    ADC_OFS_OFS_SHIFT vÚ P    ADC_OFS_OFS _Ú P    ADC_PG_PG_MASK pÚ P    ADC_PG_PG_SHIFT Ú P    
+ADC_PG_PG Ú P    ADC_CLPD_CLPD_MASK PÚ P    ADC_CLPD_CLPD_SHIFT üÚ P    ADC_CLPD_CLPD ĺÚ P    ADC_CLPS_CLPS_MASK 2Ú P    ADC_CLPS_CLPS_SHIFT ŢÚ P    ADC_CLPS_CLPS ÇÚ P    ADC_CLP4_CLP4_MASK pÚ P    ADC_CLP4_CLP4_SHIFT Ú P    ADC_CLP4_CLP4 Ú P    ADC_CLP3_CLP3_MASK rÚ P    ADC_CLP3_CLP3_SHIFT Ú P    ADC_CLP3_CLP3 Ú P    ADC_CLP2_CLP2_MASK tÚ P    ADC_CLP2_CLP2_SHIFT  Ú P    ADC_CLP2_CLP2 	Ú P    ADC_CLP1_CLP1_MASK vÚ P    ADC_CLP1_CLP1_SHIFT "Ú P    ADC_CLP1_CLP1 Ú P    ADC_CLP0_CLP0_MASK xÚ P    ADC_CLP0_CLP0_SHIFT $Ú P    ADC_CLP0_CLP0 
+Ú P    
+ADC0_BASE GÚ
+ P    ADC0 ËÚ P    
+ADC_BASES $Ú 8  
+<unnamed> QÚ  " éCR0 Ú  " éCR1 Ú  " éFPR őÚ  " éSCR őÚ  " éDACCR |Ú  " éMUXCR JÚ    	CMP_Type Ú P    CMP_CR0_HYSTCTR_MASK „Ú P    CMP_CR0_HYSTCTR_SHIFT 0Ú P    CMP_CR0_HYSTCTR Ú  P    CMP_CR0_FILTER_CNT_MASK ĄÚ! P    CMP_CR0_FILTER_CNT_SHIFT QÚ P    CMP_CR0_FILTER_CNT :Ú P    CMP_CR1_EN_MASK +Ú P    CMP_CR1_EN_SHIFT ×Ú P    CMP_CR1_OPE_MASK ŘÚ P    CMP_CR1_OPE_SHIFT „Ú P    CMP_CR1_COS_MASK ×Ú P    CMP_CR1_COS_SHIFT Ú P    CMP_CR1_INV_MASK ĎÚ P    CMP_CR1_INV_SHIFT {Ú P    CMP_CR1_PMODE_MASK CÚ P    CMP_CR1_PMODE_SHIFT ďÚ P    CMP_CR1_TRIGM_MASK 5Ú P    CMP_CR1_TRIGM_SHIFT áÚ P    CMP_CR1_WE_MASK "Ú P    CMP_CR1_WE_SHIFT ÎÚ P    CMP_CR1_SE_MASK &Ú P    CMP_CR1_SE_SHIFT ŇÚ P    CMP_FPR_FILT_PER_MASK Ú P    CMP_FPR_FILT_PER_SHIFT ÇÚ P    CMP_FPR_FILT_PER °Ú P    CMP_SCR_COUT_MASK ]Ú P    CMP_SCR_COUT_SHIFT 	Ú P    CMP_SCR_CFF_MASK ËÚ P    CMP_SCR_CFF_SHIFT wÚ P    CMP_SCR_CFR_MASK żÚ P    CMP_SCR_CFR_SHIFT kÚ P    CMP_SCR_IEF_MASK ĆÚ P    CMP_SCR_IEF_SHIFT rÚ P    CMP_SCR_IER_MASK şÚ P    CMP_SCR_IER_SHIFT fÚ P    CMP_SCR_DMAEN_MASK 1Ú P    CMP_SCR_DMAEN_SHIFT ÝÚ P    CMP_DACCR_VOSEL_MASK ”Ú P    CMP_DACCR_VOSEL_SHIFT @Ú P    CMP_DACCR_VOSEL )Ú P    CMP_DACCR_VRSEL_MASK ‘Ú P    CMP_DACCR_VRSEL_SHIFT =Ú P    CMP_DACCR_DACEN_MASK ÂÚ P    CMP_DACCR_DACEN_SHIFT nÚ P    CMP_MUXCR_MSEL_MASK ĽÚ P    CMP_MUXCR_MSEL_SHIFT hÚ P    CMP_MUXCR_MSEL QÚ P    CMP_MUXCR_PSEL_MASK ąÚ P    CMP_MUXCR_PSEL_SHIFT eÚ P    CMP_MUXCR_PSEL NÚ P    CMP_MUXCR_PSTM_MASK ©Ú P    CMP_MUXCR_PSTM_SHIFT UÚ P    
+CMP0_BASE /Ú
+ P    CMP0 łÚ P    
+CMP_BASES Ú 8  
+<unnamed> QÚ 8  
+<unnamed> QÚ  " ©DATL őÚ  " ©DATH ůÚ  <" ¨DAT Ú  <" ¨RESERVED_0 ĎÚ
+  " ¨SR zÚ
+  " ¨C0 ¬Ú
+  " ¨C1 «Ú
+  " ¨C2 ŞÚ    	DAC_Type (Ú P    DAC_DATL_DATA0_MASK %Ú P    DAC_DATL_DATA0_SHIFT ŃÚ P    DAC_DATL_DATA0 şÚ P    DAC_DATH_DATA1_MASK (Ú P    DAC_DATH_DATA1_SHIFT ÔÚ P    DAC_DATH_DATA1 ˝Ú P    DAC_SR_DACBFRPBF_MASK qÚ P    DAC_SR_DACBFRPBF_SHIFT Ú P    DAC_SR_DACBFRPTF_MASK _Ú P    DAC_SR_DACBFRPTF_SHIFT Ú P    DAC_C0_DACBBIEN_MASK ÷Ú P    DAC_C0_DACBBIEN_SHIFT ŁÚ P    DAC_C0_DACBTIEN_MASK ĺÚ P    DAC_C0_DACBTIEN_SHIFT ‘Ú P    DAC_C0_LPEN_MASK řÚ P    DAC_C0_LPEN_SHIFT ¤Ú P    DAC_C0_DACSWTRG_MASK ŔÚ P    DAC_C0_DACSWTRG_SHIFT lÚ P    DAC_C0_DACTRGSEL_MASK „Ú P    DAC_C0_DACTRGSEL_SHIFT 0Ú P    DAC_C0_DACRFS_MASK pÚ P    DAC_C0_DACRFS_SHIFT Ú P    DAC_C0_DACEN_MASK ĘÚ P    DAC_C0_DACEN_SHIFT vÚ P    DAC_C1_DACBFEN_MASK =Ú P    DAC_C1_DACBFEN_SHIFT éÚ P    DAC_C1_DACBFMD_MASK ?Ú P    DAC_C1_DACBFMD_SHIFT ëÚ P    DAC_C1_DMAEN_MASK żÚ P    DAC_C1_DMAEN_SHIFT kÚ P    DAC_C2_DACBFUP_MASK *Ú P    DAC_C2_DACBFUP_SHIFT ÖÚ P    DAC_C2_DACBFRP_MASK -Ú P    DAC_C2_DACBFRP_SHIFT ŮÚ P    
+DAC0_BASE GÚ
+ P    DAC0 ËÚ P    
+DAC_BASES $Ú 8  
+<unnamed> QÚ  <" €ŘRESERVED_0 8Ú 8  
+<unnamed> QÚ  
+" ÚSAR ţÚ  
+" ÚDAR 
+Ú 8  
+<unnamed> SÚ  
+" ÝDSR_BCR şÚ 8  
+<unnamed> QÚ  <" ßRESERVED_0 ±Ú  " ßDSR ýÚ  " ÝDMA_DSR_ACCESS8BIT oÚ  
+" ÚDCR Ú  <" @ŘDMA ¦Ú    	DMA_Type Ú P    DMA_SAR_SAR_MASK ÄÚ P    DMA_SAR_SAR_SHIFT pÚ P    DMA_SAR_SAR YÚ P    DMA_DAR_DAR_MASK âÚ P    DMA_DAR_DAR_SHIFT ŽÚ P    DMA_DAR_DAR wÚ P    DMA_DSR_BCR_BCR_MASK ’Ú P    DMA_DSR_BCR_BCR_SHIFT >Ú P    DMA_DSR_BCR_BCR 'Ú P    DMA_DSR_BCR_DONE_MASK AÚ P    DMA_DSR_BCR_DONE_SHIFT íÚ P    DMA_DSR_BCR_BSY_MASK {Ú P    DMA_DSR_BCR_BSY_SHIFT 'Ú P    DMA_DSR_BCR_REQ_MASK Ú P    DMA_DSR_BCR_REQ_SHIFT -Ú P    DMA_DSR_BCR_BED_MASK žÚ P    DMA_DSR_BCR_BED_SHIFT JÚ P    DMA_DSR_BCR_BES_MASK ŹÚ P    DMA_DSR_BCR_BES_SHIFT ;Ú P    DMA_DSR_BCR_CE_MASK ăÚ P    DMA_DSR_BCR_CE_SHIFT ŹÚ P    DMA_DCR_LCH2_MASK ¬Ú P    DMA_DCR_LCH2_SHIFT XÚ P    
+DMA_DCR_LCH2 AÚ P    DMA_DCR_LCH1_MASK ­Ú P    DMA_DCR_LCH1_SHIFT YÚ P    
+DMA_DCR_LCH1 BÚ P    DMA_DCR_LINKCC_MASK ýÚ P    DMA_DCR_LINKCC_SHIFT ©Ú P    DMA_DCR_LINKCC ’Ú P    DMA_DCR_D_REQ_MASK (Ú P    DMA_DCR_D_REQ_SHIFT ÔÚ P    DMA_DCR_DMOD_MASK ‘Ú P    DMA_DCR_DMOD_SHIFT =Ú P    
+DMA_DCR_DMOD &Ú P    DMA_DCR_SMOD_MASK ‚Ú P    DMA_DCR_SMOD_SHIFT .Ú P    
+DMA_DCR_SMOD Ú P    DMA_DCR_START_MASK %Ú P    DMA_DCR_START_SHIFT ŃÚ P    DMA_DCR_DSIZE_MASK 4Ú P    DMA_DCR_DSIZE_SHIFT ŕÚ P    DMA_DCR_DSIZE ÉÚ P    DMA_DCR_DINC_MASK —Ú P    DMA_DCR_DINC_SHIFT CÚ P    DMA_DCR_SSIZE_MASK %Ú P    DMA_DCR_SSIZE_SHIFT ŃÚ P    DMA_DCR_SSIZE şÚ P    DMA_DCR_SINC_MASK Ú P    DMA_DCR_SINC_SHIFT 4Ú P    DMA_DCR_EADREQ_MASK ˙Ú P    DMA_DCR_EADREQ_SHIFT «Ú P    DMA_DCR_AA_MASK 7Ú P    DMA_DCR_AA_SHIFT ăÚ P    DMA_DCR_CS_MASK #Ú P    DMA_DCR_CS_SHIFT ĎÚ P    DMA_DCR_ERQ_MASK ĎÚ P    DMA_DCR_ERQ_SHIFT {Ú P    DMA_DCR_EINT_MASK …Ú P    DMA_DCR_EINT_SHIFT 1Ú P    	DMA_BASE oÚ
+ P    DMA0 ÁÚ P    
+DMA_BASES Ú 8  
+<unnamed> QÚ  <" ĄCHCFG ‡Ú    DMAMUX_Type Ú! P    DMAMUX_CHCFG_SOURCE_MASK ZÚ" P    DMAMUX_CHCFG_SOURCE_SHIFT Ú P    DMAMUX_CHCFG_SOURCE ďÚ P    DMAMUX_CHCFG_TRIG_MASK ůÚ  P    DMAMUX_CHCFG_TRIG_SHIFT ĄÚ P    DMAMUX_CHCFG_ENBL_MASK Ú  P    DMAMUX_CHCFG_ENBL_SHIFT şÚ P    
+DMAMUX0_BASE =Ú P    DMAMUX0 ÁÚ P    
+DMAMUX_BASES Ú 8  
+<unnamed> QÚ  
+" ˛PDOR ÔÚ  
+" ˛PSOR ĹÚ  
+" ˛PCOR ŐÚ  
+" ˛PTOR ÄÚ  
+" ˛PDIR ÚÚ  
+" ˛PDDR ßÚ    FGPIO_Type wÚ P    FGPIO_PDOR_PDO_MASK ĎÚ P    FGPIO_PDOR_PDO_SHIFT {Ú P    FGPIO_PDOR_PDO dÚ P    FGPIO_PSOR_PTSO_MASK [Ú P    FGPIO_PSOR_PTSO_SHIFT Ú P    FGPIO_PSOR_PTSO đÚ P    FGPIO_PCOR_PTCO_MASK {Ú P    FGPIO_PCOR_PTCO_SHIFT 'Ú P    FGPIO_PCOR_PTCO Ú P    FGPIO_PTOR_PTTO_MASK YÚ P    FGPIO_PTOR_PTTO_SHIFT Ú P    FGPIO_PTOR_PTTO îÚ P    FGPIO_PDIR_PDI_MASK ŰÚ P    FGPIO_PDIR_PDI_SHIFT ‡Ú P    FGPIO_PDIR_PDI pÚ P    FGPIO_PDDR_PDD_MASK ĺÚ P    FGPIO_PDDR_PDD_SHIFT ‘Ú P    FGPIO_PDDR_PDD zÚ P    
+FPTA_BASE Ú
+ P    FPTA Ú P    
+FPTB_BASE Ú
+ P    FPTB —Ú P    FGPIO_BASES sÚ 8  
+<unnamed> QÚ  " ŃFSTAT mÚ  " ŃFCNFG ‹Ú  " ŃFSEC ĐÚ  " ŃFOPT ¸Ú  " ŃFCCOB3 ]Ú  " ŃFCCOB2 ^Ú  " ŃFCCOB1 _Ú  " ŃFCCOB0 `Ú  " ŃFCCOB7 YÚ  " ŃFCCOB6 ZÚ  " ŃFCCOB5 [Ú  " ŃFCCOB4 \Ú  " ŃFCCOBB NÚ  " ŃFCCOBA OÚ  " ŃFCCOB9 WÚ  " ŃFCCOB8 XÚ  " ŃFPROT3 /Ú  " ŃFPROT2 0Ú  " ŃFPROT1 1Ú  " ŃFPROT0 2Ú    
+FTFA_Type ÍÚ  P    FTFA_FSTAT_MGSTAT0_MASK ±Ú! P    FTFA_FSTAT_MGSTAT0_SHIFT ]Ú P    FTFA_FSTAT_FPVIOL_MASK ăÚ  P    FTFA_FSTAT_FPVIOL_SHIFT ŹÚ P    FTFA_FSTAT_ACCERR_MASK Ú  P    FTFA_FSTAT_ACCERR_SHIFT ŻÚ! P    FTFA_FSTAT_RDCOLERR_MASK RÚ" P    FTFA_FSTAT_RDCOLERR_SHIFT ţÚ P    FTFA_FSTAT_CCIF_MASK ˘Ú P    FTFA_FSTAT_CCIF_SHIFT NÚ  P    FTFA_FCNFG_ERSSUSP_MASK šÚ! P    FTFA_FCNFG_ERSSUSP_SHIFT FÚ  P    FTFA_FCNFG_ERSAREQ_MASK ĽÚ! P    FTFA_FCNFG_ERSAREQ_SHIFT hÚ! P    FTFA_FCNFG_RDCOLLIE_MASK Ú" P    FTFA_FCNFG_RDCOLLIE_SHIFT +Ú P    FTFA_FCNFG_CCIE_MASK ÁÚ P    FTFA_FCNFG_CCIE_SHIFT mÚ P    FTFA_FSEC_SEC_MASK AÚ P    FTFA_FSEC_SEC_SHIFT íÚ P    FTFA_FSEC_SEC ÖÚ P    FTFA_FSEC_FSLACC_MASK jÚ P    FTFA_FSEC_FSLACC_SHIFT Ú P    FTFA_FSEC_FSLACC ˙Ú P    FTFA_FSEC_MEEN_MASK őÚ P    FTFA_FSEC_MEEN_SHIFT ˇÚ P    FTFA_FSEC_MEEN ŠÚ P    FTFA_FSEC_KEYEN_MASK śÚ P    FTFA_FSEC_KEYEN_SHIFT HÚ P    FTFA_FSEC_KEYEN 1Ú P    FTFA_FOPT_OPT_MASK Ú P    FTFA_FOPT_OPT_SHIFT ˝Ú P    FTFA_FOPT_OPT ¦Ú P    FTFA_FCCOB3_CCOBn_MASK  Ú  P    FTFA_FCCOB3_CCOBn_SHIFT ĚÚ P    FTFA_FCCOB3_CCOBn µÚ P    FTFA_FCCOB2_CCOBn_MASK !Ú  P    FTFA_FCCOB2_CCOBn_SHIFT ÍÚ P    FTFA_FCCOB2_CCOBn ¶Ú P    FTFA_FCCOB1_CCOBn_MASK "Ú  P    FTFA_FCCOB1_CCOBn_SHIFT ÎÚ P    FTFA_FCCOB1_CCOBn ·Ú P    FTFA_FCCOB0_CCOBn_MASK #Ú  P    FTFA_FCCOB0_CCOBn_SHIFT ĎÚ P    FTFA_FCCOB0_CCOBn ¸Ú P    FTFA_FCCOB7_CCOBn_MASK Ú  P    FTFA_FCCOB7_CCOBn_SHIFT ČÚ P    FTFA_FCCOB7_CCOBn ±Ú P    FTFA_FCCOB6_CCOBn_MASK Ú  P    FTFA_FCCOB6_CCOBn_SHIFT ÉÚ P    FTFA_FCCOB6_CCOBn ˛Ú P    FTFA_FCCOB5_CCOBn_MASK Ú  P    FTFA_FCCOB5_CCOBn_SHIFT ĘÚ P    FTFA_FCCOB5_CCOBn łÚ P    FTFA_FCCOB4_CCOBn_MASK Ú  P    FTFA_FCCOB4_CCOBn_SHIFT ËÚ P    FTFA_FCCOB4_CCOBn ´Ú P    FTFA_FCCOBB_CCOBn_MASK Ú  P    FTFA_FCCOBB_CCOBn_SHIFT ˝Ú P    FTFA_FCCOBB_CCOBn ¦Ú P    FTFA_FCCOBA_CCOBn_MASK Ú  P    FTFA_FCCOBA_CCOBn_SHIFT ľÚ P    FTFA_FCCOBA_CCOBn §Ú P    FTFA_FCCOB9_CCOBn_MASK Ú  P    FTFA_FCCOB9_CCOBn_SHIFT ĆÚ P    FTFA_FCCOB9_CCOBn ŻÚ P    FTFA_FCCOB8_CCOBn_MASK Ú  P    FTFA_FCCOB8_CCOBn_SHIFT ÇÚ P    FTFA_FCCOB8_CCOBn °Ú P    FTFA_FPROT3_PROT_MASK 4Ú P    FTFA_FPROT3_PROT_SHIFT ŕÚ P    FTFA_FPROT3_PROT ÉÚ P    FTFA_FPROT2_PROT_MASK 5Ú P    FTFA_FPROT2_PROT_SHIFT áÚ P    FTFA_FPROT2_PROT ĘÚ P    FTFA_FPROT1_PROT_MASK 6Ú P    FTFA_FPROT1_PROT_SHIFT âÚ P    FTFA_FPROT1_PROT ËÚ P    FTFA_FPROT0_PROT_MASK 7Ú P    FTFA_FPROT0_PROT_SHIFT ăÚ P    FTFA_FPROT0_PROT ĚÚ P    
+FTFA_BASE Ú
+ P    FTFA ˘Ú P    FTFA_BASES ÉÚ 8  
+<unnamed> QÚ  
+" »PDOR ĘÚ  
+" »PSOR »Ú  
+" »PCOR ËÚ  
+" »PTOR şÚ  
+" »PDIR ĐÚ  
+" »PDDR ŐÚ    
+GPIO_Type żÚ P    GPIO_PDOR_PDO_MASK Ú P    GPIO_PDOR_PDO_SHIFT ĂÚ P    GPIO_PDOR_PDO ¬Ú P    GPIO_PSOR_PTSO_MASK ŁÚ P    GPIO_PSOR_PTSO_SHIFT OÚ P    GPIO_PSOR_PTSO 8Ú P    GPIO_PCOR_PTCO_MASK ĂÚ P    GPIO_PCOR_PTCO_SHIFT oÚ P    GPIO_PCOR_PTCO XÚ P    GPIO_PTOR_PTTO_MASK ˇÚ P    GPIO_PTOR_PTTO_SHIFT MÚ P    GPIO_PTOR_PTTO 6Ú P    GPIO_PDIR_PDI_MASK #Ú P    GPIO_PDIR_PDI_SHIFT ĎÚ P    GPIO_PDIR_PDI ¸Ú P    GPIO_PDDR_PDD_MASK -Ú P    GPIO_PDDR_PDD_SHIFT ŮÚ P    GPIO_PDDR_PDD ÂÚ P    	PTA_BASE \Ú P    PTA ŕÚ P    	PTB_BASE [Ú P    PTB ßÚ P    GPIO_BASES »Ú 8  
+<unnamed> QÚ
+  " ÚA1 yÚ  " ÚF §Ú
+  " ÚC1 wÚ  " ÚS šÚ  " ÚD ©Ú
+  " ÚC2 vÚ  " ÚFLT Ú
+  " ÚRA XÚ  " ÚSMB Ú
+  " ÚA2 xÚ  " ÚSLTH ¬Ú  " ÚSLTL ¨Ú    	I2C_Type 2Ú P    I2C_A1_AD_MASK ±Ú P    I2C_A1_AD_SHIFT ]Ú P    
+I2C_A1_AD FÚ P    I2C_F_ICR_MASK „Ú P    I2C_F_ICR_SHIFT 0Ú P    
+I2C_F_ICR Ú P    I2C_F_MULT_MASK Ú P    I2C_F_MULT_SHIFT ĘÚ P    I2C_F_MULT łÚ P    I2C_C1_DMAEN_MASK ÉÚ P    I2C_C1_DMAEN_SHIFT uÚ P    I2C_C1_WUEN_MASK ńÚ P    I2C_C1_WUEN_SHIFT ťÚ P    I2C_C1_RSTA_MASK öÚ P    I2C_C1_RSTA_SHIFT ˘Ú P    I2C_C1_TXAK_MASK řÚ P    I2C_C1_TXAK_SHIFT ¤Ú P    I2C_C1_TX_MASK Ú P    I2C_C1_TX_SHIFT 4Ú P    I2C_C1_MST_MASK >Ú P    I2C_C1_MST_SHIFT ęÚ P    I2C_C1_IICIE_MASK ËÚ P    I2C_C1_IICIE_SHIFT wÚ P    I2C_C1_IICEN_MASK ĆÚ P    I2C_C1_IICEN_SHIFT rÚ P    I2C_S_RXAK_MASK Ú P    I2C_S_RXAK_SHIFT ÉÚ P    I2C_S_IICIF_MASK íÚ P    I2C_S_IICIF_SHIFT ™Ú P    I2C_S_SRW_MASK YÚ P    I2C_S_SRW_SHIFT Ú P    I2C_S_RAM_MASK uÚ P    I2C_S_RAM_SHIFT !Ú P    I2C_S_ARBL_MASK 2Ú P    I2C_S_ARBL_SHIFT ŢÚ P    I2C_S_BUSY_MASK Ú P    I2C_S_BUSY_SHIFT ĽÚ P    I2C_S_IAAS_MASK 5Ú P    I2C_S_IAAS_SHIFT áÚ P    I2C_S_TCF_MASK xÚ P    I2C_S_TCF_SHIFT $Ú P    I2C_D_DATA_MASK HÚ P    I2C_D_DATA_SHIFT ôÚ P    I2C_D_DATA ÝÚ P    I2C_C2_AD_MASK ®Ú P    I2C_C2_AD_SHIFT ZÚ P    
+I2C_C2_AD CÚ P    I2C_C2_RMEN_MASK ýÚ P    I2C_C2_RMEN_SHIFT ©Ú P    I2C_C2_SBRC_MASK Ú P    I2C_C2_SBRC_SHIFT ±Ú P    I2C_C2_HDRS_MASK ţÚ P    I2C_C2_HDRS_SHIFT ŞÚ P    I2C_C2_ADEXT_MASK ·Ú P    I2C_C2_ADEXT_SHIFT cÚ P    I2C_C2_GCAEN_MASK ĎÚ P    I2C_C2_GCAEN_SHIFT {Ú P    I2C_FLT_FLT_MASK ŘÚ P    I2C_FLT_FLT_SHIFT „Ú P    I2C_FLT_FLT mÚ P    I2C_FLT_STOPIE_MASK äÚ P    I2C_FLT_STOPIE_SHIFT Ú P    I2C_FLT_STOPF_MASK .Ú P    I2C_FLT_STOPF_SHIFT ÚÚ P    I2C_FLT_SHEN_MASK ŽÚ P    I2C_FLT_SHEN_SHIFT :Ú P    I2C_RA_RAD_MASK <Ú P    I2C_RA_RAD_SHIFT čÚ P    I2C_RA_RAD ŃÚ P    I2C_SMB_SHTF2IE_MASK ĹÚ P    I2C_SMB_SHTF2IE_SHIFT qÚ P    I2C_SMB_SHTF2_MASK WÚ P    I2C_SMB_SHTF2_SHIFT Ú P    I2C_SMB_SHTF1_MASK XÚ P    I2C_SMB_SHTF1_SHIFT Ú P    I2C_SMB_SLTF_MASK ‡Ú P    I2C_SMB_SLTF_SHIFT 3Ú P    I2C_SMB_TCKSEL_MASK öÚ P    I2C_SMB_TCKSEL_SHIFT ˘Ú P    I2C_SMB_SIICAEN_MASK ľÚ P    I2C_SMB_SIICAEN_SHIFT jÚ P    I2C_SMB_ALERTEN_MASK ŻÚ P    I2C_SMB_ALERTEN_SHIFT [Ú P    I2C_SMB_FACK_MASK «Ú P    I2C_SMB_FACK_SHIFT WÚ P    I2C_A2_SAD_MASK [Ú P    I2C_A2_SAD_SHIFT Ú P    I2C_A2_SAD đÚ P    I2C_SLTH_SSLT_MASK Ú P    I2C_SLTH_SSLT_SHIFT ËÚ P    I2C_SLTH_SSLT ´Ú P    I2C_SLTL_SSLT_MASK Ú P    I2C_SLTL_SSLT_SHIFT ÇÚ P    I2C_SLTL_SSLT °Ú P    
+I2C0_BASE QÚ
+ P    I2C0 ŐÚ P    
+I2C_BASES .Ú 8  
+<unnamed> QÚ  " ÉPE1 3Ú  " ÉPE2 2Ú
+  " ÉME iÚ
+  " ÉF1 „Ú
+  " ÉF3 ‚Ú  " ÉFILT1 •Ú  " ÉFILT2 ”Ú    
+LLWU_Type ŞÚ P    LLWU_PE1_WUPE0_MASK áÚ P    LLWU_PE1_WUPE0_SHIFT ŤÚ P    LLWU_PE1_WUPE0 vÚ P    LLWU_PE1_WUPE1_MASK ŕÚ P    LLWU_PE1_WUPE1_SHIFT ŚÚ P    LLWU_PE1_WUPE1 uÚ P    LLWU_PE1_WUPE2_MASK ßÚ P    LLWU_PE1_WUPE2_SHIFT ‹Ú P    LLWU_PE1_WUPE2 tÚ P    LLWU_PE1_WUPE3_MASK ŢÚ P    LLWU_PE1_WUPE3_SHIFT ŠÚ P    LLWU_PE1_WUPE3 sÚ P    LLWU_PE2_WUPE4_MASK ÜÚ P    LLWU_PE2_WUPE4_SHIFT Ú P    LLWU_PE2_WUPE4 qÚ P    LLWU_PE2_WUPE5_MASK ŰÚ P    LLWU_PE2_WUPE5_SHIFT ‡Ú P    LLWU_PE2_WUPE5 pÚ P    LLWU_PE2_WUPE6_MASK ÚÚ P    LLWU_PE2_WUPE6_SHIFT †Ú P    LLWU_PE2_WUPE6 oÚ P    LLWU_PE2_WUPE7_MASK ŮÚ P    LLWU_PE2_WUPE7_SHIFT …Ú P    LLWU_PE2_WUPE7 nÚ P    LLWU_ME_WUME0_MASK Ú P    LLWU_ME_WUME0_SHIFT ĆÚ P    LLWU_ME_WUME1_MASK Ú P    LLWU_ME_WUME1_SHIFT ĹÚ P    LLWU_ME_WUME2_MASK Ú P    LLWU_ME_WUME2_SHIFT ÄÚ P    LLWU_ME_WUME3_MASK Ú P    LLWU_ME_WUME3_SHIFT ĂÚ P    LLWU_ME_WUME4_MASK Ú P    LLWU_ME_WUME4_SHIFT ÂÚ P    LLWU_ME_WUME5_MASK Ú P    LLWU_ME_WUME5_SHIFT ÁÚ P    LLWU_ME_WUME6_MASK Ú P    LLWU_ME_WUME6_SHIFT ŔÚ P    LLWU_ME_WUME7_MASK Ú P    LLWU_ME_WUME7_SHIFT żÚ P    LLWU_F1_WUF0_MASK Ú P    LLWU_F1_WUF0_SHIFT /Ú P    LLWU_F1_WUF1_MASK ‚Ú P    LLWU_F1_WUF1_SHIFT .Ú P    LLWU_F1_WUF2_MASK Ú P    LLWU_F1_WUF2_SHIFT -Ú P    LLWU_F1_WUF3_MASK €Ú P    LLWU_F1_WUF3_SHIFT ,Ú P    LLWU_F1_WUF4_MASK Ú P    LLWU_F1_WUF4_SHIFT +Ú P    LLWU_F1_WUF5_MASK ~Ú P    LLWU_F1_WUF5_SHIFT *Ú P    LLWU_F1_WUF6_MASK }Ú P    LLWU_F1_WUF6_SHIFT )Ú P    LLWU_F1_WUF7_MASK |Ú P    LLWU_F1_WUF7_SHIFT (Ú P    LLWU_F3_MWUF0_MASK 2Ú P    LLWU_F3_MWUF0_SHIFT ŢÚ P    LLWU_F3_MWUF1_MASK 1Ú P    LLWU_F3_MWUF1_SHIFT ÝÚ P    LLWU_F3_MWUF2_MASK 0Ú P    LLWU_F3_MWUF2_SHIFT ÜÚ P    LLWU_F3_MWUF3_MASK /Ú P    LLWU_F3_MWUF3_SHIFT ŰÚ P    LLWU_F3_MWUF4_MASK .Ú P    LLWU_F3_MWUF4_SHIFT ÚÚ P    LLWU_F3_MWUF5_MASK -Ú P    LLWU_F3_MWUF5_SHIFT ŮÚ P    LLWU_F3_MWUF6_MASK ,Ú P    LLWU_F3_MWUF6_SHIFT ŘÚ P    LLWU_F3_MWUF7_MASK +Ú P    LLWU_F3_MWUF7_SHIFT ×Ú  P    LLWU_FILT1_FILTSEL_MASK ťÚ! P    LLWU_FILT1_FILTSEL_SHIFT IÚ P    LLWU_FILT1_FILTSEL 2Ú P    LLWU_FILT1_FILTE_MASK @Ú P    LLWU_FILT1_FILTE_SHIFT ěÚ P    LLWU_FILT1_FILTE ŐÚ P    LLWU_FILT1_FILTF_MASK ?Ú P    LLWU_FILT1_FILTF_SHIFT ëÚ  P    LLWU_FILT2_FILTSEL_MASK śÚ! P    LLWU_FILT2_FILTSEL_SHIFT HÚ P    LLWU_FILT2_FILTSEL 1Ú P    LLWU_FILT2_FILTE_MASK ?Ú P    LLWU_FILT2_FILTE_SHIFT ëÚ P    LLWU_FILT2_FILTE ÔÚ P    LLWU_FILT2_FILTF_MASK >Ú P    LLWU_FILT2_FILTF_SHIFT ęÚ P    
+LLWU_BASE űÚ
+ P    LLWU Ú P    LLWU_BASES ¦Ú 8  
+<unnamed> QÚ  
+" ­	CSR %Ú  
+" ­	PSR Ú  
+" ­	CMR +Ú  
+" ­	CNR *Ú    LPTMR_Type ]Ú P    LPTMR_CSR_TEN_MASK  Ú P    LPTMR_CSR_TEN_SHIFT ¬Ú P    LPTMR_CSR_TMS_MASK óÚ P    LPTMR_CSR_TMS_SHIFT źÚ P    LPTMR_CSR_TFC_MASK 
+Ú P    LPTMR_CSR_TFC_SHIFT ¶Ú P    LPTMR_CSR_TPP_MASK óÚ P    LPTMR_CSR_TPP_SHIFT źÚ P    LPTMR_CSR_TPS_MASK đÚ P    LPTMR_CSR_TPS_SHIFT śÚ P    LPTMR_CSR_TPS …Ú P    LPTMR_CSR_TIE_MASK Ú P    LPTMR_CSR_TIE_SHIFT ±Ú P    LPTMR_CSR_TCF_MASK 
+Ú P    LPTMR_CSR_TCF_SHIFT ¶Ú P    LPTMR_PSR_PCS_MASK ôÚ P    LPTMR_PSR_PCS_SHIFT  Ú P    LPTMR_PSR_PCS ‰Ú P    LPTMR_PSR_PBYP_MASK ťÚ P    LPTMR_PSR_PBYP_SHIFT IÚ  P    LPTMR_PSR_PRESCALE_MASK Ú! P    LPTMR_PSR_PRESCALE_SHIFT -Ú P    LPTMR_PSR_PRESCALE Ú P    LPTMR_CMR_COMPARE_MASK ŢÚ  P    LPTMR_CMR_COMPARE_SHIFT ŠÚ P    LPTMR_CMR_COMPARE sÚ P    LPTMR_CNR_COUNTER_MASK ÄÚ  P    LPTMR_CNR_COUNTER_SHIFT pÚ P    LPTMR_CNR_COUNTER YÚ P    LPTMR0_BASE |Ú P    LPTMR0  Ú P    LPTMR_BASES YÚ 8  
+<unnamed> QÚ
+  " Ó	C1 |Ú
+  " Ó	C2 {Ú
+  " Ó	C3 zÚ
+  " Ó	C4 yÚ
+  " Ó	C5 xÚ
+  " Ó	C6 wÚ  " Ó	S źÚ  <" Ó	RESERVED_0 »Ú
+  " Ó	SC ZÚ  <" Ó	RESERVED_1 şÚ  " Ó	ATCVH tÚ  " Ó	ATCVL pÚ    	MCG_Type Ú P    MCG_C1_IREFSTEN_MASK ŻÚ P    MCG_C1_IREFSTEN_SHIFT [Ú P    MCG_C1_IRCLKEN_MASK 	Ú P    MCG_C1_IRCLKEN_SHIFT µÚ P    MCG_C1_IREFS_MASK śÚ P    MCG_C1_IREFS_SHIFT HÚ P    MCG_C1_FRDIV_MASK šÚ P    MCG_C1_FRDIV_SHIFT FÚ P    
+MCG_C1_FRDIV /Ú P    MCG_C1_CLKS_MASK ęÚ P    MCG_C1_CLKS_SHIFT –Ú P    MCG_C1_CLKS Ú P    MCG_C2_IRCS_MASK ĺÚ P    MCG_C2_IRCS_SHIFT ‘Ú P    MCG_C2_LP_MASK ~Ú P    MCG_C2_LP_SHIFT *Ú P    MCG_C2_EREFS0_MASK mÚ P    MCG_C2_EREFS0_SHIFT Ú P    MCG_C2_HGO0_MASK Ú P    MCG_C2_HGO0_SHIFT ´Ú P    MCG_C2_RANGE0_MASK uÚ P    MCG_C2_RANGE0_SHIFT !Ú P    MCG_C2_RANGE0 
+Ú P    MCG_C2_LOCRE0_MASK mÚ P    MCG_C2_LOCRE0_SHIFT Ú P    MCG_C3_SCTRIM_MASK ?Ú P    MCG_C3_SCTRIM_SHIFT ëÚ P    MCG_C3_SCTRIM ÔÚ P    MCG_C4_SCFTRIM_MASK öÚ P    MCG_C4_SCFTRIM_SHIFT ˘Ú P    MCG_C4_FCTRIM_MASK KÚ P    MCG_C4_FCTRIM_SHIFT ÷Ú P    MCG_C4_FCTRIM ŕÚ P    MCG_C4_DRST_DRS_MASK ‡Ú P    MCG_C4_DRST_DRS_SHIFT 3Ú P    MCG_C4_DRST_DRS Ú P    MCG_C4_DMX32_MASK ÄÚ P    MCG_C4_DMX32_SHIFT pÚ P    MCG_C6_CME_MASK ?Ú P    MCG_C6_CME_SHIFT ëÚ P    MCG_S_IRCST_MASK łÚ P    MCG_S_IRCST_SHIFT _Ú P    MCG_S_OSCINIT0_MASK éÚ P    MCG_S_OSCINIT0_SHIFT •Ú P    MCG_S_CLKST_MASK ·Ú P    MCG_S_CLKST_SHIFT cÚ P    MCG_S_CLKST LÚ P    MCG_S_IREFST_MASK iÚ P    MCG_S_IREFST_SHIFT Ú P    MCG_SC_LOCS0_MASK ’Ú P    MCG_SC_LOCS0_SHIFT >Ú P    MCG_SC_FCRDIV_MASK 3Ú P    MCG_SC_FCRDIV_SHIFT ßÚ P    MCG_SC_FCRDIV ČÚ P    MCG_SC_FLTPRSRV_MASK jÚ P    MCG_SC_FLTPRSRV_SHIFT Ú P    MCG_SC_ATMF_MASK ÍÚ P    MCG_SC_ATMF_SHIFT yÚ P    MCG_SC_ATMS_MASK ŔÚ P    MCG_SC_ATMS_SHIFT lÚ P    MCG_SC_ATME_MASK ÎÚ P    MCG_SC_ATME_SHIFT zÚ P    MCG_ATCVH_ATCVH_MASK —Ú P    MCG_ATCVH_ATCVH_SHIFT CÚ P    MCG_ATCVH_ATCVH ,Ú P    MCG_ATCVL_ATCVL_MASK ŹÚ P    MCG_ATCVL_ATCVL_SHIFT ;Ú P    MCG_ATCVL_ATCVL $Ú P    	MCG_BASE jÚ P    MCG îÚ P    
+MCG_BASES Ú 8  
+<unnamed> QÚ  <" ¨
+RESERVED_0 ŢÚ  " ¨
+PLASC Ú  " ¨
+PLAMC žÚ  
+" ¨
+PLACR ›Ú  <" 0¨
+RESERVED_1 µÚ  
+" ¨
+CPO /Ú    	MCM_Type Ú P    MCM_PLASC_ASC_MASK 7Ú P    MCM_PLASC_ASC_SHIFT ăÚ P    MCM_PLASC_ASC ĚÚ P    MCM_PLAMC_AMC_MASK CÚ P    MCM_PLAMC_AMC_SHIFT ďÚ P    MCM_PLAMC_AMC ŘÚ P    MCM_PLACR_ARB_MASK :Ú P    MCM_PLACR_ARB_SHIFT ćÚ P    MCM_PLACR_CFCC_MASK ţÚ P    MCM_PLACR_CFCC_SHIFT ŞÚ P    MCM_PLACR_DFCDA_MASK ąÚ P    MCM_PLACR_DFCDA_SHIFT eÚ P    MCM_PLACR_DFCIC_MASK ˛Ú P    MCM_PLACR_DFCIC_SHIFT ^Ú P    MCM_PLACR_DFCC_MASK ýÚ P    MCM_PLACR_DFCC_SHIFT ©Ú P    MCM_PLACR_EFDS_MASK ëÚ P    MCM_PLACR_EFDS_SHIFT —Ú P    MCM_PLACR_DFCS_MASK íÚ P    MCM_PLACR_DFCS_SHIFT ™Ú P    MCM_PLACR_ESFC_MASK ěÚ P    MCM_PLACR_ESFC_SHIFT Ú P    MCM_CPO_CPOREQ_MASK ÓÚ P    MCM_CPO_CPOREQ_SHIFT Ú P    MCM_CPO_CPOACK_MASK ěÚ P    MCM_CPO_CPOACK_SHIFT Ú P    MCM_CPO_CPOWOI_MASK ĚÚ P    MCM_CPO_CPOWOI_SHIFT xÚ P    	MCM_BASE dÚ P    MCM čÚ P    
+MCM_BASES Ú 8  
+<unnamed> QÚ  
+" Ď
+	POSITION kÚ  
+" Ď
+MASTER Ú  
+" Ď
+FLOW °Ú  
+" Ď
+BASE ÍÚ  <" đĎ
+RESERVED_0 ±Ú  
+" Ď
+	MODECTRL †Ú  <" śĎ
+RESERVED_1  Ú  
+" Ď
+TAGSET Ú  
+" Ď
+	TAGCLEAR ťÚ  <" Ď
+RESERVED_2 µÚ  
+" Ď
+LOCKACCESS Ú  
+" Ď
+	LOCKSTAT {Ú  
+" Ď
+	AUTHSTAT rÚ  
+" Ď
+DEVICEARCH Ú  <" Ď
+RESERVED_3 ´Ú  
+" Ď
+
+DEVICECFG ^Ú  
+" Ď
+DEVICETYPID  Ú  <"  Ď
+	PERIPHID =Ú  <" Ď
+COMPID ęÚ    	MTB_Type 
+Ú P    MTB_POSITION_WRAP_MASK ÄÚ  P    MTB_POSITION_WRAP_SHIFT pÚ" P    MTB_POSITION_POINTER_MASK ×Ú# P    MTB_POSITION_POINTER_SHIFT Ú P    MTB_POSITION_POINTER lÚ P    MTB_MASTER_MASK_MASK Ú P    MTB_MASTER_MASK_SHIFT +Ú P    MTB_MASTER_MASK Ú! P    MTB_MASTER_TSTARTEN_MASK .Ú" P    MTB_MASTER_TSTARTEN_SHIFT ÚÚ  P    MTB_MASTER_TSTOPEN_MASK xÚ! P    MTB_MASTER_TSTOPEN_SHIFT $Ú! P    MTB_MASTER_SFRWPRIV_MASK  Ú" P    MTB_MASTER_SFRWPRIV_SHIFT ĚÚ  P    MTB_MASTER_RAMPRIV_MASK „Ú! P    MTB_MASTER_RAMPRIV_SHIFT 0Ú  P    MTB_MASTER_HALTREQ_MASK ”Ú! P    MTB_MASTER_HALTREQ_SHIFT @Ú P    MTB_MASTER_EN_MASK Ú P    MTB_MASTER_EN_SHIFT ČÚ P    MTB_FLOW_AUTOSTOP_MASK ĽÚ  P    MTB_FLOW_AUTOSTOP_SHIFT hÚ P    MTB_FLOW_AUTOHALT_MASK ŮÚ  P    MTB_FLOW_AUTOHALT_SHIFT …Ú  P    MTB_FLOW_WATERMARK_MASK ‹Ú! P    MTB_FLOW_WATERMARK_SHIFT 7Ú P    MTB_FLOW_WATERMARK  Ú P    MTB_BASE_BASEADDR_MASK "Ú  P    MTB_BASE_BASEADDR_SHIFT ÎÚ P    MTB_BASE_BASEADDR ·Ú# P    MTB_MODECTRL_MODECTRL_MASK ·Ú$ P    MTB_MODECTRL_MODECTRL_SHIFT cÚ P    MTB_MODECTRL_MODECTRL LÚ P    MTB_TAGSET_TAGSET_MASK ăÚ  P    MTB_TAGSET_TAGSET_SHIFT ŹÚ P    MTB_TAGSET_TAGSET xÚ# P    MTB_TAGCLEAR_TAGCLEAR_MASK ĺÚ$ P    MTB_TAGCLEAR_TAGCLEAR_SHIFT ‘Ú P    MTB_TAGCLEAR_TAGCLEAR zÚ' P    MTB_LOCKACCESS_LOCKACCESS_MASK ­Ú( P     MTB_LOCKACCESS_LOCKACCESS_SHIFT YÚ" P    MTB_LOCKACCESS_LOCKACCESS BÚ# P    MTB_LOCKSTAT_LOCKSTAT_MASK ˇÚ$ P    MTB_LOCKSTAT_LOCKSTAT_SHIFT MÚ P    MTB_LOCKSTAT_LOCKSTAT 6Ú P    MTB_AUTHSTAT_BIT0_MASK öÚ  P    MTB_AUTHSTAT_BIT0_SHIFT ˘Ú P    MTB_AUTHSTAT_BIT1_MASK őÚ  P    MTB_AUTHSTAT_BIT1_SHIFT ˇÚ P    MTB_AUTHSTAT_BIT2_MASK ôÚ  P    MTB_AUTHSTAT_BIT2_SHIFT  Ú P    MTB_AUTHSTAT_BIT3_MASK óÚ  P    MTB_AUTHSTAT_BIT3_SHIFT źÚ' P    MTB_DEVICEARCH_DEVICEARCH_MASK ÇÚ( P     MTB_DEVICEARCH_DEVICEARCH_SHIFT sÚ" P    MTB_DEVICEARCH_DEVICEARCH \Ú% P    MTB_DEVICECFG_DEVICECFG_MASK gÚ& P    MTB_DEVICECFG_DEVICECFG_SHIFT Ú  P    MTB_DEVICECFG_DEVICECFG üÚ) P    !MTB_DEVICETYPID_DEVICETYPID_MASK ëÚ* P    "MTB_DEVICETYPID_DEVICETYPID_SHIFT —Ú$ P    MTB_DEVICETYPID_DEVICETYPID €Ú# P    MTB_PERIPHID_PERIPHID_MASK ÁÚ$ P    MTB_PERIPHID_PERIPHID_SHIFT mÚ P    MTB_PERIPHID_PERIPHID VÚ P    MTB_COMPID_COMPID_MASK űÚ  P    MTB_COMPID_COMPID_SHIFT §Ú P    MTB_COMPID_COMPID Ú P    	MTB_BASE ^Ú P    MTB âÚ P    
+MTB_BASES 	Ú 8  
+<unnamed> QÚ  
+" «CTRL ÖÚ  <" «RESERVED_0 ĆÚ 8  
+<unnamed> QÚ  
+" ®COMP ŮÚ  
+" ®MASK ÜÚ  
+" ®FCT -Ú  <" ®RESERVED_0 ŰÚ  <"  «COMPARATOR ąÚ  <" Ŕ«RESERVED_1 Ú  
+" «TBCTRL <Ú  <" Ä«RESERVED_2  Ú  
+" «
+DEVICECFG Ú  
+" «DEVICETYPID ĂÚ  <"  «	PERIPHID `Ú  <" «COMPID 
+Ú    MTBDWT_Type Ú$ P    MTBDWT_CTRL_DWTCFGCTRL_MASK QÚ% P    MTBDWT_CTRL_DWTCFGCTRL_SHIFT ýÚ P    MTBDWT_CTRL_DWTCFGCTRL ćÚ  P    MTBDWT_CTRL_NUMCMP_MASK }Ú! P    MTBDWT_CTRL_NUMCMP_SHIFT )Ú P    MTBDWT_CTRL_NUMCMP Ú P    MTBDWT_COMP_COMP_MASK (Ú P    MTBDWT_COMP_COMP_SHIFT ÔÚ P    MTBDWT_COMP_COMP ˝Ú P    MTBDWT_MASK_MASK_MASK .Ú P    MTBDWT_MASK_MASK_SHIFT ÚÚ P    MTBDWT_MASK_MASK ĂÚ! P    MTBDWT_FCT_FUNCTION_MASK =Ú" P    MTBDWT_FCT_FUNCTION_SHIFT éÚ P    MTBDWT_FCT_FUNCTION ŇÚ# P    MTBDWT_FCT_DATAVMATCH_MASK ÂÚ$ P    MTBDWT_FCT_DATAVMATCH_SHIFT nÚ" P    MTBDWT_FCT_DATAVSIZE_MASK öÚ# P    MTBDWT_FCT_DATAVSIZE_SHIFT ˘Ú P    MTBDWT_FCT_DATAVSIZE ‹Ú# P    MTBDWT_FCT_DATAVADDR0_MASK äÚ$ P    MTBDWT_FCT_DATAVADDR0_SHIFT Ú P    MTBDWT_FCT_DATAVADDR0 yÚ  P    MTBDWT_FCT_MATCHED_MASK ŻÚ! P    MTBDWT_FCT_MATCHED_SHIFT [Ú" P    MTBDWT_TBCTRL_ACOMP0_MASK Ú# P    MTBDWT_TBCTRL_ACOMP0_SHIFT żÚ" P    MTBDWT_TBCTRL_ACOMP1_MASK Ú# P    MTBDWT_TBCTRL_ACOMP1_SHIFT ľÚ# P    MTBDWT_TBCTRL_NUMCOMP_MASK ’Ú$ P    MTBDWT_TBCTRL_NUMCOMP_SHIFT >Ú P    MTBDWT_TBCTRL_NUMCOMP 'Ú( P     MTBDWT_DEVICECFG_DEVICECFG_MASK rÚ) P    !MTBDWT_DEVICECFG_DEVICECFG_SHIFT Ú# P    MTBDWT_DEVICECFG_DEVICECFG Ú, P    $MTBDWT_DEVICETYPID_DEVICETYPID_MASK öÚ- P    %MTBDWT_DEVICETYPID_DEVICETYPID_SHIFT ˘Ú' P    MTBDWT_DEVICETYPID_DEVICETYPID ‹Ú& P    MTBDWT_PERIPHID_PERIPHID_MASK ĚÚ' P    MTBDWT_PERIPHID_PERIPHID_SHIFT xÚ! P    MTBDWT_PERIPHID_PERIPHID aÚ" P    MTBDWT_COMPID_COMPID_MASK Ú# P    MTBDWT_COMPID_COMPID_SHIFT ˛Ú P    MTBDWT_COMPID_COMPID ›Ú P    MTBDWT_BASE iÚ P    MTBDWT íÚ P    
+MTBDWT_BASES Ú 8  
+<unnamed> QÚ  " ë	BACKKEY3 ťÚ  " ë	BACKKEY2 žÚ  " ë	BACKKEY1 źÚ  " ë	BACKKEY0  Ú  " ë	BACKKEY7 ™Ú  " ë	BACKKEY6 šÚ  " ë	BACKKEY5 ›Ú  " ë	BACKKEY4 śÚ  " ëFPROT3 Ú  " ëFPROT2 Ú  " ëFPROT1 Ú  " ëFPROT0 Ú  " ëFSEC ±Ú  " ëFOPT ™Ú    NV_Type NÚ P    NV_BACKKEY3_KEY_MASK  Ú P    NV_BACKKEY3_KEY_SHIFT LÚ P    NV_BACKKEY3_KEY 5Ú P    NV_BACKKEY2_KEY_MASK ˇÚ P    NV_BACKKEY2_KEY_SHIFT MÚ P    NV_BACKKEY2_KEY 6Ú P    NV_BACKKEY1_KEY_MASK ˘Ú P    NV_BACKKEY1_KEY_SHIFT NÚ P    NV_BACKKEY1_KEY 7Ú P    NV_BACKKEY0_KEY_MASK ŁÚ P    NV_BACKKEY0_KEY_SHIFT OÚ P    NV_BACKKEY0_KEY 8Ú P    NV_BACKKEY7_KEY_MASK śÚ P    NV_BACKKEY7_KEY_SHIFT HÚ P    NV_BACKKEY7_KEY 1Ú P    NV_BACKKEY6_KEY_MASK ťÚ P    NV_BACKKEY6_KEY_SHIFT IÚ P    NV_BACKKEY6_KEY 2Ú P    NV_BACKKEY5_KEY_MASK žÚ P    NV_BACKKEY5_KEY_SHIFT JÚ P    NV_BACKKEY5_KEY 3Ú P    NV_BACKKEY4_KEY_MASK źÚ P    NV_BACKKEY4_KEY_SHIFT KÚ P    NV_BACKKEY4_KEY 4Ú P    NV_FPROT3_PROT_MASK µÚ P    NV_FPROT3_PROT_SHIFT aÚ P    NV_FPROT3_PROT JÚ P    NV_FPROT2_PROT_MASK ¶Ú P    NV_FPROT2_PROT_SHIFT bÚ P    NV_FPROT2_PROT KÚ P    NV_FPROT1_PROT_MASK ·Ú P    NV_FPROT1_PROT_SHIFT cÚ P    NV_FPROT1_PROT LÚ P    NV_FPROT0_PROT_MASK ¸Ú P    NV_FPROT0_PROT_SHIFT dÚ P    NV_FPROT0_PROT MÚ P    NV_FSEC_SEC_MASK ÂÚ P    NV_FSEC_SEC_SHIFT nÚ P    NV_FSEC_SEC WÚ P    NV_FSEC_FSLACC_MASK ëÚ P    NV_FSEC_FSLACC_SHIFT —Ú P    NV_FSEC_FSLACC €Ú P    NV_FSEC_MEEN_MASK vÚ P    NV_FSEC_MEEN_SHIFT "Ú P    
+NV_FSEC_MEEN Ú P    NV_FSEC_KEYEN_MASK Ú P    NV_FSEC_KEYEN_SHIFT ÉÚ P    NV_FSEC_KEYEN ˛Ú P    NV_FOPT_LPBOOT0_MASK }Ú P    NV_FOPT_LPBOOT0_SHIFT )Ú P    NV_FOPT_NMI_DIS_MASK ZÚ P    NV_FOPT_NMI_DIS_SHIFT Ú# P    NV_FOPT_RESET_PIN_CFG_MASK yÚ$ P    NV_FOPT_RESET_PIN_CFG_SHIFT %Ú P    NV_FOPT_LPBOOT1_MASK |Ú P    NV_FOPT_LPBOOT1_SHIFT (Ú P    NV_FOPT_FAST_INIT_MASK ¸Ú  P    NV_FOPT_FAST_INIT_SHIFT dÚ P    FTFA_FlashConfig_BASE cÚ P    FTFA_FlashConfig çÚ P    	NV_BASES JÚ 8  
+<unnamed> QÚ
+  " ¸CR sÚ    	OSC_Type Ú P    OSC_CR_SC16P_MASK ™Ú P    OSC_CR_SC16P_SHIFT EÚ P    OSC_CR_SC8P_MASK ĘÚ P    OSC_CR_SC8P_SHIFT vÚ P    OSC_CR_SC4P_MASK ÎÚ P    OSC_CR_SC4P_SHIFT zÚ P    OSC_CR_SC2P_MASK ĐÚ P    OSC_CR_SC2P_SHIFT |Ú P    OSC_CR_EREFSTEN_MASK „Ú P    OSC_CR_EREFSTEN_SHIFT 0Ú P    OSC_CR_ERCLKEN_MASK ŢÚ P    OSC_CR_ERCLKEN_SHIFT ŠÚ P    
+OSC0_BASE *Ú
+ P    OSC0 ®Ú P    
+OSC_BASES Ú 8  
+<unnamed> QÚ  
+" ĘMCR Ú  <" ÜĘRESERVED_0 äÚ  
+" ĘLTMR64H ôÚ  
+" ĘLTMR64L đÚ  <" ĘRESERVED_1 ©Ú 8  
+<unnamed> QÚ  
+" ĐLDVAL pÚ  
+" ĐCVAL żÚ  
+" ĐTCTRL ZÚ  
+" ĐTFLG ¸Ú  <"  ĘCHANNEL žÚ    	PIT_Type Ú P    PIT_MCR_FRZ_MASK ˇÚ P    PIT_MCR_FRZ_SHIFT MÚ P    PIT_MCR_MDIS_MASK dÚ P    PIT_MCR_MDIS_SHIFT Ú P    PIT_LTMR64H_LTH_MASK ”Ú P    PIT_LTMR64H_LTH_SHIFT @Ú P    PIT_LTMR64H_LTH )Ú P    PIT_LTMR64L_LTL_MASK ŚÚ P    PIT_LTMR64L_LTL_SHIFT 8Ú P    PIT_LTMR64L_LTL !Ú P    PIT_LDVAL_TSV_MASK Ú P    PIT_LDVAL_TSV_SHIFT ­Ú P    PIT_LDVAL_TSV –Ú P    PIT_CVAL_TVL_MASK WÚ P    PIT_CVAL_TVL_SHIFT Ú P    
+PIT_CVAL_TVL ěÚ P    PIT_TCTRL_TEN_MASK Ú P    PIT_TCTRL_TEN_SHIFT ­Ú P    PIT_TCTRL_TIE_MASK Ú P    PIT_TCTRL_TIE_SHIFT ˛Ú P    PIT_TCTRL_CHN_MASK Ú P    PIT_TCTRL_CHN_SHIFT »Ú P    PIT_TFLG_TIF_MASK cÚ P    PIT_TFLG_TIF_SHIFT Ú P    	PIT_BASE TÚ P    PIT ŘÚ P    
+PIT_BASES ˙Ú 8  
+<unnamed> QÚ  " ňLVDSC1 Ú  " ňLVDSC2 Ú  " ňREGSC TÚ    	PMC_Type Ú P    PMC_LVDSC1_LVDV_MASK ‘Ú P    PMC_LVDSC1_LVDV_SHIFT =Ú P    PMC_LVDSC1_LVDV &Ú P    PMC_LVDSC1_LVDRE_MASK NÚ P    PMC_LVDSC1_LVDRE_SHIFT úÚ P    PMC_LVDSC1_LVDIE_MASK WÚ P    PMC_LVDSC1_LVDIE_SHIFT Ú P    PMC_LVDSC1_LVDACK_MASK Ú  P    PMC_LVDSC1_LVDACK_SHIFT ŔÚ P    PMC_LVDSC1_LVDF_MASK ˇÚ P    PMC_LVDSC1_LVDF_SHIFT MÚ P    PMC_LVDSC2_LVWV_MASK }Ú P    PMC_LVDSC2_LVWV_SHIFT )Ú P    PMC_LVDSC2_LVWV Ú P    PMC_LVDSC2_LVWIE_MASK CÚ P    PMC_LVDSC2_LVWIE_SHIFT ďÚ P    PMC_LVDSC2_LVWACK_MASK  Ú  P    PMC_LVDSC2_LVWACK_SHIFT ¬Ú P    PMC_LVDSC2_LVWF_MASK ŤÚ P    PMC_LVDSC2_LVWF_SHIFT 9Ú P    PMC_REGSC_BGBE_MASK řÚ P    PMC_REGSC_BGBE_SHIFT ¤Ú P    PMC_REGSC_REGONS_MASK 6Ú P    PMC_REGSC_REGONS_SHIFT âÚ P    PMC_REGSC_ACKISO_MASK JÚ P    PMC_REGSC_ACKISO_SHIFT öÚ P    PMC_REGSC_BGEN_MASK ěÚ P    PMC_REGSC_BGEN_SHIFT Ú P    	PMC_BASE aÚ P    PMC ĺÚ P    
+PMC_BASES Ú 8  
+<unnamed> QÚ  <" €–
+PCR ‹Ú  
+" –
+GPCLR ¤Ú  
+" –
+GPCHR ¨Ú  <" –
+RESERVED_0 ÝÚ  
+" –
+ISFR ęÚ    
+PORT_Type ©Ú P    PORT_PCR_PS_MASK •Ú P    PORT_PCR_PS_SHIFT AÚ P    PORT_PCR_PE_MASK ŁÚ P    PORT_PCR_PE_SHIFT OÚ P    PORT_PCR_SRE_MASK LÚ P    PORT_PCR_SRE_SHIFT řÚ P    PORT_PCR_PFE_MASK [Ú P    PORT_PCR_PFE_SHIFT Ú P    PORT_PCR_DSE_MASK ZÚ P    PORT_PCR_DSE_SHIFT Ú P    PORT_PCR_MUX_MASK <Ú P    PORT_PCR_MUX_SHIFT čÚ P    
+PORT_PCR_MUX ŃÚ P    PORT_PCR_IRQC_MASK Ú P    PORT_PCR_IRQC_SHIFT ±Ú P    PORT_PCR_IRQC šÚ P    PORT_PCR_ISF_MASK TÚ P    PORT_PCR_ISF_SHIFT  Ú P    PORT_GPCLR_GPWD_MASK kÚ P    PORT_GPCLR_GPWD_SHIFT Ú P    PORT_GPCLR_GPWD  Ú P    PORT_GPCLR_GPWE_MASK jÚ P    PORT_GPCLR_GPWE_SHIFT Ú P    PORT_GPCLR_GPWE ˙Ú P    PORT_GPCHR_GPWD_MASK oÚ P    PORT_GPCHR_GPWD_SHIFT Ú P    PORT_GPCHR_GPWD Ú P    PORT_GPCHR_GPWE_MASK nÚ P    PORT_GPCHR_GPWE_SHIFT Ú P    PORT_GPCHR_GPWE Ú P    PORT_ISFR_ISF_MASK Ú P    PORT_ISFR_ISF_SHIFT ŻÚ P    PORT_ISFR_ISF Ú P    PORTA_BASE ·Ú P    PORTA ;Ú P    PORTB_BASE ¶Ú P    PORTB :Ú P    PORT_BASES ĄÚ 8  
+<unnamed> QÚ  " Ă
+SRS0 ĐÚ  " Ă
+SRS1 ĎÚ  <" Ă
+RESERVED_0 ĆÚ  " Ă
+RPFC ÍÚ  " Ă
+RPFW ąÚ    	RCM_Type Ú P    RCM_SRS0_WAKEUP_MASK Ú P    RCM_SRS0_WAKEUP_SHIFT /Ú P    RCM_SRS0_LVD_MASK pÚ P    RCM_SRS0_LVD_SHIFT Ú P    RCM_SRS0_LOC_MASK xÚ P    RCM_SRS0_LOC_SHIFT $Ú P    RCM_SRS0_WDOG_MASK #Ú P    RCM_SRS0_WDOG_SHIFT ĎÚ P    RCM_SRS0_PIN_MASK oÚ P    RCM_SRS0_PIN_SHIFT Ú P    RCM_SRS0_POR_MASK eÚ P    RCM_SRS0_POR_SHIFT Ú P    RCM_SRS1_LOCKUP_MASK Ú P    RCM_SRS1_LOCKUP_SHIFT -Ú P    RCM_SRS1_SW_MASK ­Ú P    RCM_SRS1_SW_SHIFT YÚ P    RCM_SRS1_MDM_AP_MASK Ú P    RCM_SRS1_MDM_AP_SHIFT -Ú P    RCM_SRS1_SACKERR_MASK BÚ P    RCM_SRS1_SACKERR_SHIFT îÚ  P    RCM_RPFC_RSTFLTSRW_MASK lÚ! P    RCM_RPFC_RSTFLTSRW_SHIFT Ú P    RCM_RPFC_RSTFLTSRW Ú P    RCM_RPFC_RSTFLTSS_MASK ÄÚ  P    RCM_RPFC_RSTFLTSS_SHIFT pÚ  P    RCM_RPFW_RSTFLTSEL_MASK pÚ! P    RCM_RPFW_RSTFLTSEL_SHIFT Ú P    RCM_RPFW_RSTFLTSEL Ú P    	RCM_BASE _Ú P    RCM ăÚ P    
+RCM_BASES 
+Ú 8  
+<unnamed> QÚ  <" é
+ENTRY ýÚ  
+" é
+TABLEMARK .Ú  <" Ľé
+RESERVED_0 ĆÚ  
+" é
+SYSACCESS Ú  
+" é
+PERIPHID4 8Ú  
+" é
+PERIPHID5 7Ú  
+" é
+PERIPHID6 6Ú  
+" é
+PERIPHID7 5Ú  
+" é
+PERIPHID0 <Ú  
+" é
+PERIPHID1 ;Ú  
+" é
+PERIPHID2 :Ú  
+" é
+PERIPHID3 9Ú  <" é
+COMPID ÍÚ    	ROM_Type Ú P    ROM_ENTRY_ENTRY_MASK HÚ P    ROM_ENTRY_ENTRY_SHIFT ôÚ P    ROM_ENTRY_ENTRY ÝÚ  P    ROM_TABLEMARK_MARK_MASK ¨Ú! P    ROM_TABLEMARK_MARK_SHIFT TÚ P    ROM_TABLEMARK_MARK =Ú% P    ROM_SYSACCESS_SYSACCESS_MASK úÚ& P    ROM_SYSACCESS_SYSACCESS_SHIFT ¦Ú  P    ROM_SYSACCESS_SYSACCESS ŹÚ$ P    ROM_PERIPHID4_PERIPHID_MASK €Ú% P    ROM_PERIPHID4_PERIPHID_SHIFT ,Ú P    ROM_PERIPHID4_PERIPHID Ú$ P    ROM_PERIPHID5_PERIPHID_MASK Ú% P    ROM_PERIPHID5_PERIPHID_SHIFT +Ú P    ROM_PERIPHID5_PERIPHID Ú$ P    ROM_PERIPHID6_PERIPHID_MASK ~Ú% P    ROM_PERIPHID6_PERIPHID_SHIFT *Ú P    ROM_PERIPHID6_PERIPHID Ú$ P    ROM_PERIPHID7_PERIPHID_MASK }Ú% P    ROM_PERIPHID7_PERIPHID_SHIFT )Ú P    ROM_PERIPHID7_PERIPHID Ú$ P    ROM_PERIPHID0_PERIPHID_MASK „Ú% P    ROM_PERIPHID0_PERIPHID_SHIFT 0Ú P    ROM_PERIPHID0_PERIPHID Ú$ P    ROM_PERIPHID1_PERIPHID_MASK Ú% P    ROM_PERIPHID1_PERIPHID_SHIFT /Ú P    ROM_PERIPHID1_PERIPHID Ú$ P    ROM_PERIPHID2_PERIPHID_MASK ‚Ú% P    ROM_PERIPHID2_PERIPHID_SHIFT .Ú P    ROM_PERIPHID2_PERIPHID Ú$ P    ROM_PERIPHID3_PERIPHID_MASK Ú% P    ROM_PERIPHID3_PERIPHID_SHIFT -Ú P    ROM_PERIPHID3_PERIPHID Ú P    ROM_COMPID_COMPID_MASK đÚ  P    ROM_COMPID_COMPID_SHIFT śÚ P    ROM_COMPID_COMPID …Ú P    	ROM_BASE SÚ P    ROM ×Ú P    
+ROM_BASES ţÚ 8  
+<unnamed> QÚ  
+" źTSR Ú  
+" źTPR  Ú  
+" źTAR /Ú  
+" źTCR -Ú
+  
+" źCR Ú
+  
+" źSR sÚ
+  
+" źLR zÚ  
+" źIER 6Ú    	RTC_Type Ú P    RTC_TSR_TSR_MASK ‡Ú P    RTC_TSR_TSR_SHIFT 3Ú P    RTC_TSR_TSR Ú P    RTC_TPR_TPR_MASK ŤÚ P    RTC_TPR_TPR_SHIFT 9Ú P    RTC_TPR_TPR "Ú P    RTC_TAR_TAR_MASK «Ú P    RTC_TAR_TAR_SHIFT WÚ P    RTC_TAR_TAR @Ú P    RTC_TCR_TCR_MASK §Ú P    RTC_TCR_TCR_SHIFT SÚ P    RTC_TCR_TCR <Ú P    RTC_TCR_CIR_MASK ˛Ú P    RTC_TCR_CIR_SHIFT ^Ú P    RTC_TCR_CIR GÚ P    RTC_TCR_TCV_MASK ŁÚ P    RTC_TCR_TCV_SHIFT OÚ P    RTC_TCR_TCV 8Ú P    RTC_TCR_CIC_MASK ÁÚ P    RTC_TCR_CIC_SHIFT mÚ P    RTC_TCR_CIC VÚ P    RTC_CR_SWR_MASK ęÚ P    RTC_CR_SWR_SHIFT –Ú P    RTC_CR_WPE_MASK úÚ P    RTC_CR_WPE_SHIFT ¦Ú P    RTC_CR_SUP_MASK îÚ P    RTC_CR_SUP_SHIFT šÚ P    RTC_CR_UM_MASK FÚ P    RTC_CR_UM_SHIFT ňÚ P    RTC_CR_OSCE_MASK şÚ P    RTC_CR_OSCE_SHIFT fÚ P    RTC_CR_CLKO_MASK »Ú P    RTC_CR_CLKO_SHIFT gÚ P    RTC_CR_SC16P_MASK •Ú P    RTC_CR_SC16P_SHIFT AÚ P    RTC_CR_SC8P_MASK ĆÚ P    RTC_CR_SC8P_SHIFT rÚ P    RTC_CR_SC4P_MASK ĘÚ P    RTC_CR_SC4P_SHIFT vÚ P    RTC_CR_SC2P_MASK ĚÚ P    RTC_CR_SC2P_SHIFT xÚ P    RTC_SR_TIF_MASK óÚ P    RTC_SR_TIF_SHIFT źÚ P    RTC_SR_TOF_MASK íÚ P    RTC_SR_TOF_SHIFT ™Ú P    RTC_SR_TAF_MASK űÚ P    RTC_SR_TAF_SHIFT §Ú P    RTC_SR_TCE_MASK úÚ P    RTC_SR_TCE_SHIFT ¦Ú P    RTC_LR_TCL_MASK úÚ P    RTC_LR_TCL_SHIFT ¦Ú P    RTC_LR_CRL_MASK üÚ P    RTC_LR_CRL_SHIFT ¨Ú P    RTC_LR_SRL_MASK ěÚ P    RTC_LR_SRL_SHIFT Ú P    RTC_LR_LRL_MASK óÚ P    RTC_LR_LRL_SHIFT źÚ P    RTC_IER_TIIE_MASK lÚ P    RTC_IER_TIIE_SHIFT Ú P    RTC_IER_TOIE_MASK fÚ P    RTC_IER_TOIE_SHIFT Ú P    RTC_IER_TAIE_MASK tÚ P    RTC_IER_TAIE_SHIFT  Ú P    RTC_IER_TSIE_MASK bÚ P    RTC_IER_TSIE_SHIFT Ú P    RTC_IER_WPON_MASK SÚ P    RTC_IER_WPON_SHIFT ˙Ú P    	RTC_BASE XÚ P    RTC ÜÚ P    
+RTC_BASES Ú 8  
+<unnamed> QÚ  
+" ďSOPT1 KÚ  
+" ď	SOPT1CFG uÚ  <" üďRESERVED_0 Ú  
+" ďSOPT2 JÚ  <" ďRESERVED_1 –Ú  
+" ďSOPT4 HÚ  
+" ďSOPT5 GÚ  <" ďRESERVED_2 •Ú  
+" ďSOPT7 EÚ  <" ďRESERVED_3 Ú  
+" ďSDID  Ú  <" ďRESERVED_4 ‹Ú  
+" ďSCGC4 nÚ  
+" ďSCGC5 mÚ  
+" ďSCGC6 lÚ  
+" ďSCGC7 kÚ  
+" ďCLKDIV1 ĐÚ  <" ďRESERVED_5 ’Ú  
+" ďFCFG1 {Ú  
+" ďFCFG2 zÚ  <" ďRESERVED_6 ‘Ú  
+" ďUIDMH KÚ  
+" ďUIDML GÚ  
+" ďUIDL –Ú  <" śďRESERVED_7 öÚ  
+" ďCOPC źÚ  
+" ďSRVCOP ăÚ    	SIM_Type Ú! P    SIM_SOPT1_OSC32KSEL_MASK yÚ" P    SIM_SOPT1_OSC32KSEL_SHIFT %Ú P    SIM_SOPT1_OSC32KSEL Ú$ P    SIM_SOPT2_RTCCLKOUTSEL_MASK LÚ% P    SIM_SOPT2_RTCCLKOUTSEL_SHIFT řÚ! P    SIM_SOPT2_CLKOUTSEL_MASK ;Ú" P    SIM_SOPT2_CLKOUTSEL_SHIFT çÚ P    SIM_SOPT2_CLKOUTSEL ĐÚ P    SIM_SOPT2_TPMSRC_MASK Ú P    SIM_SOPT2_TPMSRC_SHIFT ĘÚ P    SIM_SOPT2_TPMSRC łÚ  P    SIM_SOPT2_UART0SRC_MASK źÚ! P    SIM_SOPT2_UART0SRC_SHIFT KÚ P    SIM_SOPT2_UART0SRC 4Ú" P    SIM_SOPT4_TPM1CH0SRC_MASK (Ú# P    SIM_SOPT4_TPM1CH0SRC_SHIFT ÔÚ" P    SIM_SOPT4_TPM0CLKSEL_MASK Ú# P    SIM_SOPT4_TPM0CLKSEL_SHIFT şÚ" P    SIM_SOPT4_TPM1CLKSEL_MASK 
+Ú# P    SIM_SOPT4_TPM1CLKSEL_SHIFT ąÚ" P    SIM_SOPT5_UART0TXSRC_MASK ěÚ# P    SIM_SOPT5_UART0TXSRC_SHIFT Ú" P    SIM_SOPT5_UART0RXSRC_MASK îÚ# P    SIM_SOPT5_UART0RXSRC_SHIFT šÚ  P    SIM_SOPT5_UART0ODE_MASK ¬Ú! P    SIM_SOPT5_UART0ODE_SHIFT XÚ" P    SIM_SOPT7_ADC0TRGSEL_MASK !Ú# P    SIM_SOPT7_ADC0TRGSEL_SHIFT ÍÚ P    SIM_SOPT7_ADC0TRGSEL ¶Ú% P    SIM_SOPT7_ADC0PRETRGSEL_MASK 4Ú& P    SIM_SOPT7_ADC0PRETRGSEL_SHIFT ŕÚ$ P    SIM_SOPT7_ADC0ALTTRGEN_MASK ŤÚ% P    SIM_SOPT7_ADC0ALTTRGEN_SHIFT 9Ú P    SIM_SDID_PINID_MASK ŰÚ P    SIM_SDID_PINID_SHIFT ‡Ú P    SIM_SDID_PINID pÚ P    SIM_SDID_DIEID_MASK đÚ P    SIM_SDID_DIEID_SHIFT śÚ P    SIM_SDID_DIEID …Ú P    SIM_SDID_REVID_MASK ŐÚ P    SIM_SDID_REVID_SHIFT Ú P    SIM_SDID_REVID jÚ P    SIM_SDID_SRAMSIZE_MASK ŰÚ  P    SIM_SDID_SRAMSIZE_SHIFT ‡Ú P    SIM_SDID_SRAMSIZE pÚ P    SIM_SDID_SERIESID_MASK ńÚ  P    SIM_SDID_SERIESID_SHIFT ťÚ P    SIM_SDID_SERIESID †Ú P    SIM_SDID_SUBFAMID_MASK ţÚ  P    SIM_SDID_SUBFAMID_SHIFT ŞÚ P    SIM_SDID_SUBFAMID “Ú P    SIM_SDID_FAMID_MASK îÚ P    SIM_SDID_FAMID_SHIFT šÚ P    SIM_SDID_FAMID Ú P    SIM_SCGC4_I2C0_MASK 1Ú P    SIM_SCGC4_I2C0_SHIFT ÝÚ P    SIM_SCGC4_UART0_MASK ±Ú P    SIM_SCGC4_UART0_SHIFT ]Ú P    SIM_SCGC4_CMP_MASK AÚ P    SIM_SCGC4_CMP_SHIFT íÚ P    SIM_SCGC4_SPI0_MASK Ú P    SIM_SCGC4_SPI0_SHIFT ŻÚ P    SIM_SCGC5_LPTMR_MASK ŤÚ P    SIM_SCGC5_LPTMR_SHIFT 9Ú P    SIM_SCGC5_TSI_MASK 0Ú P    SIM_SCGC5_TSI_SHIFT ÜÚ P    SIM_SCGC5_PORTA_MASK –Ú P    SIM_SCGC5_PORTA_SHIFT BÚ P    SIM_SCGC5_PORTB_MASK •Ú P    SIM_SCGC5_PORTB_SHIFT AÚ P    SIM_SCGC6_FTF_MASK ?Ú P    SIM_SCGC6_FTF_SHIFT ëÚ P    SIM_SCGC6_DMAMUX_MASK MÚ P    SIM_SCGC6_DMAMUX_SHIFT ůÚ P    SIM_SCGC6_PIT_MASK 2Ú P    SIM_SCGC6_PIT_SHIFT ŢÚ P    SIM_SCGC6_TPM0_MASK üÚ P    SIM_SCGC6_TPM0_SHIFT ¨Ú P    SIM_SCGC6_TPM1_MASK űÚ P    SIM_SCGC6_TPM1_SHIFT §Ú P    SIM_SCGC6_ADC0_MASK %Ú P    SIM_SCGC6_ADC0_SHIFT ŃÚ P    SIM_SCGC6_RTC_MASK 6Ú P    SIM_SCGC6_RTC_SHIFT âÚ P    SIM_SCGC6_DAC0_MASK %Ú P    SIM_SCGC6_DAC0_SHIFT ŃÚ P    SIM_SCGC7_DMA_MASK LÚ P    SIM_SCGC7_DMA_SHIFT řÚ! P    SIM_CLKDIV1_OUTDIV4_MASK lÚ" P    SIM_CLKDIV1_OUTDIV4_SHIFT Ú P    SIM_CLKDIV1_OUTDIV4 Ú! P    SIM_CLKDIV1_OUTDIV1_MASK oÚ" P    SIM_CLKDIV1_OUTDIV1_SHIFT Ú P    SIM_CLKDIV1_OUTDIV1 Ú  P    SIM_FCFG1_FLASHDIS_MASK ÖÚ! P    SIM_FCFG1_FLASHDIS_SHIFT ‚Ú! P    SIM_FCFG1_FLASHDOZE_MASK ‚Ú" P    SIM_FCFG1_FLASHDOZE_SHIFT .Ú P    SIM_FCFG1_PFSIZE_MASK WÚ P    SIM_FCFG1_PFSIZE_SHIFT Ú P    SIM_FCFG1_PFSIZE ěÚ  P    SIM_FCFG2_MAXADDR0_MASK ňÚ! P    SIM_FCFG2_MAXADDR0_SHIFT žÚ P    SIM_FCFG2_MAXADDR0 ‡Ú P    SIM_UIDMH_UID_MASK Ú P    SIM_UIDMH_UID_SHIFT ČÚ P    SIM_UIDMH_UID ±Ú P    SIM_UIDML_UID_MASK Ú P    SIM_UIDML_UID_SHIFT ÄÚ P    SIM_UIDML_UID ­Ú P    SIM_UIDL_UID_MASK gÚ P    SIM_UIDL_UID_SHIFT Ú P    
+SIM_UIDL_UID üÚ P    SIM_COPC_COPW_MASK Ú P    SIM_COPC_COPW_SHIFT ĂÚ P    SIM_COPC_COPCLKS_MASK ;Ú P    SIM_COPC_COPCLKS_SHIFT çÚ P    SIM_COPC_COPT_MASK Ú P    SIM_COPC_COPT_SHIFT ĆÚ P    SIM_COPC_COPT ŻÚ P    SIM_SRVCOP_SRVCOP_MASK łÚ  P    SIM_SRVCOP_SRVCOP_SHIFT _Ú P    SIM_SRVCOP_SRVCOP HÚ P    	SIM_BASE XÚ P    SIM ÜÚ P    
+SIM_BASES Ú 8  
+<unnamed> QÚ  " ŠPMPROT HÚ  " ŠPMCTRL XÚ  " Š	STOPCTRL «Ú  " ŠPMSTAT QÚ    	SMC_Type 
+Ú P    SMC_PMPROT_AVLLS_MASK Ú P    SMC_PMPROT_AVLLS_SHIFT ˝Ú P    SMC_PMPROT_ALLS_MASK iÚ P    SMC_PMPROT_ALLS_SHIFT Ú P    SMC_PMPROT_AVLP_MASK bÚ P    SMC_PMPROT_AVLP_SHIFT Ú P    SMC_PMCTRL_STOPM_MASK Ú P    SMC_PMCTRL_STOPM_SHIFT ĽÚ P    SMC_PMCTRL_STOPM ĄÚ P    SMC_PMCTRL_STOPA_MASK Ú P    SMC_PMCTRL_STOPA_SHIFT ČÚ P    SMC_PMCTRL_RUNM_MASK cÚ P    SMC_PMCTRL_RUNM_SHIFT Ú P    SMC_PMCTRL_RUNM řÚ  P    SMC_STOPCTRL_VLLSM_MASK hÚ! P    SMC_STOPCTRL_VLLSM_SHIFT Ú P    SMC_STOPCTRL_VLLSM ýÚ  P    SMC_STOPCTRL_PORPO_MASK fÚ! P    SMC_STOPCTRL_PORPO_SHIFT Ú! P    SMC_STOPCTRL_PSTOPO_MASK Ú" P    SMC_STOPCTRL_PSTOPO_SHIFT »Ú P    SMC_STOPCTRL_PSTOPO ¤Ú P    SMC_PMSTAT_PMSTAT_MASK ÁÚ  P    SMC_PMSTAT_PMSTAT_SHIFT mÚ P    SMC_PMSTAT_PMSTAT VÚ P    	SMC_BASE ^Ú P    SMC âÚ P    
+SMC_BASES 	Ú 8  
+<unnamed> QÚ
+  " ¬C1 śÚ
+  " ¬C2 ›Ú
+  " ¬BR |Ú  " ¬S żÚ  <" ¬RESERVED_0 ŰÚ  " ¬D ÎÚ  <" ¬RESERVED_1 ÚÚ  " ¬M ĹÚ    	SPI_Type Ú P    SPI_C1_LSBFE_MASK ”Ú P    SPI_C1_LSBFE_SHIFT @Ú P    SPI_C1_SSOE_MASK ČÚ P    SPI_C1_SSOE_SHIFT tÚ P    SPI_C1_CPHA_MASK ćÚ P    SPI_C1_CPHA_SHIFT ’Ú P    SPI_C1_CPOL_MASK ÔÚ P    SPI_C1_CPOL_SHIFT €Ú P    SPI_C1_MSTR_MASK ĽÚ P    SPI_C1_MSTR_SHIFT hÚ P    SPI_C1_SPTIE_MASK {Ú P    SPI_C1_SPTIE_SHIFT 'Ú P    SPI_C1_SPE_MASK Ú P    SPI_C1_SPE_SHIFT ČÚ P    SPI_C1_SPIE_MASK ŃÚ P    SPI_C1_SPIE_SHIFT }Ú P    SPI_C2_SPC0_MASK ëÚ P    SPI_C2_SPC0_SHIFT —Ú P    SPI_C2_SPISWAI_MASK ŰÚ P    SPI_C2_SPISWAI_SHIFT ‡Ú P    SPI_C2_RXDMAE_MASK <Ú P    SPI_C2_RXDMAE_SHIFT čÚ P    SPI_C2_BIDIROE_MASK ýÚ P    SPI_C2_BIDIROE_SHIFT ©Ú P    SPI_C2_MODFEN_MASK DÚ P    SPI_C2_MODFEN_SHIFT đÚ P    SPI_C2_TXDMAE_MASK :Ú P    SPI_C2_TXDMAE_SHIFT ćÚ P    SPI_C2_SPMIE_MASK Ú P    SPI_C2_SPMIE_SHIFT -Ú P    SPI_BR_SPR_MASK ďÚ P    SPI_BR_SPR_SHIFT ›Ú P    SPI_BR_SPR „Ú P    SPI_BR_SPPR_MASK ťÚ P    SPI_BR_SPPR_SHIFT IÚ P    SPI_BR_SPPR 2Ú P    SPI_S_MODF_MASK ˙Ú P    SPI_S_MODF_SHIFT «Ú P    SPI_S_SPTEF_MASK ˇÚ P    SPI_S_SPTEF_SHIFT MÚ P    SPI_S_SPMF_MASK ďÚ P    SPI_S_SPMF_SHIFT ›Ú P    SPI_S_SPRF_MASK ęÚ P    SPI_S_SPRF_SHIFT –Ú P    SPI_D_Bits_MASK ˘Ú P    SPI_D_Bits_SHIFT NÚ P    SPI_D_Bits 7Ú P    SPI_M_Bits_MASK ™Ú P    SPI_M_Bits_SHIFT EÚ P    SPI_M_Bits .Ú P    
+SPI0_BASE #Ú
+ P    SPI0 §Ú P    
+SPI_BASES  Ú 8  
+<unnamed> QÚ
+  
+" ëSC 4Ú  
+" ëCNT ăÚ  
+" ëMOD čÚ 8  
+<unnamed> QÚ  
+" ďCnSC {Ú  
+" ďCnV ˝Ú  <" 0ë	CONTROLS ěÚ  <" ëRESERVED_0 ‰Ú  
+" ëSTATUS ŢÚ  <" 0ëRESERVED_1 lÚ  
+" ëCONF  Ú    	TPM_Type ˙Ú P    TPM_SC_PS_MASK <Ú P    TPM_SC_PS_SHIFT čÚ P    
+TPM_SC_PS ŃÚ P    TPM_SC_CMOD_MASK ¸Ú P    TPM_SC_CMOD_SHIFT dÚ P    TPM_SC_CMOD MÚ P    TPM_SC_CPWMS_MASK OÚ P    TPM_SC_CPWMS_SHIFT űÚ P    TPM_SC_TOIE_MASK ŞÚ P    TPM_SC_TOIE_SHIFT VÚ P    TPM_SC_TOF_MASK ôÚ P    TPM_SC_TOF_SHIFT  Ú P    TPM_SC_DMA_MASK Ú P    TPM_SC_DMA_SHIFT ·Ú P    TPM_CNT_COUNT_MASK ˙Ú P    TPM_CNT_COUNT_SHIFT «Ú P    TPM_CNT_COUNT ”Ú P    TPM_MOD_MOD_MASK ±Ú P    TPM_MOD_MOD_SHIFT ]Ú P    TPM_MOD_MOD FÚ P    TPM_CnSC_DMA_MASK VÚ P    TPM_CnSC_DMA_SHIFT Ú P    TPM_CnSC_ELSA_MASK Ú P    TPM_CnSC_ELSA_SHIFT ­Ú P    TPM_CnSC_ELSB_MASK  Ú P    TPM_CnSC_ELSB_SHIFT ¬Ú P    TPM_CnSC_MSA_MASK GÚ P    TPM_CnSC_MSA_SHIFT óÚ P    TPM_CnSC_MSB_MASK FÚ P    TPM_CnSC_MSB_SHIFT ňÚ P    TPM_CnSC_CHIE_MASK 
+Ú P    TPM_CnSC_CHIE_SHIFT ąÚ P    TPM_CnSC_CHF_MASK WÚ P    TPM_CnSC_CHF_SHIFT Ú P    TPM_CnV_VAL_MASK ‡Ú P    TPM_CnV_VAL_SHIFT 3Ú P    TPM_CnV_VAL Ú P    TPM_STATUS_CH0F_MASK „Ú P    TPM_STATUS_CH0F_SHIFT 0Ú P    TPM_STATUS_CH1F_MASK Ú P    TPM_STATUS_CH1F_SHIFT /Ú P    TPM_STATUS_CH2F_MASK ‚Ú P    TPM_STATUS_CH2F_SHIFT .Ú P    TPM_STATUS_CH3F_MASK Ú P    TPM_STATUS_CH3F_SHIFT -Ú P    TPM_STATUS_CH4F_MASK €Ú P    TPM_STATUS_CH4F_SHIFT ,Ú P    TPM_STATUS_CH5F_MASK Ú P    TPM_STATUS_CH5F_SHIFT +Ú P    TPM_STATUS_TOF_MASK žÚ P    TPM_STATUS_TOF_SHIFT JÚ P    TPM_CONF_DOZEEN_MASK ~Ú P    TPM_CONF_DOZEEN_SHIFT *Ú P    TPM_CONF_DBGMODE_MASK OÚ P    TPM_CONF_DBGMODE_SHIFT űÚ P    TPM_CONF_DBGMODE äÚ P    TPM_CONF_GTBEEN_MASK ŽÚ P    TPM_CONF_GTBEEN_SHIFT :Ú P    TPM_CONF_CSOT_MASK Ú P    TPM_CONF_CSOT_SHIFT şÚ P    TPM_CONF_CSOO_MASK Ú P    TPM_CONF_CSOO_SHIFT żÚ P    TPM_CONF_CROT_MASK Ú P    TPM_CONF_CROT_SHIFT »Ú P    TPM_CONF_TRGSEL_MASK rÚ P    TPM_CONF_TRGSEL_SHIFT Ú P    TPM_CONF_TRGSEL Ú P    
+TPM0_BASE Ú
+ P    TPM0 ˘Ú P    
+TPM1_BASE Ú
+ P    TPM1 ˇÚ P    
+TPM_BASES űÚ 8  
+<unnamed> QÚ  
+" ŔGENCS ~Ú  
+" ŔDATA ÖÚ  
+" ŔTSHD ˝Ú    	TSI_Type  Ú P    TSI_GENCS_CURSW_MASK fÚ P    TSI_GENCS_CURSW_SHIFT Ú P    TSI_GENCS_EOSF_MASK ĎÚ P    TSI_GENCS_EOSF_SHIFT {Ú P    TSI_GENCS_SCNIP_MASK }Ú P    TSI_GENCS_SCNIP_SHIFT )Ú P    TSI_GENCS_STM_MASK 
+Ú P    TSI_GENCS_STM_SHIFT ¶Ú P    TSI_GENCS_STPE_MASK ŔÚ P    TSI_GENCS_STPE_SHIFT lÚ P    TSI_GENCS_TSIIEN_MASK ,Ú P    TSI_GENCS_TSIIEN_SHIFT ŘÚ P    TSI_GENCS_TSIEN_MASK wÚ P    TSI_GENCS_TSIEN_SHIFT #Ú P    TSI_GENCS_NSCN_MASK ĘÚ P    TSI_GENCS_NSCN_SHIFT vÚ P    TSI_GENCS_NSCN _Ú P    TSI_GENCS_PS_MASK ]Ú P    TSI_GENCS_PS_SHIFT 	Ú P    
+TSI_GENCS_PS ňÚ P    TSI_GENCS_EXTCHRG_MASK áÚ  P    TSI_GENCS_EXTCHRG_SHIFT ŤÚ P    TSI_GENCS_EXTCHRG vÚ P    TSI_GENCS_DVOLT_MASK qÚ P    TSI_GENCS_DVOLT_SHIFT Ú P    TSI_GENCS_DVOLT Ú P    TSI_GENCS_REFCHRG_MASK őÚ  P    TSI_GENCS_REFCHRG_SHIFT ˇÚ P    TSI_GENCS_REFCHRG ŠÚ P    TSI_GENCS_MODE_MASK ×Ú P    TSI_GENCS_MODE_SHIFT Ú P    TSI_GENCS_MODE lÚ P    TSI_GENCS_ESOR_MASK ĂÚ P    TSI_GENCS_ESOR_SHIFT oÚ P    TSI_GENCS_OUTRGF_MASK !Ú P    TSI_GENCS_OUTRGF_SHIFT ÍÚ P    TSI_DATA_TSICNT_MASK {Ú P    TSI_DATA_TSICNT_SHIFT 'Ú P    TSI_DATA_TSICNT Ú P    TSI_DATA_SWTS_MASK Ú P    TSI_DATA_SWTS_SHIFT ŻÚ P    TSI_DATA_DMAEN_MASK íÚ P    TSI_DATA_DMAEN_SHIFT ™Ú P    TSI_DATA_TSICH_MASK ×Ú P    TSI_DATA_TSICH_SHIFT Ú P    TSI_DATA_TSICH lÚ P    TSI_TSHD_THRESL_MASK eÚ P    TSI_TSHD_THRESL_SHIFT Ú P    TSI_TSHD_THRESL úÚ P    TSI_TSHD_THRESH_MASK iÚ P    TSI_TSHD_THRESH_SHIFT Ú P    TSI_TSHD_THRESH ţÚ P    
+TSI0_BASE Ú
+ P    TSI0 ŁÚ P    
+TSI_BASES üÚ 8  
+<unnamed> QÚ  " üBDH ďÚ  " üBDL ëÚ
+  " üC1 KÚ
+  " üC2 JÚ
+  " üS1 ;Ú
+  " üS2 :Ú
+  " üC3 IÚ  " üD }Ú  " üMA1 ţÚ  " üMA2 ýÚ
+  " üC4 HÚ
+  " üC5 GÚ    UART0_Type €Ú P    UART0_BDH_SBR_MASK =Ú P    UART0_BDH_SBR_SHIFT éÚ P    UART0_BDH_SBR ŇÚ P    UART0_BDH_SBNS_MASK ěÚ P    UART0_BDH_SBNS_SHIFT Ú P    UART0_BDH_RXEDGIE_MASK Ú  P    UART0_BDH_RXEDGIE_SHIFT ŔÚ P    UART0_BDH_LBKDIE_MASK sÚ P    UART0_BDH_LBKDIE_SHIFT Ú P    UART0_BDL_SBR_MASK 9Ú P    UART0_BDL_SBR_SHIFT ĺÚ P    UART0_BDL_SBR ÎÚ P    UART0_C1_PT_MASK ŢÚ P    UART0_C1_PT_SHIFT ŠÚ P    UART0_C1_PE_MASK íÚ P    UART0_C1_PE_SHIFT ™Ú P    UART0_C1_ILT_MASK —Ú P    UART0_C1_ILT_SHIFT CÚ P    UART0_C1_WAKE_MASK VÚ P    UART0_C1_WAKE_SHIFT Ú P    UART0_C1_M_MASK 7Ú P    UART0_C1_M_SHIFT ăÚ P    UART0_C1_RSRC_MASK DÚ P    UART0_C1_RSRC_SHIFT đÚ P    UART0_C1_DOZEEN_MASK µÚ P    UART0_C1_DOZEEN_SHIFT aÚ P    UART0_C1_LOOPS_MASK ďÚ P    UART0_C1_LOOPS_SHIFT ›Ú P    UART0_C2_SBK_MASK źÚ P    UART0_C2_SBK_SHIFT KÚ P    UART0_C2_RWU_MASK Ú P    UART0_C2_RWU_SHIFT -Ú P    UART0_C2_RE_MASK ęÚ P    UART0_C2_RE_SHIFT –Ú P    UART0_C2_TE_MASK čÚ P    UART0_C2_TE_SHIFT ”Ú P    UART0_C2_ILIE_MASK ZÚ P    UART0_C2_ILIE_SHIFT Ú P    UART0_C2_RIE_MASK źÚ P    UART0_C2_RIE_SHIFT KÚ P    UART0_C2_TCIE_MASK XÚ P    UART0_C2_TCIE_SHIFT Ú P    UART0_C2_TIE_MASK ťÚ P    UART0_C2_TIE_SHIFT IÚ P    UART0_S1_PF_MASK ÜÚ P    UART0_S1_PF_SHIFT Ú P    UART0_S1_FE_MASK çÚ P    UART0_S1_FE_SHIFT “Ú P    UART0_S1_NF_MASK ŢÚ P    UART0_S1_NF_SHIFT ŠÚ P    UART0_S1_OR_MASK ŃÚ P    UART0_S1_OR_SHIFT }Ú P    UART0_S1_IDLE_MASK PÚ P    UART0_S1_IDLE_SHIFT üÚ P    UART0_S1_RDRF_MASK @Ú P    UART0_S1_RDRF_SHIFT ěÚ P    UART0_S1_TC_MASK ŰÚ P    UART0_S1_TC_SHIFT ‡Ú P    UART0_S1_TDRE_MASK ?Ú P    UART0_S1_TDRE_SHIFT ëÚ P    UART0_S2_RAF_MASK –Ú P    UART0_S2_RAF_SHIFT BÚ P    UART0_S2_LBKDE_MASK 	Ú P    UART0_S2_LBKDE_SHIFT µÚ P    UART0_S2_BRK13_MASK (Ú P    UART0_S2_BRK13_SHIFT ÔÚ P    UART0_S2_RWUID_MASK ŕÚ P    UART0_S2_RWUID_SHIFT ŚÚ P    UART0_S2_RXINV_MASK ÔÚ P    UART0_S2_RXINV_SHIFT €Ú P    UART0_S2_MSBF_MASK EÚ P    UART0_S2_MSBF_SHIFT ńÚ P    UART0_S2_RXEDGIF_MASK ^Ú P    UART0_S2_RXEDGIF_SHIFT 
+Ú P    UART0_S2_LBKDIF_MASK ˝Ú P    UART0_S2_LBKDIF_SHIFT iÚ P    UART0_C3_PEIE_MASK YÚ P    UART0_C3_PEIE_SHIFT Ú P    UART0_C3_FEIE_MASK cÚ P    UART0_C3_FEIE_SHIFT Ú P    UART0_C3_NEIE_MASK [Ú P    UART0_C3_NEIE_SHIFT Ú P    UART0_C3_ORIE_MASK MÚ P    UART0_C3_ORIE_SHIFT ůÚ P    UART0_C3_TXINV_MASK áÚ P    UART0_C3_TXINV_SHIFT ŤÚ P    UART0_C3_TXDIR_MASK ďÚ P    UART0_C3_TXDIR_SHIFT ›Ú P    UART0_C3_R9T8_MASK eÚ P    UART0_C3_R9T8_SHIFT Ú P    UART0_C3_R8T9_MASK eÚ P    UART0_C3_R8T9_SHIFT Ú P    UART0_D_R0T0_MASK ŞÚ P    UART0_D_R0T0_SHIFT VÚ P    UART0_D_R1T1_MASK ¨Ú P    UART0_D_R1T1_SHIFT TÚ P    UART0_D_R2T2_MASK ¦Ú P    UART0_D_R2T2_SHIFT RÚ P    UART0_D_R3T3_MASK ¤Ú P    UART0_D_R3T3_SHIFT PÚ P    UART0_D_R4T4_MASK ˘Ú P    UART0_D_R4T4_SHIFT NÚ P    UART0_D_R5T5_MASK  Ú P    UART0_D_R5T5_SHIFT LÚ P    UART0_D_R6T6_MASK žÚ P    UART0_D_R6T6_SHIFT JÚ P    UART0_D_R7T7_MASK śÚ P    UART0_D_R7T7_SHIFT HÚ P    UART0_MA1_MA_MASK §Ú P    UART0_MA1_MA_SHIFT SÚ P    
+UART0_MA1_MA <Ú P    UART0_MA2_MA_MASK ¦Ú P    UART0_MA2_MA_SHIFT RÚ P    
+UART0_MA2_MA ;Ú P    UART0_C4_OSR_MASK ‰Ú P    UART0_C4_OSR_SHIFT 5Ú P    
+UART0_C4_OSR Ú P    UART0_C4_M10_MASK ĎÚ P    UART0_C4_M10_SHIFT {Ú P    UART0_C4_MAEN2_MASK &Ú P    UART0_C4_MAEN2_SHIFT ŇÚ P    UART0_C4_MAEN1_MASK 'Ú P    UART0_C4_MAEN1_SHIFT ÓÚ  P    UART0_C5_RESYNCDIS_MASK ĽÚ! P    UART0_C5_RESYNCDIS_SHIFT hÚ P    UART0_C5_BOTHEDGE_MASK 0Ú  P    UART0_C5_BOTHEDGE_SHIFT ÜÚ P    UART0_C5_RDMAE_MASK Ú P    UART0_C5_RDMAE_SHIFT »Ú P    UART0_C5_TDMAE_MASK 
+Ú P    UART0_C5_TDMAE_SHIFT ąÚ P    UART0_BASE ŃÚ P    UART0 UÚ P    UART0_BASES |Ú P    DMA_REQC_ARR_DMAC_MASK  Ú  P    DMA_REQC_ARR_DMAC_SHIFT ¬Ú P    DMA_REQC_ARR_DMAC •Ú P    DMA_REQC_ARR_CFSM_MASK ěÚ  P    DMA_REQC_ARR_CFSM_SHIFT Ú P    
+DMA_REQC0 -Ú P    
+DMA_REQC1 ,Ú P    
+DMA_REQC2 +Ú P    
+DMA_REQC3 *Ú P    MCG_C6_CME0_MASK 
+Ú P    MCG_C6_CME0_SHIFT ąÚ P    MCM_MATCR_ATC0_MASK  Ú P    MCM_MATCR_ATC0_SHIFT ¬Ú P    MCM_MATCR_ATC0 •Ú P    MCM_MATCR_RO0_MASK 9Ú P    MCM_MATCR_RO0_SHIFT ĺÚ P    MCM_MATCR_ATC1_MASK ˙Ú P    MCM_MATCR_ATC1_SHIFT «Ú P    MCM_MATCR_ATC1 ”Ú P    MCM_MATCR_RO1_MASK 8Ú P    MCM_MATCR_RO1_SHIFT äÚ P    MCM_MATCR_ATC2_MASK ţÚ P    MCM_MATCR_ATC2_SHIFT ŞÚ P    MCM_MATCR_ATC2 “Ú P    MCM_MATCR_RO2_MASK 7Ú P    MCM_MATCR_RO2_SHIFT ăÚ P    MCM_MATCR_ATC3_MASK ýÚ P    MCM_MATCR_ATC3_SHIFT ©Ú P    MCM_MATCR_ATC3 ’Ú P    MCM_MATCR_RO3_MASK 6Ú P    MCM_MATCR_RO3_SHIFT âÚ P    SIM_FCFG2_MAXADDR_MASK $Ú  P    SIM_FCFG2_MAXADDR_SHIFT ĐÚ P    SIM_FCFG2_MAXADDR ąÚ P    SPI_C2_SPLPIE_MASK 0Ú P    SPI_C2_SPLPIE_SHIFT ÜÚ P    UARTLP_Type ÜÚ P    UARTLP_BDH_REG mÚ P    UARTLP_BDL_REG iÚ P    UARTLP_C1_REG ÉÚ P    UARTLP_C2_REG ČÚ P    UARTLP_S1_REG ąÚ P    UARTLP_S2_REG ¸Ú P    UARTLP_C3_REG ÇÚ P    
+UARTLP_D_REG űÚ P    UARTLP_MA1_REG |Ú P    UARTLP_MA2_REG {Ú P    UARTLP_C4_REG ĆÚ P    UARTLP_C5_REG ĹÚ P    UARTLP_BDH_SBR_MASK ĎÚ P    UARTLP_BDH_SBR_SHIFT {Ú P    UARTLP_BDH_SBR dÚ P    UARTLP_BDH_SBNS_MASK ~Ú P    UARTLP_BDH_SBNS_SHIFT *Ú  P    UARTLP_BDH_RXEDGIE_MASK ¦Ú! P    UARTLP_BDH_RXEDGIE_SHIFT RÚ P    UARTLP_BDH_LBKDIE_MASK Ú  P    UARTLP_BDH_LBKDIE_SHIFT ±Ú P    UARTLP_BDL_SBR_MASK ËÚ P    UARTLP_BDL_SBR_SHIFT wÚ P    UARTLP_BDL_SBR `Ú P    UARTLP_C1_PT_MASK pÚ P    UARTLP_C1_PT_SHIFT Ú P    UARTLP_C1_PE_MASK Ú P    UARTLP_C1_PE_SHIFT +Ú P    UARTLP_C1_ILT_MASK )Ú P    UARTLP_C1_ILT_SHIFT ŐÚ P    UARTLP_C1_WAKE_MASK čÚ P    UARTLP_C1_WAKE_SHIFT ”Ú P    UARTLP_C1_M_MASK ÉÚ P    UARTLP_C1_M_SHIFT uÚ P    UARTLP_C1_RSRC_MASK ÖÚ P    UARTLP_C1_RSRC_SHIFT ‚Ú P    UARTLP_C1_DOZEEN_MASK GÚ P    UARTLP_C1_DOZEEN_SHIFT óÚ P    UARTLP_C1_LOOPS_MASK Ú P    UARTLP_C1_LOOPS_SHIFT -Ú P    UARTLP_C2_SBK_MASK 1Ú P    UARTLP_C2_SBK_SHIFT ÝÚ P    UARTLP_C2_RWU_MASK Ú P    UARTLP_C2_RWU_SHIFT żÚ P    UARTLP_C2_RE_MASK |Ú P    UARTLP_C2_RE_SHIFT (Ú P    UARTLP_C2_TE_MASK zÚ P    UARTLP_C2_TE_SHIFT &Ú P    UARTLP_C2_ILIE_MASK ěÚ P    UARTLP_C2_ILIE_SHIFT Ú P    UARTLP_C2_RIE_MASK 1Ú P    UARTLP_C2_RIE_SHIFT ÝÚ P    UARTLP_C2_TCIE_MASK ęÚ P    UARTLP_C2_TCIE_SHIFT –Ú P    UARTLP_C2_TIE_MASK /Ú P    UARTLP_C2_TIE_SHIFT ŰÚ P    UARTLP_S1_PF_MASK nÚ P    UARTLP_S1_PF_SHIFT Ú P    UARTLP_S1_FE_MASK yÚ P    UARTLP_S1_FE_SHIFT %Ú P    UARTLP_S1_NF_MASK pÚ P    UARTLP_S1_NF_SHIFT Ú P    UARTLP_S1_OR_MASK cÚ P    UARTLP_S1_OR_SHIFT Ú P    UARTLP_S1_IDLE_MASK âÚ P    UARTLP_S1_IDLE_SHIFT ŽÚ P    UARTLP_S1_RDRF_MASK ŇÚ P    UARTLP_S1_RDRF_SHIFT ~Ú P    UARTLP_S1_TC_MASK mÚ P    UARTLP_S1_TC_SHIFT Ú P    UARTLP_S1_TDRE_MASK ŃÚ P    UARTLP_S1_TDRE_SHIFT }Ú P    UARTLP_S2_RAF_MASK (Ú P    UARTLP_S2_RAF_SHIFT ÔÚ P    UARTLP_S2_LBKDE_MASK ›Ú P    UARTLP_S2_LBKDE_SHIFT GÚ P    UARTLP_S2_BRK13_MASK şÚ P    UARTLP_S2_BRK13_SHIFT fÚ P    UARTLP_S2_RWUID_MASK rÚ P    UARTLP_S2_RWUID_SHIFT Ú P    UARTLP_S2_RXINV_MASK fÚ P    UARTLP_S2_RXINV_SHIFT Ú P    UARTLP_S2_MSBF_MASK ×Ú P    UARTLP_S2_MSBF_SHIFT Ú P    UARTLP_S2_RXEDGIF_MASK đÚ  P    UARTLP_S2_RXEDGIF_SHIFT śÚ P    UARTLP_S2_LBKDIF_MASK OÚ P    UARTLP_S2_LBKDIF_SHIFT űÚ P    UARTLP_C3_PEIE_MASK ëÚ P    UARTLP_C3_PEIE_SHIFT —Ú P    UARTLP_C3_FEIE_MASK őÚ P    UARTLP_C3_FEIE_SHIFT ˇÚ P    UARTLP_C3_NEIE_MASK íÚ P    UARTLP_C3_NEIE_SHIFT ™Ú P    UARTLP_C3_ORIE_MASK ßÚ P    UARTLP_C3_ORIE_SHIFT ‹Ú P    UARTLP_C3_TXINV_MASK sÚ P    UARTLP_C3_TXINV_SHIFT Ú P    UARTLP_C3_TXDIR_MASK Ú P    UARTLP_C3_TXDIR_SHIFT -Ú P    UARTLP_C3_R9T8_MASK ÷Ú P    UARTLP_C3_R9T8_SHIFT ŁÚ P    UARTLP_C3_R8T9_MASK ÷Ú P    UARTLP_C3_R8T9_SHIFT ŁÚ P    UARTLP_D_R0T0_MASK <Ú P    UARTLP_D_R0T0_SHIFT čÚ P    UARTLP_D_R1T1_MASK :Ú P    UARTLP_D_R1T1_SHIFT ćÚ P    UARTLP_D_R2T2_MASK 8Ú P    UARTLP_D_R2T2_SHIFT äÚ P    UARTLP_D_R3T3_MASK 6Ú P    UARTLP_D_R3T3_SHIFT âÚ P    UARTLP_D_R4T4_MASK 4Ú P    UARTLP_D_R4T4_SHIFT ŕÚ P    UARTLP_D_R5T5_MASK 2Ú P    UARTLP_D_R5T5_SHIFT ŢÚ P    UARTLP_D_R6T6_MASK 0Ú P    UARTLP_D_R6T6_SHIFT ÜÚ P    UARTLP_D_R7T7_MASK .Ú P    UARTLP_D_R7T7_SHIFT ÚÚ P    UARTLP_MA1_MA_MASK 9Ú P    UARTLP_MA1_MA_SHIFT ĺÚ P    UARTLP_MA1_MA ÎÚ P    UARTLP_MA2_MA_MASK 8Ú P    UARTLP_MA2_MA_SHIFT äÚ P    UARTLP_MA2_MA ÍÚ P    UARTLP_C4_OSR_MASK Ú P    UARTLP_C4_OSR_SHIFT ÇÚ P    UARTLP_C4_OSR °Ú P    UARTLP_C4_M10_MASK aÚ P    UARTLP_C4_M10_SHIFT 
+Ú P    UARTLP_C4_MAEN2_MASK ¸Ú P    UARTLP_C4_MAEN2_SHIFT dÚ P    UARTLP_C4_MAEN1_MASK ąÚ P    UARTLP_C4_MAEN1_SHIFT eÚ! P    UARTLP_C5_RESYNCDIS_MASK NÚ" P    UARTLP_C5_RESYNCDIS_SHIFT úÚ  P    UARTLP_C5_BOTHEDGE_MASK ÂÚ! P    UARTLP_C5_BOTHEDGE_SHIFT nÚ P    UARTLP_C5_RDMAE_MASK ˇÚ P    UARTLP_C5_RDMAE_SHIFT MÚ P    UARTLP_C5_TDMAE_MASK źÚ P    UARTLP_C5_TDMAE_SHIFT KÚ P    
+UARTLP_BASES Ú  P    NV_FOPT_EZPORT_DIS_MASK TÚ! P    NV_FOPT_EZPORT_DIS_SHIFT  Ú P    ADIV_1 Ú P    ADIV_2 
+Ú P    ADIV_4 Ú P    ADIV_8 Ú P    MODE_8 Ú P    MODE_12 ÖÚ P    MODE_10 ŘÚ P    ADICLK_BUS ĆÚ P    
+ADICLK_BUS_2 1Ú P    ADICLK_ALTCLK ďÚ P    
+ADICLK_ADACK XÚ P    
+ADLSTS_20 -Ú P    
+ADLSTS_12 ,Ú P    	ADLSTS_6 [Ú P    	ADLSTS_2 _Ú P    REFSEL_EXT ¦Ú P    REFSEL_ALT ¶Ú P    REFSEL_RES ­Ú P    REFSEL_RES_EXT UÚ P    AVGS_4 űÚ P    AVGS_8 ÷Ú P    AVGS_16 ĆÚ P    AVGS_32 ČÚ   	ADC_Init Ú " Ţkalib_temp ÁŰ 6 ČŰ : ĂŰ < ŔŰ I ˛Ű K ŻŰ L ­Ű M «Ű N ©Ű
+ 	O Ş€mŰ 
+R ŁŰ S ˇŰ T źŰ 
+U ťŰ V ›Ű W ™Ű X —Ű Y •Ű Z “Ű [ ‘Ű \ ŹŰ ] ŤŰ ^ ‹Ű _ ‰Ű ` ‡Ű
+ a 	$€	%€ Ű b Ű c Ű d Ű e }Ű f {Ű g yŰ  h wŰ !i uŰ "j sŰ #k qŰ $l oŰ %m mŰ &n kŰ 'o iŰ (p gŰ )q eŰ7 *r ĺ€ř€‹€ž€±€Ŕ€Ň€ę€¶€Ë€#Ű +‚ PŰ$ , €€‘€‘€í€í€ Ű. -„ ç€ç€ € €¸€¸€Í€Í€ÎŰG .… ×€Ü€ď€ó€‰€‰€Š€Š€¤€¤€Ą€Ą€Ş€Ű /† •€•€ţŰ	 0€  Ű	 1
+€ /Ű 2 żŰ 3€ZŰ! 4 ;€A€J€P€X€^€˛@żŰ 5 ´Ű 6 ±Ű 7 ŻŰ 8 ­Ű 9 «Ű :€€€÷Ű ; j€k€ł@ĹŰ	 <"€# ôŰ =%@, )Ű/ >'€‹€‘€$€v€€©€ą€<€_€$Ű ?8 †Ű @9 ß€ß€¬ŰP A: á€á€ĺ€ĺ€ć€ú€˙€ç€ú€Ť€ €ł€Â€Ô€Ö€“ŰH AÖ€Ö€×€Ű€Ű€Ű€Ü€í€ď€ď€ó€ó€ş€Ď€ňŰ B; €ŰP C> Ç€ä€ĺ€ć€ç€č€é€Î€Ď€Ń€Ň€Ó€Ô€Ő€§€ÜŰR C®€Ż€ť€š€›€ś€ť€ž€ź€ €ˇ€˘€Ł€¤€Ą€¦€űŰR C§€¨€©€Ş€«€¬€­€‡€€‰€Š€‹€Ś€Ť€Ž€Ź€uŰR C€‘€’€¦	€§	€¨	€©	€Ş	€«	€¬	€€„€…€†€‡€€dŰR C‰€Š€‹€Ś€Ť€Ž€…€‰€Ř€Ú€Ý€â€ä
+€é
+€ë
+€í
+€IŰR CĐ€Ń€Ň€Ó€Ô€Ő€Ö€×€Ř€Ů€Ú€Ű€Ü€Ý€Ď€‡€|ŰR CŠ€Ů€Ú€Ű€§€ű€ü€ý€ţ€˙€Ë€­€Ż€˛€´€¶€aŰR CĽ€ż€Ă€ü€ý€ţ€˙€Ć€Ç€Č€É€Ę€Ë€Ě€Í€¶€ăŰK C¸€”€•€–€—€€™€š€›€ś€ť€ž€ź€.€	€ŚŰ D? †€‡€	€´ŰP E@ Đ€Đ€…€…€‡€€á€ú€ú€ţ€€«€­€·€ą€>ŰR EÄ€Ć€Đ€Ň€Ü€Ţ€č€ę€ô€ö€€€‚€Ś€Ž€€š€čŰR E¤€¦€€”€Ö€×€Ř€Ů€Ú€Ü€ô€ő€÷€†€‡€€?ŰR E‰€Š€‹€Ś€Ť€Ź€­€®€Ż€±€Ę€Ë€Ě€Í€Î€Ď€rŰR EĐ€Ń€Ň€Ó€ĺ€ć€č€ě€í€î€ď€đ€ń€Ú€Ű€Ü€ŰR EÝ€ę€ę€ř€ü€ü€Ź€Ź€ž€˘€˘€µ€µ€Ä€Ä€Ň€ˇŰR EÖ€Ö€Ö€Ö€×€×€Ű€Ű€Ű€Ű€Ü€Ü€ę€ď€ď€ď€ŰR Eď€ó€ó€ó€ó€€€€€…€…€†€‡€‰€‰€‰€zŰR EŠ€Š€Š€Š€Š€Ť€Ž€ž€ž€ž€ž€ € €ˇ€˘€¤€‚ŰR E¤€¤€Ą€Ą€Ą€Ą€Ą€§€¨€¶€ą€ą€Ë€Î€Î€€ŰQ E˘€˘€©€K€˝€ľ€ż€Ŕ€Á€Â€Ă€Ä€Ĺ€Ć€Č€É€ęŰR EĘ€Ë€Ě€Í€Î€©€Ş€¬€˛€Ď€Đ€Ń€Ň€Ó€Ô€Ľ€âŰR E˝€ľ€ż€Ŕ€Á€µ
+€¶
+€·
+€¸
+€€Š€Ô€Ő€Ö€×€Ů€ůŰR EŰ€Ü€Ţ€ß€ŕ€á€ă€ä€ĺ€ć€ă
+€ć
+€ç
+€č
+€ě
+€î
+€oŰR Eď
+€đ
+€ń
+€†€€‰€Ś€Ť€Ž€Ź€¤€Ą€¦€¨€É€Ę€¨ŰR EĚ€Í€Î€Ď€Đ€Ń€Ň€Ó€Ô€Ő€Ż€°€±€˛€ł€´€úŰR Eµ€¶€«€¬€®€°€±€ł€µ€·€¸€ą€ş€»€˝€ľ€ßŰQ EŔ€Á€Â€Ä€Ĺ€Ż€°€±€ł€´€·€ą€±€˛€ł€	€IŰB E	€		€		€		€		€	€	€	€	€	!€	!€	#€	#€	#€	#€	#€ŤŰ E	#€-Ű FA vŰ GG oŰ HH mŰ II kŰ JJ iŰ KM eŰ LN cŰ MO aŰ NP _Ű OU YŰ PV WŰ QW UŰ RX SŰ S[ OŰ T\ MŰ U] KŰ V^ IŰ Wa€Ż€¶€˝€Ń€Ţ€`Ű Xe @Ű Yf >Ű Zj 9Ű [k 7Ű \s .Ű ]t ,Ű ^u *Ű _v (Ű `y $Ű az "Ű b{  Ű c| Ű d Ű e€ Ű f Ű g‚ Ű h‡ Ű i 
+Ű j‰ Ű kŠ Ű lŤ Ű mŽ  Ű nŹ ţŰ o üŰ p“ řŰ q” öŰ r• ôŰ s– ňŰ t› ěŰ uś ęŰ vť čŰ wž ćŰ xˇ âŰ y˘ ŕŰ zŁ ŢŰ {¤ ÜŰ |§ ŘŰ }¨ ÖŰ ~© ÔŰ Ş ŇŰ €˛ ÇŰ ą żŰ ‚Ŕ ·Ű Ć °Ű „É ¬Ű …Ě ¨Ű †Ő žŰ ‡Ö śŰ Ú —Ű ‰Ű •Ű Šá ŽŰ ‹ç@î QŰ Śč@ď NŰ Ťó yŰ Žô wŰ Źű oŰ ü mŰ ‘ý kŰ ’ţ iŰ “€ ĺŰ ” ăŰ •‚ áŰ – ßŰ —† ŰŰ ‡ ŮŰ
+ ™€  ™Ű š# =Ű ›$ ;Ű ś% 9Ű ťB Ű žC Ű źD Ű  G Ű ˇL †€†€—€—€ŤŰ ˘N€!€ž€Ń€gŰ
+ Ł€ ™Ű
+ ¤€ –Ű Ą#€#€ Ű ¦$ .ŰK §9€: Đ€ß€­€ą€Ć€Ň€Ţ€ę€ö€‚€Ž€š€¦€JŰ
+ ¨<€= LŰP ©?€@ Đ€ß€…€á€ú€«€·€Ä€Đ€Ü€č€ô€€€Ś€¤ŰS ©€¤€€”€ĺ€ř€‹€ž€±€Ŕ€Ň€ę€€ž€¶€Ë€`Ű ©Ű€€˘€ÉŰ
+ ŞB€C >Ű «E€F Ű€ÍŰ
+ ¬H€I 0Ű
+ ­K€L )Ű
+ ®N€O "Ű
+ ŻQ€R Ű
+ °T€U Ű
+ ±W€X 
+Ű
+ ˛Z€[ Ű
+ ł]€^ ˙Ű
+ ´`€a řŰ
+ µc€d ńŰ
+ ¶f€g ęŰ
+ ·i€j ăŰ ¸l€m é€ë€îŰ
+ ąr€s ĎŰ
+ şv€w ĆŰ
+ »z€{ ˝Ű
+ Ľ~€ ´Ű ˝‚€ §Ű ľ ĺ€4Ű ż—  Ű Ŕź —Ű Á¦ ŹŰ ÂŻ »€‘€Ű Ă¶ €Ý€á€Ű Ä˝ uŰ ĹĆ kŰ
+ ĆĎ€Ţ€”Ű ÇĐ _Ű ČĐ ^Ű Éß NŰ Ęß MŰ Ëî =Ű Ěř 2Ű Í… ŁŰ Î… Š‹‹‹Ž¤Ű Ď‡ ŠŤŽ‘’ŹŰ Đ Ź‘aŰ Ńť ‡Ű Ňá AŰ Óá çëđTŰ Ôá ăăĺjŰ Őĺ ćçéZŰ Öć ëíDŰ ×ú #Ű Řú ˙ěŰ Ůú üţŰ Úţ ˙Ű Ű« mŰ Ü­ ®­Ű Ý· _Ű Ţ· ş•Ű ßą ş‘Ű
+ ŕ»€‘€×Ű áÄ NŰ âĆ ÇuŰ ăĐ @Ű äŇ Ó[Ű ĺÜ 2Ű ćŢ ßAŰ çč $Ű čę ë'Ű éô Ű ęô ÷Ű ëö ÷Ű ě€ †Ű í‚ đŰ îŚ xŰ ďŚ ŹŘŰ đŽ ŹÔŰ ń iŰ ňš ›»Ű ó¤ [Ű ô¤ §ŁŰ ő¦ §źŰ ö xŰ ÷” fŰ ř” ›ąŰ ů|€%Ű
+ ú~€ ~ŰR ű¬ Ŕ€Ó€ś€ť€Ŕ€Ş	€¸
+€‡€‰€†€‡€×€Ů€Ű€Ü€nŰS űŢ€ß€ŕ€á€ă€ä€ĺ€ć€ă
+€î
+€ď
+€đ
+€ń
+€Đ€Ń€Ň€ÇŰS űÓ€Ô€Ő€Ö€×€Ř€Ů€Ú€Ű€Ü€Ý€€‰€Ť€ű€ü€íŰS űÉ€Ę€Ě€Í€Î€Ď€Đ€Ń€Ň€Ó€Ô€Ő€¬€µ€ľ€Ŕ€÷Ű űÁ€Â€˙€É€lŰ4 ü® Đ€Ń€Ň€˝€ľ€ż€Ą€¦€Ĺ€zŰR ýŻ ˝€ľ€ż€Á€Â€Ă€Ä€Ĺ€Ć€Č€É€Ę€Ë€Ě€Í€ČŰS ýÎ€ä€ĺ€ć€ç€č€é€Î€Ď€Ň€Ó€Ô€Ő€©€Ş€¬€jŰS ýŻ€˛€ť€Ď€Ô€š€›€ž€ź€ €ˇ€˘€Ł€¤€Ą€¦€ÓŰS ý§€¨€©€Ş€«€¬€­€Ľ€Á€‡€€‰€Š€‹€Ś€Ť€[ŰS ýŽ€Ź€€‘€’€¦	€§	€¨	€©	€«	€¬	€µ
+€¶
+€·
+€€„€4ŰS ý…€†€€‹€Ť€Ž€€Š€Ô€Ő€Ö€ć
+€ç
+€č
+€ě
+€Ď€ąŰS ý†€Ś€Ž€Ź€Ů€Ú€Ű€¤€¨€ţ€˙€Ż€°€±€˛€ł€&ŰS ý´€µ€¶€«€®€°€±€ł€·€¸€ą€ş€»€˝€Ä€ü€ĐŰS ýý€ţ€Ć€Ç€Č€Ë€Í€Ż€°€±€ł€´€·€ą€±€˛€ŰD ýł€”€•€–€—€€™€š€›€ś€ť€ž€ź€ Ű ţ˛ ĺ€Ý€sŰ ˙ł HŰR €´ Ę€Ě€Î€Đ€Ó€ć€č€ě€í€î€đ€ń€Ú€Ű€Ü€žŰ Ó ĄŰ ‚Ő ˘Ű Ö  Ű „× žŰ …Ř śŰ †Ů šŰ ‡Ú Ű Ű –Ű ‰Ü ”Ű ŠÝ ’Ű ‹ŕ ŽŰ Śá ŚŰ Ťă ‰Ű Žä ‡Ű Źć „Ű ç ‚Ű ‘é Ű ’ę }Ű “ń uŰ ”ó rŰ •ô pŰ –ő nŰ —ö lŰ ÷ jŰ ™ř hŰ šű dŰ ›ü bŰ ś ŮŰ ť… ÖŰ ž† ÔŰ ź‡ ŇŰ   ĐŰ ˇ‰ ÎŰ ˘Š ĚŰ Ł‹ ĘŰ ¤Ś ČŰ ĄŤ ĆŰ ¦Ž ÄŰ §Ź ÂŰ ¨ ŔŰ ©“ ĽŰ Ş” şŰ «– ·Ű ¬— µŰ ­™ ˛Ű ®š °Ű Żś ­Ű °ť «Ű ±ź ¨Ű ˛  ¦Ű ł˘ ŁŰ ´Ł ˇŰ µŞ ™Ű ¶¬ –Ű ·­ ”Ű ¸® ’Ű ąŻ Ű ş° ŽŰ »± ŚŰ Ľ˛ ŠŰ ˝µ †Ű ľ¶ „Ű ż¸ Ű Ŕą Ű ÁÉ nŰ ÂĘ ęümŰ ĂË jŰ ÄĚ ŹËŰ ĹÍ fŰ ĆÎ ˘µňŰ ÇĎ bŰ ČĐ ÄŽŰ ÉŃ ^Ű ĘŇ \Ű ËÓ ÖÖď—Ű4 ĚÔ ę€ü€Ź€˘€µ€Ä€Ö€Ö€ď€1Ű Íä GŰ Îĺ EŰ Ďć CŰ Đč ąÎťŰ Ńě ßMŰ Ňí 9Ű Óî 7Ű Ôď 5Ű Őđ ŰŰóbŰ Öń 1Ű% ×ň Ű€Ű€ó€ą€Î€ß€ÉŰ Řő +Ű Ůö )Ű Úř &Ű Űů $Ű Üű !Ű Ýü Ű Ţţ Ű ß˙ Ű ŕ –Ű á‚ ”Ű â… Ű ă† ŽŰ ä ‹Ű ĺ‰ ‰Ű ć‹ †Ű çŚ „Ű čŽ Ű éŹ Ű ę‘ |Ű ë’ zŰ ě” wŰ í• uŰ î— rŰ ď pŰ đš mŰ ń› kŰ ňť hŰ óž fŰ ô˘ aŰ őŁ _Ű ö§ ß€ěŰ ÷¨ XŰ řŞ UŰ ů« SŰ ú­ PŰ ű® NŰ ü° ŕ€ÜŰ ý± ŕ€ÚŰ ţł FŰ ˙´ DŰ €· żŰ ¸ ˝Ű ‚ş şŰ » ¸Ű „˝ µŰ …ľ łŰ †Á ŻŰ ‡Â ­Ű Ä ŞŰ ‰Ĺ ¨Ű ŠČ ¤Ű ‹É ˘Ű ŚŮ ‘Ű ŤÚ ¬ÓŰ ŽŰ ©ÔŰ ŹÜ «ĐŰ Ý ‰Ű ‘Ţ ©€«€¬€×Ű ’á Ű “â Ű ”ä ¬€BŰ •ĺ ¬€@Ű –ç ­€<Ű —č ­€:Ű ę tŰ ™ë ®€4Ű šî nŰ ›ď ¤€8Ű śň hŰ ťó fŰ žö bŰ ź÷ `Ű  ů ]Ű ˇú [Ű ˘ü XŰ Łý VŰ ¤ó ^Ű Ąű UŰR ¦ ę€ü€Ź€˘€µ€Ä€Ö€Ö€Ű€Ű€ď€ó€ą€Î€ß€9Ű ¦©€«€¬€ÉŰ §‰ ©€«€¬€Ű4 ¨Š ę€ü€Ź€˘€µ€Ä€Ö€Ö€ď€›Ű% ©‹ Ű€Ű€ó€ą€Î€ß€ZŰ% ŞŤ Ű€Ű€ó€ą€Î€ß€WŰ «Ž ©€«€¬€Ű4 ¬Ź ę€ü€Ź€˘€µ€Ä€Ö€Ö€ď€’Ű ­Ż€6Ű ®µ ‘Ű Ż¶ ŹŰ °· 	%€ÚŰ ±¸ ‹Ű ˛ą ‰Ű łş ‡Ű ´» …Ű µĽ 	$€ŃŰ ¶ľ Ş€FŰ ·ż ~Ű ¸Ŕ |Ű ąĂ€Ű şÉ qŰ »Ę oŰ ĽÍ ş€Ď€ÄŰ ˝Ń fŰ ľŇ dŰ żÓ bŰ% ŔŘ Ö€×€Ű€Ü€ď€ó€ÂŰ ÁŮ Ű€Ű€ó€Ű ÂÚ Ö€Ö€ď€Ű ĂÜ UŰ ÄÝ SŰ Ĺĺ 	%€—Ű Ćĺ çę`Ű
+ Çé€ë€jŰ Čř 4Ű Éř úü%Ű Ę‹ žŰ Ë‹ ŤŹgŰ Ě€Ý€á€YŰ Íž Ű Îž  ˘+Ű Ď± sŰ Đ± łµđŰ ŃŔ 	$€°Ű ŇŔ ÂÄÁŰ ÓŇ Ş€Ű+ ÔŇ ÔÖÖÖ×ŰŰŰÜ>Ű ŐŇ ×ÜŰ Öę 3Ű ×ę íďďóó@Ű Ř —Ű Ů …Ű Ú ŤúŰ Ű ŽřŰ Ü… ‰‰ŠŠ3Ű Ý† ‰Ť\Ű Ţ‡ ŠŤŽ˝Ű ßž uŰ ŕž §¨	Ű áž  ĹŰ âž §˝Ű ăž ¨»Ű ä  ¤¤ĄĄ¤Ű ĺˇ ¤§Ű ć˘ Ą§¨KŰ ç¶ UŰ č¶ şŚŰ é¶ ş‹Ű ęą ş‡Ű ëË <Ű ěË Ď^Ű íÎ ĎZŰ îŰ )Ű ďĺ€ĽŰ đ ~Ű ń˘ ^Ű ň˘ ¤©ňŰ
+ ó9€: Ű ôK€TŰ őT€JŰ ö]€@Ű ÷Ľ FŰ
+ ř˝ 	!Ű
+ ůľ 			#úŰ
+ úż 	
+	"÷Ű űŔ >Ű üÁ <Ű ýÂ :Ű ţĂ 8Ű ˙Ä 			
+		¬Ű €Ĺ łŰ
+ Ć 	„Ű ‚Ç ŻŰ
+ Č 	„Ű
+ „É 	Ű
+ …Ę 	‚Ű
+ †Ë 	Ű
+ ‡Ě 	€Ű
+ Í 	Ű
+ ‰Î 	~ŰC ŠĎ 		€	
+€	€	€	
+€	€	€	€	€	€	€	€	€	€	€(Ű Š	!€	"€	#€„Ű ‹Ű 	!€ăŰ ŚÜ 	!€áŰ ŤÝ 	!€ßŰ ŽŢ ŚŰ Źß ŠŰ ŕ Ű ‘á †Ű ’ă 		€	#€;Ű “ä 		€	#€9Ű ”ĺ 		€	#€7Ű •ć 	#€ĚŰ –ç 	#€ĘŰ —č 	#€ČŰ é 		€	#€/Ű ™ę uŰ šë 		€	#€+Ű ›ě 		€	#€)Ű śí 		€	#€'Ű ťî mŰ žď kŰ źń hŰ  ň fŰ ˇó dŰ ˘ô 	
+€	"€Ű Łő `Ű ¤ö ^Ű Ą÷ \Ű ¦ř ZŰ §ů XŰ ¨ű UŰ ©ü SŰ Şý QŰ «˙ NŰ ¬€ ËŰ ­ ÉŰ ® ĆŰ Ż„ ÄŰ °… ÂŰ ±‡ żŰ ˛ ˝Ű ł‰ »Ű ´Š ąŰ µ‹ ·Ű ¶Ś µŰ ·Ť łŰ ¸Ž ±Ű ąŹ ŻŰ ş ­Ű »‘ «Ű Ľ’ ©Ű ˝“ §Ű ľ” ĄŰ ż• ŁŰ Ŕ— 	€Ű Á 	€Ű Â™ 	€Ű Ăš 	€Ű Ä› Ű Ĺś –Ű Ćť ”Ű Çž 	€	€VŰ Čź Ű É  	€	
+€YŰ Ęˇ ŚŰ ËŁ ‰Ű Ě¤ ‡Ű ÍĄ …Ű Î§ 	€ŐŰ Ď¨ 	€ÓŰ Đ© 	€ŃŰ Ń« {Ű Ň¬ yŰ Ó­ wŰ ÔŻ tŰ Ő° rŰ Ö± pŰ ×ł mŰ Ř´ kŰ Ůµ iŰ Ú· fŰ Ű¸ dŰ Üą bŰ Ý» _Ű ŢĽ ]Ű ß˝ [Ű ŕż XŰ áŔ VŰ âÁ TŰ ăĂ QŰ äÄ OŰ ĺĹ MŰC ćÎ 		€	
+€	€	€	
+€	€	€	€	€	€	€	€	€	€	€ĚŰ ć	!€	"€	#€(ŰC çĐ 		€	
+€	€	€	
+€	€	€	€	€	€	€	€	€	€	€ÉŰ ç	!€	"€	#€'Ű čŇ =Ű éă +Ű ęä )Ű ëĺ 'Ű ěć %Ű íç #Ű îč !Ű ďé Ű đę Ű ńö Ű ň÷ Ű óř Ű ôů 
+Ű őú Ű öű Ű ÷ý Ű řţ Ű ů˙ ˙Ű ú€ |Ű ű zŰ ü‚ xŰ ý vŰ ţ„ tŰ ˙… rŰ €† ďŰ ‡ íŰ ‚ ëŰ ‰ éŰ „Š çŰ …‹ ĺŰ †Ś ăŰ ‡Ž ŕŰ Ź ŢŰ ‰ ÜŰ Š’ ŮŰ ‹“ ×Ű Ś” ŐŰ Ť• ÓŰ Ž– ŃŰ Ź— ĎŰ  ÍŰ ‘™ ËŰ ’š ÉŰ “› ÇŰ ”ś ĹŰ •ť ĂŰ –ź ŔŰ —  ľŰ ˇ ĽŰ ™˘ şŰ šŁ ¸Ű ›¤ ¶Ű śĄ ´Ű ť§ ±Ű ž¨ ŻŰ ź© ­Ű  Ş «Ű ˇ« ©Ű ˘¬ §Ű Ł­ ĄŰ ¤® ŁŰ Ą· ™Ű ¦ą –Ű §» “Ű ¨Ě Ű ©Í Ű ŞÎ }Ű «Ď {Ű ¬Đ yŰ ­Ń wŰ ®Ň uŰ ŻÓ sŰ °Ô qŰ ±Ő oŰ ˛Ö mŰ łâ `Ű ´ă ^Ű µä \Ű ¶ć YŰ ·ç WŰ ¸č UŰ ąę RŰ şë PŰ »ě NŰ Ľí LŰ ˝ď IŰ ľđ GŰ żń EŰ Ŕň CŰ Áó AŰ Âô ?Ű Ăő =Ű Äö ;Ű Ĺ÷ 9Ű Ćř 7Ű Çů 5Ű Čú 3Ű Éű 1Ű Ęü /Ű Ëţ ,Ű Ě˙ *Ű Í€ §Ű Î ĄŰ Ď‚ ŁŰ Đ ˇŰ Ń… žŰ Ň† śŰ Ó‡ šŰ Ô Ű Ő‘ ŽŰ Ö“ ‹Ű ×• Ű Ř¦ vŰ Ů§ tŰ Ú¨ rŰ Ű© pŰ ÜŞ nŰ Ý« lŰ Ţ¬ jŰ ß­ hŰ ŕ® fŰ áŻ dŰ â° bŰ ă˛ _Ű äł ]Ű ĺ´ [Ű ćŔ NŰ çÁ LŰ čÂ JŰ éÄ GŰ ęĹ EŰ ëĆ CŰ ěČ @Ű íÉ >Ű îĘ <Ű ďË :Ű đĚ 8Ű ńÍ 6Ű ňÎ 4Ű óĎ 2Ű ôĐ 0Ű őŃ .Ű öŇ ,Ű ÷Ó *Ű řÔ (Ű ůŐ &Ű úÖ $Ű űŘ !Ű üŮ Ű ýÚ Ű ţŰ Ű ˙Ü Ű €Ý –Ű Ţ ”Ű ‚ß ’Ű ŕ Ű „á ŽŰ …â ŚŰ †ă ŠŰ ‡ä Ű ĺ †Ű ‰ć „Ű Šç ‚Ű ‹č €Ű Śé ~Ű Ťę |Ű Žë zŰ Źě xŰ í vŰ ‘î tŰ ’ď rŰ “đ pŰ ”ń nŰ •ň lŰ –ó jŰ —ô hŰ ő fŰ ™ö dŰ š÷ bŰ ›ř `Ű śů ^Ű ťú \Ű žű ZŰ źü XŰ  ý VŰ ˇţ TŰ ˘‡ ÉŰ Ł‰ ĆŰ ¤‹ ĂŰ Ąś ±Ű ¦ť ŻŰ §ž ­Ű ¨Ş  Ű ©« žŰ Ş¬ śŰ «­ šŰ ¬® Ű ­Ż –Ű ®° ”Ű Żą ŠŰ °» ‡Ű ±˝ „Ű ˛Î rŰ łĎ pŰ ´Đ nŰ µŃ lŰ ¶Ň jŰ ·Ó hŰ ¸Ô fŰ ąŐ dŰ şá WŰ »â UŰ Ľă SŰ ˝ĺ PŰ ľć NŰ żç LŰ Ŕé IŰ Áę GŰ Âë EŰ Ăí BŰ Äî @Ű Ĺď >Ű Ćń ;Ű Çň 9Ű Čó 7Ű Éő 4Ű Ęö 2Ű Ë÷ 0Ű Ě€ ĄŰ Í‚ ˘Ű Î„ źŰ Ď† śŰ Đ ™Ű Ń™ ‡Ű Ňš …Ű Ó› Ű Ôś Ű Őť Ű Öž }Ű ×ź {Ű Ř  yŰ Ůˇ wŰ Ú˘ uŰ ŰŁ sŰ Ü¤ qŰ ÝĄ oŰ Ţ¦ mŰ ß§ kŰ ŕ¨ iŰ á© gŰ âŞ eŰ ă« cŰ ä¬ aŰ ĺ­ _Ű ć® ]Ű çş PŰ č» NŰ éĽ LŰ ę˝ JŰ ëľ HŰ ěż FŰ íŔ DŰ îÁ BŰ ďÂ @Ű đĂ >Ű ńĹ ;Ű ňĆ 9Ű óÇ 7Ű ôČ 5Ű őÉ 3Ű öĘ 1Ű ÷Ë /Ű řĚ -Ű ůÎ *Ű úĎ (Ű űĐ &Ű üŃ $Ű ýŇ "Ű ţÓ  Ű ˙Ô Ű €Ő ›Ű Ö ™Ű ‚× —Ű Ř •Ű „Ů “Ű …Ű Ű †Ü ŽŰ ‡Ý ŚŰ ß ‰Ű ‰ŕ ‡Ű Šá …Ű ‹ă ‚Ű Śä €Ű Ťĺ ~Ű Žç {Ű Źč yŰ é wŰ ‘ë tŰ ’ě rŰ “í pŰ ”ď mŰ •đ kŰ –ń iŰ —ó fŰ ô dŰ ™ő bŰ š÷ _Ű ›ř ]Ű śů [Ű ťű XŰ žü VŰ źý TŰ  ˙ QŰ ˇ€ ÎŰ ˘ ĚŰ Ł ÉŰ ¤„ ÇŰ Ą… ĹŰ ¦‡ ÂŰ § ŔŰ ¨‰ ľŰ ©‹ »Ű ŞŚ ąŰ «Ť ·Ű ¬Ź ´Ű ­ ˛Ű ®‘ °Ű Ż“ ­Ű °” «Ű ±• ©Ű ˛— ¦Ű ł ¤Ű ´™ ˘Ű µ› źŰ ¶ś ťŰ ·ť ›Ű ¸¦ ‘Ű ą¨ ŽŰ şŞ ‹Ű »» yŰ ĽĽ wŰ ˝˝ uŰ ľľ sŰ żż qŰ ŔŔ oŰ ÁÁ mŰ ÂÂ kŰ ĂÎ ^Ű ÄĎ \Ű ĹĐ ZŰ ĆŇ WŰ ÇÓ UŰ ČÔ SŰ ÉÖ PŰ Ę× NŰ ËŘ LŰ ĚÚ IŰ ÍŰ GŰ ÎÜ EŰ ĎŢ BŰ Đß @Ű Ńŕ >Ű Ňâ ;Ű Óă 9Ű Ôä 7Ű Őí -Ű Öď *Ű ×ń 'Ű Řó $Ű Ůő !Ű Ú† ŽŰ Ű‡ ŚŰ Ü ŠŰ Ý‰ Ű ŢŠ †Ű ß‹ „Ű ŕŚ ‚Ű áŤ €Ű âŽ ~Ű ăŹ |Ű ä zŰ ĺ‘ xŰ ć’ vŰ ç“ tŰ čź gŰ é  eŰ ęˇ cŰ ëŁ `Ű ě¤ ^Ű íĄ \Ű î¦ ZŰ ď§ XŰ đ¨ VŰ ńŞ SŰ ň« QŰ ó¬ OŰ ô­ MŰ ő® KŰ öŻ IŰ ÷° GŰ ř± EŰ ů˛ CŰ úł AŰ ű´ ?Ű üµ =Ű ý¶ ;Ű ţ· 9Ű ˙¸ 7Ű €ą ´Ű » ±Ű ‚Ľ ŻŰ ˝ ­Ű „ľ «Ű …ż ©Ű †Ŕ §Ű ‡Á ĄŰ Â ŁŰ ‰Ă ˇŰ ŠÄ źŰ ‹Ĺ ťŰ ŚĆ ›Ű ŤÇ ™Ű ŽČ —Ű ŹÉ •Ű Ę “Ű ‘Ě Ű ’Í ŽŰ “Î ŚŰ ”Đ ‰Ű •Ń ‡Ű –Ň …Ű —Ó Ű Ô Ű ™Ő Ű šÖ }Ű ›× {Ű śŘ yŰ ťŮ wŰ žÚ uŰ źŰ sŰ  Ü qŰ ˇŢ nŰ ˘ß lŰ Łŕ jŰ ¤á hŰ Ąâ fŰ ¦ă dŰ §ä bŰ ¨ĺ `Ű ©ć ^Ű Şč [Ű «é YŰ ¬ę WŰ ­ě TŰ ®í RŰ Żî PŰ °ď NŰ ±đ LŰ ˛ń JŰ łň HŰ ´ó FŰ µô DŰ ¶ő BŰ ·ö @Ű ¸÷ >Ű ąř <Ű şů :Ű »ú 8Ű Ľű 6Ű ˝ý 3Ű ľţ 1Ű ż˙ /Ű Ŕ	 «Ű Á‚	 ©Ű Â	 §Ű Ă…	 ¤Ű Ä†	 ˘Ű Ĺ‡	  Ű Ć	 –Ű Ç’	 “Ű Č”	 Ű ÉĄ	 ~Ű Ę¦	 |Ű Ë§	 zŰ Ě¨	 xŰ Í©	 vŰ ÎŞ	 tŰ Ď«	 rŰ Đ¬	 pŰ Ń­	 nŰ Ňą	 aŰ Óş	 _Ű Ô»	 ]Ű ŐĽ	 [Ű Ö˝	 YŰ ×ľ	 WŰ Řż	 UŰ ŮŔ	 SŰ ÚÁ	 QŰ ŰÂ	 OŰ ÜĂ	 MŰ ÝÄ	 KŰ ŢĆ	 HŰ ßÇ	 FŰ ŕČ	 DŰ áÉ	 BŰ âĘ	 @Ű ăË	 >Ű äĚ	 <Ű ĺÍ	 :Ű ćÎ	 8Ű çĎ	 6Ű čĐ	 4Ű éŃ	 2Ű ęÓ	 /Ű ëÔ	 -Ű ěŐ	 +Ű íÖ	 )Ű î×	 'Ű ďŘ	 %Ű đŮ	 #Ű ńÚ	 !Ű ňŰ	 Ű óÜ	 Ű ôÝ	 Ű őŢ	 Ű öß	 Ű ÷ŕ	 Ű řá	 Ű ůâ	 Ű úä	 Ű űĺ	 Ű üć	 
+Ű ýç	 Ű ţč	 Ű ˙é	 Ű €	ę	 Ű 	ë	 Ű ‚	ě	 }Ű 	í	 {Ű „	î	 yŰ …	ď	 wŰ †	đ	 uŰ ‡	ń	 sŰ 	ň	 qŰ ‰	ó	 oŰ Š	ő	 lŰ ‹	ö	 jŰ Ś	÷	 hŰ Ť	ř	 fŰ Ž	ů	 dŰ Ź	ú	 bŰ 	ű	 `Ű ‘	ü	 ^Ű ’	ý	 \Ű “	ţ	 ZŰ ”	˙	 XŰ •	€
+ ŐŰ –	
+ ÓŰ —	‚
+ ŃŰ 	
+ ĎŰ ™	„
+ ÍŰ š	†
+ ĘŰ ›	‡
+ ČŰ ś	
+ ĆŰ ť	‰
+ ÄŰ ž	Š
+ ÂŰ ź	‹
+ ŔŰ  	Ś
+ ľŰ ˇ	Ť
+ ĽŰ ˘	Ź
+ ąŰ Ł	
+ ·Ű ¤	‘
+ µŰ Ą	’
+ łŰ ¦	“
+ ±Ű §	”
+ ŻŰ ¨	•
+ ­Ű ©	–
+ «Ű Ş	ź
+ ˇŰ «	ˇ
+ žŰ ¬	Ł
+ ›Ű ­	´
+ ‰Ű ®	µ
+ ‡Ű Ż	¶
+ …Ű °	·
+ Ű ±	¸
+ Ű ˛	ą
+ Ű ł	Ĺ
+ rŰ ´	Ć
+ pŰ µ	Ç
+ nŰ ¶	Č
+ lŰ ·	É
+ jŰ ¸	Ę
+ hŰ ą	Ë
+ fŰ ş	Ě
+ dŰ »	Í
+ bŰ Ľ	Î
+ `Ű ˝	Ď
+ ^Ű ľ	Đ
+ \Ű ż	Ń
+ ZŰ Ŕ	Ň
+ XŰ Á	Ó
+ VŰ Â	Ő
+ SŰ Ă	Ö
+ QŰ Ä	×
+ OŰ Ĺ	Ř
+ MŰ Ć	Ů
+ KŰ Ç	Ú
+ IŰ Č	Ű
+ GŰ É	Ü
+ EŰ Ę	Ţ
+ BŰ Ë	ß
+ @Ű Ě	ŕ
+ >Ű Í	â
+ ;Ű Î	ă
+ 9Ű Ď	ä
+ 7Ű Đ	í
+ -Ű Ń	ď
+ *Ű Ň	ń
+ 'Ű Ó	‚ ”Ű Ô	 ’Ű Ő	„ Ű Ö	… ŽŰ ×	† ŚŰ Ř	‡ ŠŰ Ů	 Ű Ú	‰ †Ű Ű	Š „Ű Ü	‹ ‚Ű Ý	Ś €Ű Ţ	Ť ~Ű ß	Ž |Ű ŕ	Ź zŰ á	› mŰ â	ś kŰ ă	ť iŰ ä	ž gŰ ĺ	ź eŰ ć	  cŰ ç	ˇ aŰ č	˘ _Ű é	Ł ]Ű ę	¤ [Ű ë	Ą YŰ ě	¦ WŰ í	¨ TŰ î	© RŰ ď	Ş PŰ đ	« NŰ ń	¬ LŰ ň	­ JŰ ó	® HŰ ô	Ż FŰ ő	° DŰ ö	± BŰ ÷	˛ @Ű ř	ł >Ű ů	´ <Ű ú	¶ 9Ű ű	· 7Ű ü	¸ 5Ű ý	ş 2Ű ţ	» 0Ű ˙	Ľ .Ű €
+˝ «Ű 
+ľ ©Ű ‚
+ż §Ű 
+Ŕ ĄŰ „
+Á ŁŰ …
+Â ˇŰ †
+Ă źŰ ‡
+Ĺ śŰ 
+Ć šŰ ‰
+Č —Ű Š
+É •Ű ‹
+Ę “Ű Ś
+Ë ‘Ű Ť
+Ě ŹŰ Ž
+Í ŤŰ Ź
+Î ‹Ű 
+Ď ‰Ű ‘
+Đ ‡Ű ’
+Ň „Ű “
+Ó ‚Ű ”
+Ô €Ű •
+Ő ~Ű –
+Ö |Ű —
+× zŰ 
+Ř xŰ ™
+Ů vŰ š
+Ú tŰ ›
+Ű rŰ ś
+Ü pŰ ť
+Ý nŰ ž
+Ţ lŰ ź
+ŕ iŰ  
+á gŰ ˇ
+â eŰ ˘
+ä bŰ Ł
+ĺ `Ű ¤
+ć ^Ű Ą
+ď TŰ ¦
+ń QŰ §
+ó NŰ ¨
+„ »Ű ©
+… ąŰ Ş
+† ·Ű «
+‡ µŰ ¬
+ łŰ ­
+‰ ±Ű ®
+Š ŻŰ Ż
+‹ ­Ű °
+—  Ű ±
+ žŰ ˛
+™ śŰ ł
+› ™Ű ´
+ś —Ű µ
+ť •Ű ¶
+ź ’Ű ·
+  Ű ¸
+ˇ ŽŰ ą
+˘ ŚŰ ş
+Ł ŠŰ »
+¤ Ű Ľ
+Ą †Ű ˝
+¦ „Ű ľ
+§ ‚Ű ż
+¨ €Ű Ŕ
+© ~Ű Á
+Ş |Ű Â
+« zŰ Ă
+¬ xŰ Ä
+­ vŰ Ĺ
+® tŰ Ć
+° qŰ Ç
+± oŰ Č
+˛ mŰ É
+ł kŰ Ę
+´ iŰ Ë
+µ gŰ Ě
+ľ ]Ű Í
+Ŕ ZŰ Î
+Â WŰ Ď
+Ó EŰ Đ
+Ô CŰ Ń
+Ő AŰ Ň
+Ö ?Ű Ó
+× =Ű Ô
+Ř ;Ű Ő
+Ů 9Ű Ö
+Ú 7Ű ×
+Ű 5Ű Ř
+Ü 3Ű Ů
+Ý 1Ű Ú
+Ţ /Ű Ű
+ß -Ű Ü
+ŕ +Ű Ý
+á )Ű Ţ
+â 'Ű ß
+ă %Ű ŕ
+ä #Ű á
+ĺ !Ű â
+ć Ű ă
+ç Ű ä
+ó Ű ĺ
+ô Ű ć
+ő Ű ç
+ö 
+Ű č
+÷ Ű é
+ů Ű ę
+ú Ű ë
+ű Ű ě
+ü ˙Ű í
+ý ýŰ î
+ţ űŰ ď
+˙ ůŰ đ
+€
+ vŰ ń
+
+ tŰ ň
+‚
+ rŰ ó
+
+ pŰ ô
+„
+ nŰ ő
+…
+ lŰ ö
+†
+ jŰ ÷
+‡
+ hŰ ř
+‰
+ eŰ ů
+Š
+ cŰ ú
+‹
+ aŰ ű
+Ś
+ _Ű ü
+Ť
+ ]Ű ý
+Ž
+ [Ű ţ
+Ź
+ YŰ ˙
+‘
+ VŰ €’
+ ÓŰ “
+ ŃŰ ‚•
+ ÎŰ –
+ ĚŰ „—
+ ĘŰ …™
+ ÇŰ †š
+ ĹŰ ‡›
+ ĂŰ ť
+ ŔŰ ‰ž
+ ľŰ Šź
+ ĽŰ ‹ˇ
+ ąŰ Ś˘
+ ·Ű ŤŁ
+ µŰ ŽĄ
+ ˛Ű Ź¦
+ °Ű §
+ ®Ű ‘©
+ «Ű ’Ş
+ ©Ű “«
+ §Ű ”¬
+ ĄŰ •­
+ ŁŰ –®
+ ˇŰ —Ż
+ źŰ °
+ ťŰ ™˛
+ šŰ šł
+ Ű ›´
+ –Ű ś¶
+ “Ű ť·
+ ‘Ű ž¸
+ ŹŰ źş
+ ŚŰ  »
+ ŠŰ ˇĽ
+ Ű ˘ľ
+ …Ű Łż
+ Ű ¤Ŕ
+ Ű ĄÂ
+ ~Ű ¦Ă
+ |Ű §Ä
+ zŰ ¨Í
+ pŰ ©Ď
+ mŰ ŞŃ
+ jŰ «â
+ XŰ ¬ă
+ VŰ ­ä
+ TŰ ®ĺ
+ RŰ Żć
+ PŰ °ç
+ NŰ ±č
+ LŰ ˛é
+ JŰ łę
+ HŰ ´ë
+ FŰ µě
+ DŰ ¶í
+ BŰ ·î
+ @Ű ¸ď
+ >Ű ąđ
+ <Ű şń
+ :Ű »ň
+ 8Ű Ľţ
+ +Ű ˝˙
+ )Ű ľ€ ¦Ű ż ¤Ű Ŕ‚ ˘Ű Á  Ű Â… ťŰ Ă† ›Ű Ä‡ ™Ű Ĺ‰ –Ű ĆŠ ”Ű Ç‹ ’Ű ČŤ ŹŰ ÉŽ ŤŰ ĘŹ ‹Ű Ë ‰Ű Ě‘ ‡Ű Í’ …Ű Î“ Ű Ď” Ű Đ• Ű Ń– }Ű Ň— {Ű Ó yŰ Ô™ wŰ Ő› tŰ Öś rŰ ×ť pŰ Řž nŰ Ůź lŰ Ú  jŰ Űˇ hŰ ÜŁ eŰ Ý¤ cŰ ŢĄ aŰ ß§ ^Ű ŕ¨ \Ű á© ZŰ â« WŰ ă¬ UŰ ä­ SŰ ĺŻ PŰ ć° NŰ ç± LŰ čş BŰ éĽ ?Ű ęľ <Ű ëĎ *Ű ěĐ (Ű íŃ &Ű îŇ $Ű ďÓ "Ű đÔ  Ű ńŐ Ű ňÖ Ű ó× Ű ôŘ Ű őŮ Ű öÚ Ű ÷Ű Ű řÜ Ű ůÝ Ű úŢ Ű űę ˙Ű üë ýŰ ýě űŰ ţî řŰ ˙ď öŰ €đ sŰ ň pŰ ‚ó nŰ ô lŰ „ö iŰ …÷ gŰ †ř eŰ ‡ú bŰ ű `Ű ‰ü ^Ű Šţ [Ű ‹˙ YŰ Ś€ ÖŰ Ť‚ ÓŰ Ž ŃŰ Ź„ ĎŰ † ĚŰ ‘‡ ĘŰ ’ ČŰ “Š ĹŰ ”‹ ĂŰ •Ś ÁŰ –Ž ľŰ —Ź ĽŰ  şŰ ™’ ·Ű š“ µŰ ›” łŰ ś– °Ű ť— ®Ű ž ¬Ű źš ©Ű  › §Ű ˇś ĄŰ ˘ť ŁŰ Łž ˇŰ ¤ź źŰ Ą  ťŰ ¦ˇ ›Ű §˘ ™Ű ¨Ł —Ű ©¤ •Ű ŞĄ “Ű «§ Ű ¬¨ ŽŰ ­© ŚŰ ®Ş ŠŰ Ż« Ű °¬ †Ű ±­ „Ű ˛® ‚Ű łŻ €Ű ´° ~Ű µą tŰ ¶» qŰ ·˝ nŰ ¸Î \Ű ąĎ ZŰ şĐ XŰ »Ü KŰ ĽÝ IŰ ˝Ţ GŰ ľß EŰ żŕ CŰ Ŕá AŰ Áâ ?Ű Âă =Ű Ăä ;Ű Äĺ 9Ű Ĺć 7Ű Ćç 5Ű Çđ +Ű Čň (Ű Éô %Ű Ę… ’Ű Ë† Ű Ě‡ ŽŰ Í ŚŰ Î‰ ŠŰ ĎŠ Ű Đ‹ †Ű ŃŚ „Ű ŇŤ ‚Ű ÓŽ €Ű ÔŹ ~Ű Ő |Ű Ö‘ zŰ ×ť mŰ Řž kŰ Ůź iŰ Ú  gŰ Ű˘ dŰ ÜŁ bŰ Ý¤ `Ű Ţ¦ ]Ű ß§ [Ű ŕ¨ YŰ áŞ VŰ â« TŰ ă¬ RŰ ä® OŰ ĺŻ MŰ ć° KŰ ç˛ HŰ čł FŰ é´ DŰ ęµ BŰ ë¶ @Ű ě· >Ű íą ;Ű îş 9Ű ďĂ /Ű đĹ ,Ű ńÇ )Ű ňŘ Ű óŮ Ű ôÚ Ű őŰ Ű öÜ Ű ÷č Ű řé  Ű ůę ţŰ úë üŰ űě úŰ üí řŰ ýî öŰ ţď ôŰ ˙đ ňŰ €
+ń oŰ 
+ň mŰ ‚
+ô jŰ 
+ő hŰ „
+ö fŰ …
+÷ dŰ †
+ř bŰ ‡
+ů `Ű 
+ú ^Ű ‰
+ű \Ű Š
+ü ZŰ ‹
+ţ WŰ Ś
+˙ UŰ Ť
+€ ŇŰ Ž
+ ĐŰ Ź
+‚ ÎŰ 
+ ĚŰ ‘
+„ ĘŰ ’
+… ČŰ “
+Ž ľŰ ”
+ »Ű •
+’ ¸Ű –
+Ł ¦Ű
+ —
+¤ 	ŤŰ 
+Ą ˘Ű ™
+¦  Ű š
+§ žŰ ›
+¨ śŰ ś
+© 	€Ű ť
+µ ŤŰ ž
+¶ ‹Ű ź
+· ‰Ű  
+¸ ‡Ű ˇ
+ą …Ű ˘
+ş Ű Ł
+» Ű ¤
+Ľ Ű Ą
+˝ }Ű ¦
+ľ {Ű §
+ż 	€ăŰ ¨
+Ŕ 	€áŰ ©
+Á 	€ßŰ Ş
+Â sŰ «
+Ă qŰ ¬
+Ä oŰ ­
+Ĺ mŰ ®
+Ć kŰ Ż
+Č hŰ °
+É fŰ ±
+Ę dŰ ˛
+Ë bŰ ł
+Ě `Ű ´
+Í ^Ű µ
+Ď [Ű ¶
+Đ YŰ ·
+Ń WŰ ¸
+Ň UŰ ą
+Ó SŰ ş
+Ô QŰ »
+Ö NŰ Ľ
+× LŰ ˝
+Ř JŰ ľ
+á @Ű ż
+ă =Ű Ŕ
+ĺ 	€¤Ű Á
+ç 	€ˇŰ Â
+é 4Ű Ă
+ú "Ű Ä
+ű  Ű Ĺ
+ü Ű Ć
+ý Ű Ç
+ţ Ű Č
+˙ Ű É
+€ •Ű Ę
+Ś Ű Ë
+Ť †Ű Ě
+Ž „Ű Í
+Ź ‚Ű Î
+ €Ű Ď
+‘ ~Ű Đ
+’ |Ű Ń
+“ zŰ Ň
+” xŰ Ó
+• vŰ Ô
+– tŰ Ő
+— rŰ Ö
+™ oŰ ×
+š mŰ Ř
+› kŰ Ů
+ś iŰ Ú
+ť gŰ Ű
+ž eŰ Ü
+ź cŰ Ý
+  aŰ Ţ
+˘ ^Ű ß
+Ł \Ű ŕ
+¤ ZŰ á
+Ą XŰ â
+¦ VŰ ă
+¨ SŰ ä
+© QŰ ĺ
+Ş OŰ ć
+ł EŰ ç
+µ BŰ č
+· ?Ű é
+Č -Ű ę
+É +Ű ë
+Ę )Ű ě
+Ë 'Ű í
+Ě %Ű î
+Í #Ű ď
+Î !Ű đ
+Ď Ű ń
+Đ Ű ň
+Ń Ű ó
+Ň Ű ô
+Ó Ű ő
+Ô Ű ö
+Ő Ű ÷
+Ö Ű ř
+â Ű ů
+ă Ű ú
+ä  Ű ű
+ć ýŰ ü
+ç űŰ ý
+č ůŰ ţ
+ę öŰ ˙
+ë ôŰ €ě qŰ î nŰ ‚ď lŰ đ jŰ „ň gŰ …ó eŰ †ô cŰ ‡ö `Ű ÷ ^Ű ‰ř \Ű Šú YŰ ‹ű WŰ Śü UŰ Ťţ RŰ Ž˙ PŰ Ź€ ÍŰ ‚ ĘŰ ‘ ČŰ ’„ ĆŰ “† ĂŰ ”‡ ÁŰ • żŰ –Š ĽŰ —‹ şŰ Ś ¸Ű ™Ž µŰ šŹ łŰ › ±Ű ś™ §Ű ť› ¤Ű žť ˇŰ ź® ŹŰ  Ż ŤŰ ˇ° ‹Ű ˘± ‰Ű Ł˛ ‡Ű ¤ł …Ű Ą´ Ű ¦µ Ű §¶ Ű ¨· }Ű ©Ă pŰ ŞÄ nŰ «Ĺ lŰ ¬Ç iŰ ­Č gŰ ®É eŰ ŻË bŰ °Ě `Ű ±Í ^Ű ˛Ď [Ű łĐ YŰ ´Ń WŰ µŇ UŰ ¶Ó SŰ ·Ô QŰ ¸Ő OŰ ąÖ MŰ ş× KŰ »Ř IŰ ĽŮ GŰ ˝Ú EŰ ľÜ BŰ żÝ @Ű ŔŢ >Ű Áß <Ű Âŕ :Ű Ăá 8Ű Äâ 6Ű Ĺă 4Ű Ćä 2Ű Çĺ 0Ű Čć .Ű Éç ,Ű Ęč *Ű Ëé (Ű Ěę &Ű Íë $Ű Îě "Ű Ďí  Ű Đî Ű Ńď Ű Ňń Ű Óň Ű Ôó Ű Őô Ű Öő Ű ×ö Ű Ř÷ 
+Ű Ůř Ű Úú Ű Űű Ű Üü Ű Ýý Ű Ţţ  Ű ß˙ ţŰ ŕ€ {Ű á yŰ â vŰ ă„ tŰ ä… rŰ ĺ† pŰ ć‡ nŰ ç lŰ č‰ jŰ éŠ hŰ ę‹ fŰ ëŚ dŰ ě• ZŰ í— WŰ î™ TŰ ďŞ BŰ đ« @Ű ń¬ >Ű ň­ <Ű ó® :Ű ôŻ 8Ű ő° 6Ű ö± 4Ű ÷˛ 2Ű řł 0Ű ů´ .Ű úµ ,Ű ű¶ *Ű ü· (Ű
+ ý¸ 	Ű
+ ţą 	Ű ˙ş "Ű €» źŰ Ľ ťŰ ‚˝ ›Ű ľ ™Ű „ż —Ű …Ŕ •Ű †Á “Ű ‡Â ‘Ű Ă ŹŰ ‰Ä ŤŰ ŠĹ ‹Ű ‹Ć 	€	€`Ű ŚŇ |Ű ŤÓ zŰ ŽÔ xŰ ŹÖ uŰ × sŰ ‘Ř qŰ ’Ů oŰ “Ú mŰ ”Ű kŰ •Ü iŰ –Ý gŰ —Ţ eŰ ß cŰ ™ŕ aŰ šâ ^Ű ›ă \Ű śä ZŰ ťĺ XŰ žć VŰ źç TŰ  é QŰ ˇę OŰ ˘ë MŰ Łě KŰ ¤í IŰ Ąî GŰ ¦đ DŰ §ń BŰ ¨ň @Ű ©ó >Ű Şô <Ű «ő :Ű ¬ö 8Ű ­ř 5Ű ®ů 3Ű Żú 1Ű °ű /Ű ±ü -Ű ˛ý +Ű łţ )Ű ´˙ 'Ű µ€ ¤Ű ¶ ˘Ű ·‚  Ű ¸ žŰ ą„ śŰ ş… šŰ »† Ű Ľ‡ –Ű ˝ ”Ű ľ‰ ’Ű żŠ Ű Ŕ‹ ŽŰ ÁŚ ŚŰ ÂŽ ‰Ű ĂŹ ‡Ű Ä …Ű Ĺ‘ Ű Ć’ Ű Ç“ Ű Č” }Ű É• {Ű Ę— xŰ Ë vŰ Ě™ tŰ Íš rŰ Î› pŰ Ďś nŰ Đť 	€×Ű Ńž jŰ Ň  gŰ Óˇ eŰ Ô˘ cŰ ŐŁ aŰ Ö¤ _Ű ×Ą ]Ű Ř¦ [Ű Ů§ YŰ Ú¨ WŰ Ű© UŰ ÜŞ 	€żŰ Ý« QŰ Ţ¬ OŰ ß­ MŰ ŕ® KŰ áŻ IŰ â± FŰ ă˛ DŰ ä´ AŰ ĺµ ?Ű ć¶ =Ű ç· ;Ű č¸ 9Ű éą 7Ű ę» 4Ű ëĽ 2Ű ě˝ 0Ű íľ .Ű îż ,Ű ďŔ *Ű đÁ (Ű ńĂ %Ű ňÄ #Ű óĹ !Ű ôÇ Ű őČ Ű öÉ Ű ÷Ë Ű řĚ Ű ůÍ Ű úĎ Ű űĐ Ű üŃ Ű ýÓ 	Ű ţÔ Ű ˙Ő Ű €Ö ‚Ű × €Ű ‚Ř ~Ű Ů |Ű „Ű yŰ …Ü wŰ †Ý uŰ ‡ć 	€	€BŰ č 	€	€?Ű ‰ę eŰ Šű SŰ ‹ü QŰ Śý OŰ Ťţ MŰ Ž˙ KŰ Ź€ ČŰ Ś »Ű ‘Ť ąŰ ’Ž ·Ű “Ź µŰ ” łŰ •‘ ±Ű –“ ®Ű —” ¬Ű • ŞŰ ™– ¨Ű š— ¦Ű › ¤Ű ś™ ˘Ű ťš  Ű žś ťŰ źť ›Ű  ž ™Ű ˇź —Ű ˘  •Ű Łˇ “Ű ¤˘ ‘Ű ĄŁ ŹŰ ¦Ą ŚŰ §¦ ŠŰ ¨§ Ű ©° ~Ű Ş˛ {Ű «´ xŰ ¬Ĺ fŰ ­Ć dŰ ®Ç bŰ ŻČ `Ű °É ^Ű ±Ę \Ű ˛Ë ZŰ łĚ XŰ ´Í VŰ µÎ TŰ ¶Ú GŰ ·Ű EŰ ¸Ü CŰ ąÝ AŰ şŢ ?Ű »ß =Ű Ľŕ ;Ű ˝á 9Ű ľâ 7Ű żă 5Ű Ŕä 3Ű Áĺ 1Ű Âć /Ű Ăç -Ű Äč +Ű Ĺé )Ű Ćë &Ű Çě $Ű Čí "Ű Éî  Ű Ęď Ű Ëđ Ű Ěń Ű Íň Ű Îó Ű Ďô Ű Đő Ű Ńö Ű Ň÷ Ű Óř Ű Ôú 	Ű Őű Ű Öü Ű ×ý Ű Řţ Ű Ů˙ ˙Ű Ú {Ű Ű‚ yŰ Ü wŰ Ý„ uŰ Ţ… sŰ ß† qŰ ŕ‡ oŰ á mŰ âŠ jŰ ă‹ hŰ äŚ fŰ ĺŽ cŰ ćŹ aŰ ç _Ű č™ UŰ é› RŰ ęť OŰ ë® =Ű ěŻ ;Ű í° 9Ű î± 7Ű ď˛ 5Ű đł 3Ű ń´ 1Ű ňµ /Ű ó¶ -Ű ô· +Ű ő¸ )Ű öą 'Ű ÷ş %Ű řĆ Ű ůÇ Ű úČ Ű űÉ Ű üĘ Ű ýË Ű ţĚ Ű ˙Í 
+Ű €Î ‡Ű Ď …Ű ‚Đ Ű Ń Ű „Ň Ű …Ó }Ű †Ő zŰ ‡Ö xŰ × vŰ ‰Ů sŰ ŠÚ qŰ ‹Ű oŰ ŚÝ lŰ ŤŢ jŰ Žß hŰ Źŕ fŰ á dŰ ‘â bŰ ’ă `Ű “ä ^Ű ”ĺ \Ű •ć ZŰ –ç XŰ —č VŰ é TŰ ™ę RŰ šě OŰ ›í MŰ śî KŰ ťđ HŰ žń FŰ źň DŰ  ó BŰ ˇô @Ű ˘ő >Ű Łö <Ű ¤÷ :Ű Ąř 8Ű ¦ů 6Ű §ú 4Ű ¨ű 2Ű ©ü 0Ű Şý .Ű «˙ +Ű ¬€ ¨Ű ­ ¦Ű ®‚ ¤Ű Ż ˘Ű °„  Ű ±… žŰ ˛† śŰ ł‡ šŰ ´ Ű µ‰ –Ű ¶Š ”Ű ·‹ ’Ű ¸Ś Ű ąŤ ŽŰ şŽ ŚŰ »— ‚Ű Ľ™ Ű ˝› |Ű ľť yŰ żź vŰ Ŕ° dŰ Á± bŰ Â˛ `Ű Ăł ^Ű Ä´ \Ű ĹŔ OŰ ĆÁ MŰ ÇÂ KŰ ČĂ IŰ ÉÄ GŰ ĘĹ EŰ ËĆ CŰ ĚÇ AŰ ÍČ ?Ű ÎÉ =Ű ĎĘ ;Ű ĐË 9Ű ŃĚ 7Ű ŇÍ 5Ű ÓÎ 3Ű ÔĎ 1Ű ŐĐ /Ű ÖŃ -Ű ×Ň +Ű ŘÓ )Ű ŮÔ 'Ű ÚŐ %Ű ŰÖ #Ű Ü× !Ű ÝŘ Ű ŢŮ Ű ßÚ Ű ŕŰ Ű áÜ Ű âÝ Ű ăŢ Ű äß Ű ĺŕ Ű ćá 
+Ű çâ Ű čă 	Ű éĺ Ű ęć Ű ëç Ű ěč  Ű íé ţŰ îę üŰ ďë úŰ đě řŰ ńí öŰ ňî ôŰ óđ ńŰ ôń ďŰ őň íŰ öó ëŰ ÷ô éŰ řő çŰ ůţ ÝŰ ú€ YŰ ű‚ VŰ ü“ DŰ ý” BŰ ţ• @Ű ˙– >Ű €— »Ű  ąŰ ‚™ ·Ű š µŰ „› łŰ …ś ±Ű †ť ŻŰ ‡ž ­Ű ź «Ű ‰  ©Ű Š¬ śŰ ‹­ šŰ Ś® Ű ŤŻ –Ű Ž° ”Ű Ź± ’Ű ˛ Ű ‘ł ŽŰ ’´ ŚŰ “¶ ‰Ű ”· ‡Ű •¸ …Ű –ş ‚Ű —» €Ű Ľ ~Ű ™˝ |Ű šľ zŰ ›ż xŰ śŔ vŰ ťÁ tŰ žÂ rŰ źĂ pŰ  Ä nŰ ˇĹ lŰ ˘Ć jŰ ŁÇ hŰ ¤Č fŰ ĄÉ dŰ ¦Ë aŰ §Ě _Ű ¨Í ]Ű ©Î [Ű ŞĎ YŰ «Đ WŰ ¬Ń UŰ ­Ň SŰ ®Ó QŰ ŻÔ OŰ °Ő MŰ ±Ö KŰ ˛× IŰ łŘ GŰ ´Ů EŰ µÚ CŰ ¶Ü @Ű ·Ý >Ű ¸Ţ <Ű ąß :Ű şŕ 8Ű »á 6Ű Ľâ 4Ű ˝ă 2Ű ľä 0Ű żĺ .Ű Ŕć ,Ű Áç *Ű Âč (Ű Ăé &Ű Äę $Ű Ĺë "Ű Ćí Ű Çî Ű Čď Ű Éđ Ű Ęń Ű Ëň Ű Ěó Ű Íô Ű Îő Ű Ďö 
+Ű Đ÷ Ű Ńř 	Ű Ňů Ű Óú Ű Ôű Ű Őü Ű Öţ ţŰ ×˙ üŰ Ř€ yŰ Ů wŰ Ú‚ uŰ Ű sŰ Ü„ qŰ Ý… oŰ Ţ† mŰ ß‡ kŰ ŕ iŰ á‰ gŰ âŠ eŰ ă‹ cŰ äŚ aŰ ĺŤ _Ű ćŹ \Ű ç ZŰ č‘ XŰ é’ VŰ ę“ TŰ ë” RŰ ě• PŰ í– NŰ î— LŰ ď JŰ đ™ HŰ ńš FŰ ň› DŰ óś BŰ ôť @Ű őž >Ű ö  ;Ű ÷ˇ 9Ű ř˘ 7Ű ů¤ 4Ű úĄ 2Ű ű¦ 0Ű ü¨ -Ű ý© +Ű ţŞ )Ű ˙« 'Ű €¬ ¤Ű ­ ˘Ű ‚®  Ű Ż žŰ „° śŰ …˛ ™Ű †ł —Ű ‡´ •Ű µ “Ű ‰¶ ‘Ű Š· ŹŰ ‹¸ ŤŰ Śą ‹Ű ŤÂ Ű ŽÄ ~Ű ŹĆ {Ű í SŰ ‘î QŰ ’ď OŰ “đ MŰ ”ń KŰ •ň IŰ –ó GŰ —ô EŰ ő CŰ ™ö AŰ š÷ ?Ű ›ř =Ű śů ;Ű ťú 9Ű žű 7Ű źü 5Ű  ý 3Ű ˇţ 1Ű ˘˙ /Ű Ł€ ¬Ű ¤ ŞŰ Ą‚ ¨Ű ¦ ¦Ű §„ ¤Ű ¨… ˘Ű ©†  Ű Ş‡ žŰ « śŰ ¬‰ šŰ ­Š Ű ®‹ –Ű ŻŚ ”Ű °Ť ’Ű ±Ž Ű ˛Ź ŽŰ ł ŚŰ ´‘ ŠŰ µ’ Ű ¶“ †Ű ·” „Ű ¸• ‚Ű ą– €Ű ş— ~Ű » |Ű Ľ™ zŰ ˝š xŰ ľ› vŰ żś tŰ Ŕť rŰ Áž pŰ Âź nŰ Ă  lŰ Äˇ jŰ Ĺ˘ hŰ ĆŁ fŰ Ç¤ dŰ ČĄ bŰ É¦ `Ű Ę§ ^Ű Ë¨ \Ű Ě© ZŰ ÍŞ XŰ Î« VŰ Ď¬ TŰ Đ­ RŰ Ń® PŰ ŇŻ NŰ Ó° LŰ Ô± JŰ Ő˛ HŰ Öł FŰ ×´ DŰ Řµ BŰ Ů¶ @Ű Ú· >Ű Ű¸ <Ű Üą :Ű Ýş 8Ű Ţ» 6Ű ßĽ 4Ű ŕ˝ 2Ű áľ 0Ű âż .Ű ăŔ ,Ű äÁ *Ű ĺÂ (Ű ćĂ &Ű çÄ $Ű čĹ "Ű éĆ  Ű ęÇ Ű ëČ Ű ěÉ Ű íĘ Ű îË Ű ďĚ Ű đÍ Ű ńÎ Ű ňĎ Ű óĐ Ű ôŃ 
+Ű őŇ Ű öÓ Ű ÷Ô Ű řŐ Ű ůÖ  Ű ú× ţŰ űŘ üŰ üŮ úŰ ýÚ řŰ ţŰ öŰ ˙Ü ôŰ €Ý qŰ Ţ oŰ ‚ß mŰ ŕ kŰ „á iŰ …â gŰ †ă eŰ ‡ä cŰ ĺ aŰ ‰ć _Ű Šç ]Ű ‹č [Ű Śé YŰ Ťę WŰ Žë UŰ Źě SŰ í QŰ ‘î OŰ ’ď MŰ “đ KŰ ”ń IŰ •ň GŰ –ó EŰ —ô CŰ ő AŰ ™ö ?Ű š÷ =Ű ›ř ;Ű śů 9Ű ťú 7Ű žű 5Ű źü 3Ű  ý 1Ű ˇţ /Ű ˘˙ -Ű Ł€ ŞŰ ¤ ¨Ű Ą‚ ¦Ű ¦ ¤Ű §„ ˘Ű ¨…  Ű ©† žŰ Ş‡ śŰ « šŰ ¬‰ Ű ­Š –Ű ®‹ ”Ű ŻŚ ’Ű °Ť Ű ±Ž ŽŰ ˛Ź ŚŰ ł ŠŰ ´‘ Ű µ’ †Ű ¶“ „Ű ·” ‚Ű ¸• €Ű ą– ~Ű ş— |Ű » zŰ Ľ™ xŰ ˝š vŰ ľ› tŰ żś rŰ Ŕť pŰ Áž nŰ Âź lŰ Ă  jŰ Äˇ hŰ Ĺ˘ fŰ ĆŁ dŰ
+ Ç 	#€eŰ Č Ű
+ É 		€{Ű Ę	 Ű Ë 
+Ű
+ Ě 	#€ZŰ Í
+ 	Ű Î Ű Ď 		€	#€şŰ Đ  Ű Ń ţŰ Ň řŰ Ó öŰ Ô ôŰ Ő ňŰ Ö! ěŰ ×" ęŰ Ř# čŰ Ů$ ćŰ Ú) ŕŰ Ű* ŢŰ Ü+ ÜŰ Ý, ÚŰ
+ Ţ.€	 FŰ' ß	 											>Ř   "
