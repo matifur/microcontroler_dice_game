@@ -1,0 +1,53 @@
+Dependencies for Project 'I2C0_Gest', Target 'KL05Z': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\i2c.c)(0x65704315)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_KL05Z-IC:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\matifur\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL05Z32xxx4 -D_RTE_-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (i2c.h)(0x65704315)
+I (frdm_bsp.h)(0x65704315)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\MKL05Z4.h)(0x585BDE7A)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (D:\Program_Files\Keil\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D44B52)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\system_MKL05Z4.h)(0x55FBCAE8)
+F (.\lcd1602.c)(0x65704315)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_KL05Z-IC:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\matifur\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL05Z32xxx4 -D_RTE_-o .\objects\lcd1602.o --omf_browse .\objects\lcd1602.crf --depend .\objects\lcd1602.d)
+I (lcd1602.h)(0x65704315)
+I (frdm_bsp.h)(0x65704315)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\MKL05Z4.h)(0x585BDE7A)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (D:\Program_Files\Keil\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D44B52)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\system_MKL05Z4.h)(0x55FBCAE8)
+I (i2c.h)(0x65704315)
+F (.\main.c)(0x659B1918)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_KL05Z-IC:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\matifur\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL05Z32xxx4 -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (frdm_bsp.h)(0x65704315)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\MKL05Z4.h)(0x585BDE7A)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (D:\Program_Files\Keil\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D44B52)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\system_MKL05Z4.h)(0x55FBCAE8)
+I (i2c.h)(0x65704315)
+I (lcd1602.h)(0x65704315)
+F (.\frdm_bsp.h)(0x65704315)()
+F (..\..\lab3\1_Klawiatura\klaw.c)(0x659B0793)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_KL05Z-IC:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\matifur\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL05Z32xxx4 -D_RTE_-o .\objects\klaw.o --omf_browse .\objects\klaw.crf --depend .\objects\klaw.d)
+I (..\..\lab3\1_Klawiatura\klaw.h)(0x659B0793)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\MKL05Z4.h)(0x585BDE7A)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (D:\Program_Files\Keil\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D44B52)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\system_MKL05Z4.h)(0x55FBCAE8)
+F (RTE\Device\MKL05Z32xxx4\startup_MKL05Z4.s)(0x65704315)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_KL05Z-IC:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\matifur\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "MKL05Z32xxx4 SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_mkl05z4.lst --xref -o .\objects\startup_mkl05z4.o --depend .\objects\startup_mkl05z4.d)
+F (RTE\Device\MKL05Z32xxx4\system_MKL05Z4.c)(0x65704315)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_KL05Z-IC:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\matifur\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL05Z32xxx4 -D_RTE_-o .\objects\system_mkl05z4.o --omf_browse .\objects\system_mkl05z4.crf --depend .\objects\system_mkl05z4.d)
+I (D:\Program_Files\Keil\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\MKL05Z4.h)(0x585BDE7A)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D44B52)
+I (C:\Users\matifur\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\system_MKL05Z4.h)(0x55FBCAE8)
